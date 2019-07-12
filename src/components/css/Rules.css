@@ -1,0 +1,25 @@
+.containerRules{
+    padding: 10rem;
+    text-align: center
+}
+
+.grid-container-rules{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(180px, 1fr) );
+    grid-column-gap: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.color-change {
+    color: #35e2df
+}
+
+
+@media(max-width: 768px){
+    .containerRules{
+        padding: 2rem;
+    }
+    .grid-container-rules{
+        grid-row-gap: 2rem;
+    }
+}

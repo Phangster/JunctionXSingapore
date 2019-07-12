@@ -1,0 +1,16 @@
+.containerSubmission{
+    padding: 10rem;
+    text-align: center
+}
+
+.content-submission {
+    text-align: justify;
+    margin-top: 3rem 
+}
+
+@media(max-width: 768px){
+    .containerSubmission{
+        margin-top: 4rem; 
+        padding: 2rem;
+    }
+}
