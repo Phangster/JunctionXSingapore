@@ -22,7 +22,7 @@ class Nav extends Component {
   componentDidUpdate() {
     this.state.scroll > this.state.top ? 
     document.body.style.paddingTop = `${this.state.height}px` :
-    document.body.style.paddingTop = 0;
+    document.body.style.paddingTop = '45px';
   }
 
   componentDidMount() {
@@ -55,17 +55,17 @@ class Nav extends Component {
     let menuStatus = this.state.isOpen ? 'isopen' : '';
     return (
       <div ref="root">
-        <nav className={this.state.scroll > this.state.top ? "fixed-nav" : ""}>
+        <nav className={this.state.scroll > this.state.top ? "fixed-nav" : "fixed-nav"}>
         <div className="menubar">
           <div className="hambclicker" onClick={ this._menuToggle }></div>
           <div id="hambmenu" className={ menuStatus }><span></span><span></span><span></span><span></span></div>
           <div className="title">
             <span>{ this.props.title }</span>
           </div>
+          <img className="imageHeading" src={Junction} alt="Junction" />
+          <img className="imageNav" src={JunctionLogo} alt="Junction Logo" />
         </div>
         <MenuLinks menuStatus={ menuStatus } menuToggle={(e) => this._menuToggle(e)}/>
-        <img className="imageHeading" src={Junction} alt="Junction" />
-        <img className="imageNav" src={JunctionLogo} alt="Junction Logo" />
         </nav>
       </div>
       

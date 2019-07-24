@@ -10,20 +10,20 @@ import Api from '../../images/track_img/api-prog.jpg'
 class Track extends Component {
   render() {
     return (
-        <div class = "container"> 
+        <div className = "container"> 
             <div className = "containerTrack">
-            <p class = "header"><b>2019 TRACKS</b></p>
-                <div class = "grid-container">
+            <p className = "header"><b>2019 TRACKS</b></p>
+                <div className = "grid-container">
                     <div>
-                        <div class = "grid"><img src={Smartnation} alt="Smart Nation" /></div>
+                        <div className = "grid"><img src={Smartnation} alt="Smart Nation" /></div>
                         <p>SMART NATION</p>
                     </div>
                     <div>
-                        <div class = "grid"><img src={Energy} alt="Energy" /></div>
+                        <div className = "grid"><img src={Energy} alt="Energy" /></div>
                         <p>ENERGY HACK</p>
                     </div>
                     <div>
-                        <div class = "grid grid-size" ><img src={Api} alt="Api Hack " /></div>
+                        <div className = "grid grid-size" ><img src={Api} alt="Api Hack " /></div>
                         <p>API HACK</p>
                     </div>
                 </div>

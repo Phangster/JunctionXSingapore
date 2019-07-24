@@ -1,8 +1,12 @@
 .container {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    display: block
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  display: block;
+}
+
+.color {
+  color: #35e2df;
 }
 
 .image{
@@ -11,9 +15,18 @@
   border: none;
 }
 
+.logoSize{
+  width: 20%;
+  border: 0;
+  opacity: 1;
+  margin-top: 5rem;
+}
+
 .wrapperOne {
     background: black;
-    padding: 10rem;
+    position: relative;
+    justify-content: center;
+    display: grid;
 }
 .wrapperFour {
     background: white;
@@ -30,15 +43,18 @@
     padding: 10rem;
 }
 
-.header {
+.headerLogo {
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
+    padding-bottom: 0
 }
 
 .containerOne {
     text-align: center;
     color: white;
-    margin-top: 5rem
+    width: 100%;
+    z-index:1;
+    position: absolute;
 }
 
 .containerTwo {
@@ -53,6 +69,12 @@
     color: black
 }
 
+.videoTag{
+  position: relative;
+  max-width: 100%; 
+  z-index:0;
+  margin-top: auto;
+}
 
 @media(max-width: 768px){
     .container {
@@ -86,6 +108,9 @@
     .wrapperThree {
         background: #232323;
         padding: 2rem;
+    }
+    .videoTag{
+      height: 100vh
     }
 }
 

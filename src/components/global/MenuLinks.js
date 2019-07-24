@@ -14,7 +14,7 @@ class MenuLinks extends Component {
             <li><NavLink to='/venue' onClick={this.props.menuToggle}>VENUE</NavLink></li>
             <li><NavLink to='/submission' onClick={this.props.menuToggle}>SUBMISSION</NavLink></li>
             <li><NavLink to='/rules' onClick={this.props.menuToggle}>RULES</NavLink></li>
-            <li><NavLink to='/faq' onClick={this.props.menuToggle}>FAQ</NavLink></li>
+            {/* <li><NavLink to='/faq' onClick={this.props.menuToggle}>FAQ</NavLink></li> */}
               <li><a href="https://blog.hackjunction.com/">BLOG</a></li> 
             </ul>
           </div>
