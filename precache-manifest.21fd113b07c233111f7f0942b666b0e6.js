@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef78c8aaa51908598fcfbe8bb4016042",
+    "revision": "d4f160f008ef56698b2a0238b322b9ef",
     "url": "/Phangster/JunctionXSingapore.git/index.html"
   },
   {
-    "revision": "add8a7811fac02984731",
+    "revision": "abee83037be8fecb604f",
     "url": "/Phangster/JunctionXSingapore.git/static/css/main.3fbfb94b.chunk.css"
   },
   {
-    "revision": "dec04c7b4b1224e4b0f8",
-    "url": "/Phangster/JunctionXSingapore.git/static/js/2.9521f139.chunk.js"
+    "revision": "686c6caf17d67cc83739",
+    "url": "/Phangster/JunctionXSingapore.git/static/js/2.8dd6289c.chunk.js"
   },
   {
-    "revision": "add8a7811fac02984731",
-    "url": "/Phangster/JunctionXSingapore.git/static/js/main.84d894dd.chunk.js"
+    "revision": "abee83037be8fecb604f",
+    "url": "/Phangster/JunctionXSingapore.git/static/js/main.4a4e5c27.chunk.js"
   },
   {
     "revision": "414148d813f895e1b6d2",

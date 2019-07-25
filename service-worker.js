@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Phangster/JunctionXSingapore.git/precache-manifest.ad524a3e7a09ebb2f6f7347d5f924174.js"
+  "/Phangster/JunctionXSingapore.git/precache-manifest.21fd113b07c233111f7f0942b666b0e6.js"
 );
 
 self.addEventListener('message', (event) => {
