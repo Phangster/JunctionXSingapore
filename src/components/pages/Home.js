@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
 import '../css/Home.css';
 import Footer from "../global/Footer";
 import Rakuten from '../../images/partners_img/Rakuten.png'
@@ -38,7 +37,7 @@ class Home extends Component {
               <div className="textTwo">Want to innovate and recreate the future of Singapore ?</div>
               <div className="textTwo">Join the Junction family</div>
               <div id="wrapper">
-                <NavLink className="my-super-cool-btn" to="#">
+                <a className="my-super-cool-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd3gITxuAWChGwa91sEmvDIa5D7Qkeg2iio9ZXYLJNnCAl28Q/viewform">
                       <div className="dots-container">
                       <div className="dot"></div>
                       <div className="dot"></div>
@@ -46,7 +45,7 @@ class Home extends Component {
                       <div className="dot"></div>
                       </div>
                       <span>APPLY</span>
-                </NavLink>
+                </a>
               </div>
           </div>
       </div>
