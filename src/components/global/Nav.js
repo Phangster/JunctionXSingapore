@@ -22,7 +22,7 @@ class Nav extends Component {
   componentDidUpdate() {
     this.state.scroll > this.state.top ? 
     document.body.style.paddingTop = `${this.state.height}px` :
-    document.body.style.paddingTop = '45px';
+    document.body.style.paddingTop = '4.1rem';
   }
 
   componentDidMount() {
