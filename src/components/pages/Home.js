@@ -58,7 +58,7 @@ class Home extends Component {
       </div>
       <div className = "wrapperThree" >
           <div className = "containerThree">
-            <div className="textOne">Our Parnters : </div>
+            <div className="textOne">Our Partners : </div>
             <div className="container-partners">
                 <img className="image" src={Rakuten} alt="Rakuten" />
                 <img className="image" src={RakutenRapidAPI} alt="Rakuten Rapid API" />
