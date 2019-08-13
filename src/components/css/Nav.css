@@ -37,7 +37,7 @@ a:hover{
 
 .textTwo {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   font-family: 'Lato';
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -46,7 +46,7 @@ a:hover{
 
 .textThree {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   font-family: 'Lato';
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -58,7 +58,7 @@ a:hover{
 }
 
 .imageNav{
-  width: 5%;
+  width: 4%;
   opacity: 1;
   border: 0;
   float: right;

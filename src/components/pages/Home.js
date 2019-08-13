@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React, { Component } from "react";
 import '../css/Home.css';
 import Footer from "../global/Footer";
@@ -12,6 +13,7 @@ class Home extends Component {
       <div className = "wrapperOne">
         <video className='videoTag' autoPlay loop muted>
           <source src={sample} type='video/mp4' />
+          <h1>hello</h1>
         </video>
         <div className = "containerOne">
           <img className = "logoSize" src={JunctionLogo} alt= "JunctionLogo"/>
@@ -21,14 +23,24 @@ class Home extends Component {
         </div>
       </div>
       <div className = "wrapperTwo">
-          <div className = "containerTwo">
-              <div className='textColor'>ABOUT</div>
+        <div className = "containerTwo">
+          <div className='textColor'>ABOUT</div>
+          <div>
+            <div className="textOne">JunctionX Singapore</div>
+            <div className="textTwo subconOne">
+              <div>Europe's biggest hackathon is coming to SINGAPORE!</div>
+              <br></br>
               <div>
-              <div className="textOne">JunctionX Singapore</div>
-              <div className="textTwo">JunctionX Singpore gathers developers and designers for 48 hours from around the world to innovate and recreate the future</div>
-              <div className="textTwo">Hack the future with us!</div>
+                JunctionX Singapore is an event where developers, coders and designers compete in diverse teams to build and present their innovative and revolutionary ideas. Hackers from different backgrounds form teams to work on cutting edge technologies and solve real business problems proposed by companies.
               </div>
+              <br></br>
+              <div>Hack the future with us!</div>
+            </div>
+            <div className="subconTwo">
+            <iframe src="https://www.youtube.com/embed/c7SoIr0I2Qg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+            </div>
           </div>
+        </div>
       </div>
       <div className = "wrapperThree">
           <div className = "containerThree">

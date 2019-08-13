@@ -6,64 +6,68 @@ class Schedule extends Component {
   render() {
     return (
       <div className="container">
-      <div className="containerSchedule">
           <h1>SCHEDULE</h1>
           <div className="gridContainer">
+            {/* <div className="containerSchedule"> */}
+            <div className="grid-block"></div> 
             <div className="grid-block">
               <h2>DAY 1 - SEP 27</h2>
               <div className="grid-sub">
-                <p>18.00</p>
-                <p>Arrival</p>
-                <p>19.00</p>	
+                <p>1800</p>
+                <p>Registration</p>
+                <p>1900</p>	
                 <p>Opening ceremony</p>
-                <p>19.45</p>
-                <p>Team formation</p>
-                <p>21.00</p>	
-                <p>The competition begins</p>
+                <p>1930</p>
+                <p> Dinner and Team formation</p>
+                <p>2100</p>	
+                <p>Hacking begins</p>
               </div>
             </div>
             <div className="grid-block">
               <h2>DAY 2 - SEP 28</h2>
               <div className="grid-sub">
-                <p>9.00</p>
+                <p>0900</p>
                 <p>Breakfast</p>
-                <p>Hacking</p>	
-                <p>14.30</p>
+                <p>1000</p>
+                <p>Workshop</p>
+                <p>1200</p>
                 <p>Lunch</p>
+                <p>1330</p>
+                <p>Mentoring session</p>
+                <p>1630</p>
                 <p>Hacking</p>
-                <p>20.00</p>	
+                <p>1900</p>
                 <p>Dinner</p>
-                <p>22.00	</p>
-                <p>Movie night</p>
+                <p>2030</p>
+                <p>Hacking</p>
               </div>
             </div>
             <div className="grid-block">
               <h2>DAY 3 - SEP 29</h2>
               <div className="grid-sub">
-                <p>9.00</p>
+                <p>0900</p>
                 <p>Breakfast</p>
-                <p>10.00</p>	
-                <p>Varian workshop</p>
-                <p>11.00</p>	
+                <p>1000</p>	
+                <p>Hacking</p>
+                <p>1130</p>	
                 <p>Submission deadline</p>
-                <p>13.30</p>
-                <p>Lunch, The competition end, Community judging orientation</p>
-                <p>16.00</p>
+                <p>1200</p>
+                <p>Lunch</p>
+                <p>1330</p>
                 <p>Community & partner judging</p>	
-                <p>16.30</p>
-                <p>Awards ceremony</p>
-                <p>17.00</p>
-                <p>Pitches on the main stage</p>
-                <p>17.30</p>
+                <p>1530</p>
+                <p>Grand pitch</p>
+                <p>1630</p>
+                <p>Award ceremony</p>
+                <p>1730</p>
                 <p>Closing ceremony</p>
-                <p>18.00</p>
+                <p>1800</p>
                 <p>Networking</p>
-                <p>18.30</p>
-                <p>Closing</p>
+              </div>
             </div>
-            </div>
+            <div className="grid-block"></div>
           </div>
-      </div>
+      {/* </div> */}
       <Footer />
       </div>
     );

@@ -5,18 +5,17 @@
     display: inline-block;
     justify-content: center;
 }
-.containerSchedule{
-    padding: 10rem
-}
+
 h1{
     margin-top: 2rem;
     text-align: center
 }
 .gridContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-column-gap: 10px;
     margin-top: 5rem;
+    margin-bottom: 5rem;
     width: 100%;
 }
 

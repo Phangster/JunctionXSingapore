@@ -1,4 +1,5 @@
 .container {
+  margin-top: -4rem;
   width: 100%;
   height: 100%;
   padding: 0;
@@ -19,7 +20,7 @@
   width: 20%;
   border: 0;
   opacity: 1;
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 .wrapperOne {
@@ -55,10 +56,25 @@
     width: 100%;
     z-index:1;
     position: absolute;
+    margin-top: 4rem
 }
 
 .containerTwo {
     color: black;
+}
+
+.subconOne {
+  display: inline-block;
+  position: relative;
+}
+
+.subconTwo {
+  width: 100%;
+  display: inline-block;
+}
+
+iframe {
+  width: 50%;
 }
 
 .containerThree {
@@ -74,7 +90,11 @@
   max-width: 100%; 
   z-index:0;
   margin-top: auto;
-  height: 100vh;
+  height: 100vh
+}
+
+image{
+  display: inline-block
 }
 
 @media(max-width: 768px){
@@ -110,8 +130,21 @@
         background: #232323;
         padding: 2rem;
     }
-    .videoTag{
-      height: 100vh
+
+    .subconOne {
+      width: 100%;
+      display: inline-block;
+      padding-left: 0;
+    }
+
+    .subconTwo {
+      width: 100%;
+      display: inline-block;
+      padding-left: 0;
+    }
+
+    image{
+      display: inline-block
     }
 }
 
