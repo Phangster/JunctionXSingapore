@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4edeacf9c31cce4363e5c4daa512cc2c",
+    "revision": "67d1d5db9f33ebffd96a13f7da7a448c",
     "url": "/index.html"
   },
   {
-    "revision": "503a2314efaa911d383c",
-    "url": "/static/css/main.eda67327.chunk.css"
+    "revision": "7e6de973ec3876f23c49",
+    "url": "/static/css/main.166bb44f.chunk.css"
   },
   {
-    "revision": "686c6caf17d67cc83739",
-    "url": "/static/js/2.8dd6289c.chunk.js"
+    "revision": "ce5a89d2a0fc770f0b2b",
+    "url": "/static/js/2.c4cc9718.chunk.js"
   },
   {
-    "revision": "503a2314efaa911d383c",
-    "url": "/static/js/main.e9e62b42.chunk.js"
+    "revision": "7e6de973ec3876f23c49",
+    "url": "/static/js/main.00e3c8ee.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -32,8 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Rakuten.94c02e24.png"
   },
   {
+    "revision": "ea11116b2819ad36793da913a2e3e6f7",
+    "url": "/static/media/Redbull_logo.ea11116b.png"
+  },
+  {
     "revision": "e2435b987e716ab45e2884348ccc328a",
     "url": "/static/media/api-prog.e2435b98.jpg"
+  },
+  {
+    "revision": "98e3aa94478e8da278e18adfc9c6fafe",
+    "url": "/static/media/ec_logo.98e3aa94.jpg"
   },
   {
     "revision": "83c18fef2ba958eaa2b98ea8d73ab901",
@@ -46,6 +54,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "48ddf12f6424c644aa5273aee0a422bc",
     "url": "/static/media/intro.48ddf12f.mp4"
+  },
+  {
+    "revision": "b3439e9a7db85fe2055cdfb95f6567c4",
+    "url": "/static/media/junctionx_globe_black.b3439e9a.svg"
+  },
+  {
+    "revision": "79230066bf33210a4d30388ba37250fb",
+    "url": "/static/media/junctionx_globe_white.79230066.svg"
   },
   {
     "revision": "fa0565b7118e33bb11d38c66366893a8",
