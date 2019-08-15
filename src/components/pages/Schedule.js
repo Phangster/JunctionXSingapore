@@ -6,12 +6,12 @@ class Schedule extends Component {
   render() {
     return (
       <div className="container">
+      <div className="shiftdown">
           <h1>SCHEDULE</h1>
           <div className="gridContainer">
-            {/* <div className="containerSchedule"> */}
             <div className="grid-block"></div> 
             <div className="grid-block">
-              <h2>DAY 1 - SEP 27</h2>
+              <h2 className="schedule">DAY 1 - SEP 27</h2>
               <div className="grid-sub">
                 <p>1800</p>
                 <p>Registration</p>
@@ -24,7 +24,7 @@ class Schedule extends Component {
               </div>
             </div>
             <div className="grid-block">
-              <h2>DAY 2 - SEP 28</h2>
+              <h2 className="schedule">DAY 2 - SEP 28</h2>
               <div className="grid-sub">
                 <p>0900</p>
                 <p>Breakfast</p>
@@ -43,7 +43,7 @@ class Schedule extends Component {
               </div>
             </div>
             <div className="grid-block">
-              <h2>DAY 3 - SEP 29</h2>
+              <h2 className="schedule">DAY 3 - SEP 29</h2>
               <div className="grid-sub">
                 <p>0900</p>
                 <p>Breakfast</p>
@@ -67,7 +67,7 @@ class Schedule extends Component {
             </div>
             <div className="grid-block"></div>
           </div>
-      {/* </div> */}
+          </div>
       <Footer />
       </div>
     );

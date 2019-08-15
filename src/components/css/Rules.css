@@ -18,8 +18,12 @@
 @media(max-width: 768px){
     .containerRules{
         padding: 2rem;
+        margin-top: -2rem;
     }
     .grid-container-rules{
         grid-row-gap: 2rem;
+    }
+    .grid-sub{
+        width: 100%;
     }
 }

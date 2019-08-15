@@ -6,7 +6,7 @@ class Rules extends Component {
     return (
       <div class = "container"> 
       <div className="containerRules">
-        <div className="textTwo">OFFICIAL RULES</div>
+        <h1>OFFICIAL RULES</h1>
           <div className="">
             <div className="textThree">Here are the official rules of JunctionX Singapore 2019. To be eligible for prizes you must follow these rules.</div>
             <div className="grid-container-rules">

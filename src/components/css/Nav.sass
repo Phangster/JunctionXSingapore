@@ -59,21 +59,24 @@ a:hover
   opacity: 1
   border: 0
   float: right
+  display: inline
 
 .imageHeading
   width: 20%
   opacity: 1
   border: 0
   margin-left: 0.8rem
+  margin-bottom: -15px
+  margin-top: -8px
+  display: inline
 
 //--------------------------
 // Menu Bar
 //--------------------------
 .menubar
-  display: flex
   background-color: black
   box-shadow: 2px 5px 5px 0 rgba(0,0,0,.12)
-  align-items: center
+  justify-content: space-evenly
   
 .menubar span
   display: inline-block
@@ -174,3 +177,17 @@ li a
     font-size: 1.2em
   .fixed-nav
     height: 4rem
+  .imageNav
+    width: 15%
+    float: right
+    height: 4rem
+  .imageHeading 
+    width: 60%
+    margin-left: 1.8rem
+    height: 5rem
+  #menu li
+    padding: 20px 0 0px 40px
+    font-size: 0em
+    margin-left: 0rem
+  #menu
+    width: 13rem

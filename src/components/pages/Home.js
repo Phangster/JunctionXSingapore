@@ -70,7 +70,7 @@ class Home extends Component {
                 <h4> APPLICATION OPENS</h4>
               </div>
             </li>
-            <li class="li complete">
+            <li class="li">
               <div class="timestamp">
                 <span class="date">9 SEPTEMBER</span>
               </div>
@@ -78,7 +78,7 @@ class Home extends Component {
                 <h4> APPLICATION CLOSES </h4>
               </div>
             </li>
-            <li class="li complete">
+            <li class="li">
               <div class="timestamp">
                 <span class="date">11 SEPTEMBER</span>
               </div>
@@ -86,7 +86,7 @@ class Home extends Component {
                 <h4> PARTICIPANTS CONFIRMATION</h4>
               </div>
             </li>
-            <li class="li complete">
+            <li class="li">
               <div class="timestamp">
                 <span class="date">26 SEPTEMBER</span>
               </div>
@@ -110,7 +110,7 @@ class Home extends Component {
           <div className='textColor'>COMMUNITY</div>
             <div className="partnershipSection">
               <img className = "logoSize big" src={JunctionL} alt= "JunctionLogo"/>
-              <div className='textOne color'>PARTNERSHIP</div>
+              <div className='textOne'>PARTNERSHIP</div>
               <div className="textTwo">Seeking a way to showcase your company among graduating students and developers? Contact us and we would get back to you with our proposal.</div>
               <a href="mailto:bryan.david@hackjunction.com?subject=Partnership with JunctionX Singapore">
                 <button class="btn btn--cyan">Contact Us!</button>
@@ -118,7 +118,7 @@ class Home extends Component {
             </div>
             <div className="volunteerSection">
               <img className = "logoSize big" src={JunctionR} alt= "JunctionLogo"/>
-              <div className='textOne color'>VOLUNTEER</div>
+              <div className='textOne'>VOLUNTEER</div>
               <div className="textTwo">Want to join us in creating a global community of hackers? Drop us a message! Join us and let’s make JunctionX Singapore an event to rememeber!</div>
               <div id="wrapper">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3gITxuAWChGwa91sEmvDIa5D7Qkeg2iio9ZXYLJNnCAl28Q/viewform">
@@ -130,7 +130,7 @@ class Home extends Component {
       </div>
       <div className = "wrapperFour" >
           <div className = "containerFour">
-          <div className="textOne">Our Partners : </div>
+          <div className="textColor">PARTNERS</div>
               <img className="image" src={Rakuten} alt="Rakuten" />
               <img className="image" src={RakutenRapidAPI} alt="Rakuten Rapid API" />
               {/* <img className="image" src={Intel} alt="Intel" /> */}
