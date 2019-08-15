@@ -1,11 +1,20 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { Component } from "react";
-import '../css/Home.css';
+import '../css/Home.scss';
+import '../css/Home.sass';
 import Footer from "../global/Footer";
 import Rakuten from '../../images/partners_img/Rakuten.png'
 import RakutenRapidAPI from '../../images/partners_img/RakutenRapidAPI.png'
+// import Intel from '../../images/partners_img/intel_logo.png'
+import Redbull from '../../images/partners_img/Redbull_logo.png'
+import Sutdec from '../../images/partners_img/ec_logo.jpg'
 import sample from '../../videos/intro.mp4';
 import JunctionLogo from '../../images/junction_img/JunctionX_logos_white.png'
+import JunctionL from '../../images/junction_img/junctionx_globe_black.svg'
+import JunctionR from '../../images/junction_img/junctionx_globe_white.svg'
+
+
+
 class Home extends Component {
   render() {
     return (
@@ -37,46 +46,102 @@ class Home extends Component {
               <div>Hack the future with us!</div>
             </div>
             <div className="subconTwo">
-            <iframe src="https://www.youtube.com/embed/c7SoIr0I2Qg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+              <iframe src="https://www.youtube.com/embed/c7SoIr0I2Qg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
       </div>
       <div className = "wrapperThree">
           <div className = "containerThree">
-              <div  className='textColor'>VOLUNTEER</div>
-              <div className="textOne">WANT TO BUILD JUNCTIONX SINGAPORE WITH US ?</div>
-              <div className="textTwo">Want to innovate and recreate the future of Singapore ?</div>
-              <div className="textTwo">Join the Junction family</div>
-              <div id="wrapper">
-                <a className="my-super-cool-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSd3gITxuAWChGwa91sEmvDIa5D7Qkeg2iio9ZXYLJNnCAl28Q/viewform">
-                      <div className="dots-container">
-                      <div className="dot"></div>
-                      <div className="dot"></div>
-                      <div className="dot"></div>
-                      <div className="dot"></div>
-                      </div>
-                      <span>APPLY</span>
-                </a>
+              <div  className='textColor'>LOCATION</div>
+              <div className="textOne">See you at <span className = "locationText">Rakuten Asia Pte Ltd!</span></div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.819926160307!2d103.84793611550867!3d1.281802599065105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190c2b3223d1%3A0x922bbd5aba9592c2!2sRakuten+Asia+Pte+Ltd!5e0!3m2!1sen!2ssg!4v1562581464126!5m2!1sen!2ssg" frameBorder="0" allowFullScreen></iframe>
+          </div>
+      </div>
+      <div className = "wrapperFour" style = {{padding: '4rem'}} >
+          <div className = "containerFour">
+          <div  className='textColor'>ROADMAP</div>
+          <ul class="timeline" id="timeline">
+            <li class="li complete">
+              <div class="timestamp">
+                <span class="date">1st AUGUST </span>
               </div>
+              <div class="status">
+                <h4> APPLICATION OPENS</h4>
+              </div>
+            </li>
+            <li class="li complete">
+              <div class="timestamp">
+                <span class="date">9 SEPTEMBER</span>
+              </div>
+              <div class="status">
+                <h4> APPLICATION CLOSES </h4>
+              </div>
+            </li>
+            <li class="li complete">
+              <div class="timestamp">
+                <span class="date">11 SEPTEMBER</span>
+              </div>
+              <div class="status">
+                <h4> PARTICIPANTS CONFIRMATION</h4>
+              </div>
+            </li>
+            <li class="li complete">
+              <div class="timestamp">
+                <span class="date">26 SEPTEMBER</span>
+              </div>
+              <div class="status">
+                <h4> RELEASE OF QUESTIONS </h4>
+              </div>
+            </li>
+            <li class="li">
+              <div class="timestamp">
+                <span class="date">27 SEPTEMBER</span>
+              </div>
+              <div class="status">
+                <h4> HACKATHON DAY </h4>
+              </div>
+            </li>
+          </ul>     
+          </div>
+      </div>
+      <div className = "wrapperThree" >
+          <div className = "containerThree centerClass">
+          <div className='textColor'>COMMUNITY</div>
+            <div className="partnershipSection">
+              <img className = "logoSize big" src={JunctionL} alt= "JunctionLogo"/>
+              <div className='textOne color'>PARTNERSHIP</div>
+              <div className="textTwo">Seeking a way to showcase your company among graduating students and developers? Contact us and we would get back to you with our proposal.</div>
+              <a href="mailto:bryan.david@hackjunction.com?subject=Partnership with JunctionX Singapore">
+                <button class="btn btn--cyan">Contact Us!</button>
+              </a>
+            </div>
+            <div className="volunteerSection">
+              <img className = "logoSize big" src={JunctionR} alt= "JunctionLogo"/>
+              <div className='textOne color'>VOLUNTEER</div>
+              <div className="textTwo">Want to join us in creating a global community of hackers? Drop us a message! Join us and let’s make JunctionX Singapore an event to rememeber!</div>
+              <div id="wrapper">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3gITxuAWChGwa91sEmvDIa5D7Qkeg2iio9ZXYLJNnCAl28Q/viewform">
+                <button class="btn btn--cyan">Apply Here!</button>
+              </a>
+              </div>
+          </div>
           </div>
       </div>
       <div className = "wrapperFour" >
           <div className = "containerFour">
-            <div  className='textColor'>PARTNERSHIP OPPORTUNITIES</div>
-            <div  className='textOne'>WANT TO PARTNER JUNCTIONX SINGAPORE ?</div>
-            <div className="textTwo">Are you seeking a way to showcase your company among young professionals? Look no more! Contact us and we would gladly get back to you with our proposal, tailored to your company’s needs.</div>
+          <div className="textOne">Our Partners : </div>
+              <img className="image" src={Rakuten} alt="Rakuten" />
+              <img className="image" src={RakutenRapidAPI} alt="Rakuten Rapid API" />
+              {/* <img className="image" src={Intel} alt="Intel" /> */}
+              <img className="image" src={Redbull} alt="Allswell" />
+              <img className="image entre_logo" src={Sutdec} alt="SUTD Entrepreneurship centre" />
           </div>
       </div>
-      <div className = "wrapperThree" >
+      {/* <div className = "wrapperThree" >
           <div className = "containerThree">
-            <div className="textOne">Our Partners : </div>
-            <div className="container-partners">
-                <img className="image" src={Rakuten} alt="Rakuten" />
-                <img className="image" src={RakutenRapidAPI} alt="Rakuten Rapid API" />
-            </div>
           </div>
-      </div>
+      </div> */}
       <Footer />
   </div>
     );

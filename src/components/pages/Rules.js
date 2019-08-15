@@ -8,7 +8,7 @@ class Rules extends Component {
       <div className="containerRules">
         <div className="textTwo">OFFICIAL RULES</div>
           <div className="">
-            <div className="textThree">Here are the official rules of Junction Singapore 2019. To be eligible for prizes you must follow these rules.</div>
+            <div className="textThree">Here are the official rules of JunctionX Singapore 2019. To be eligible for prizes you must follow these rules.</div>
             <div className="grid-container-rules">
               <div className="sub-grid">1. No code written before the event.*</div>
               <div className="sub-grid">2. Allowed team size is 1-5.</div>

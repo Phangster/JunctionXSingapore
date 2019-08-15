@@ -1,16 +1,18 @@
 .containerSubmission{
     padding: 10rem;
-    text-align: center
+    padding-top: 5rem
 }
 
 .content-submission {
-    text-align: justify;
     margin-top: 3rem 
+}
+
+ul {
+    padding: 1rem
 }
 
 @media(max-width: 768px){
     .containerSubmission{
-        margin-top: 4rem; 
         padding: 2rem;
     }
 }
