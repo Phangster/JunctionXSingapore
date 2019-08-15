@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67d1d5db9f33ebffd96a13f7da7a448c",
+    "revision": "3510fdaa15a6dbd0644d88aa2c14d7a3",
     "url": "/index.html"
   },
   {
-    "revision": "7e6de973ec3876f23c49",
-    "url": "/static/css/main.166bb44f.chunk.css"
+    "revision": "2aac91f5daf2f630f3a1",
+    "url": "/static/css/main.5bee7883.chunk.css"
   },
   {
     "revision": "ce5a89d2a0fc770f0b2b",
     "url": "/static/js/2.c4cc9718.chunk.js"
   },
   {
-    "revision": "7e6de973ec3876f23c49",
-    "url": "/static/js/main.00e3c8ee.chunk.js"
+    "revision": "2aac91f5daf2f630f3a1",
+    "url": "/static/js/main.1660c94b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "98e3aa94478e8da278e18adfc9c6fafe",
     "url": "/static/media/ec_logo.98e3aa94.jpg"
-  },
-  {
-    "revision": "83c18fef2ba958eaa2b98ea8d73ab901",
-    "url": "/static/media/energy-hack.83c18fef.jpg"
   },
   {
     "revision": "58c997d2c10a22c45708d27be083a67d",
