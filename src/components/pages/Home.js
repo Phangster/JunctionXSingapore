@@ -131,17 +131,86 @@ class Home extends Component {
       <div className = "wrapperFour" >
           <div className = "containerFour">
           <div className="textColor">PARTNERS</div>
-              <img className="image" src={Rakuten} alt="Rakuten" />
-              <img className="image" src={RakutenRapidAPI} alt="Rakuten Rapid API" />
+              <img className="image home" src={Rakuten} alt="Rakuten" />
+              <img className="image home" src={RakutenRapidAPI} alt="Rakuten Rapid API" />
               {/* <img className="image" src={Intel} alt="Intel" /> */}
-              <img className="image" src={Redbull} alt="Allswell" />
-              <img className="image entre_logo" src={Sutdec} alt="SUTD Entrepreneurship centre" />
+              <img className="image home" src={Redbull} alt="Allswell" />
+              <img className="image entre_logo home" src={Sutdec} alt="SUTD Entrepreneurship centre" />
           </div>
       </div>
-      {/* <div className = "wrapperThree" >
+      <div className = "wrapperThree" >
           <div className = "containerThree">
+          <div className="textColor">FAQ</div>
+            <div className = "subconThree">
+              <div class="accordion vertical">
+              <ul>
+                  <li>
+                      <input type="checkbox" id="checkbox-1" name="checkbox-accordion" />
+                      <label for="checkbox-1">What is a hackathon?</label>
+                      <div class="content">
+                        <div className="text textThree" >A hackathon is an event in which small teams (2-5 pers) of developers, designers, entrepreneurs and other specialists collaborate intensively on software projects aimed at solving particular problems. Within 48 hours, teams should come up with a working prototype and a presentation.</div>
+                      </div>
+                  </li>
+                  <li>
+                      <input type="checkbox" id="checkbox-2" name="checkbox-accordion" />
+                      <label for="checkbox-2">Does it cost to attend?</label>
+                      <div class="content">
+                        <div className="text textThree" >Of course not. It's completely FREE to attend and includes food, drinks, Wifi, a condusive place to hack!</div>
+                      </div>
+                  </li>
+                  <li>
+                      <input type="checkbox" id="checkbox-3" name="checkbox-accordion" />
+                      <label for="checkbox-3">Who owns the intellectual property of hacks?</label>
+                      <div class="content">
+                        <div className="text textThree" >All intellectual property produced at the event is owned solely by the participants and their team. Further plans may be discussed between the partners and the teams after the event.</div>
+                      </div>
+                  </li>
+                  <li>
+                      <input type="checkbox" id="checkbox-4" name="checkbox-accordion" />
+                      <label for="checkbox-4">What size can a team be?</label>
+                      <div class="content">
+                        <div className="text textThree" >Teams can be up to 5 people. If you want to hack alone, that's totally fine. If you are still looking for a team, don't worry, we will have team building and pitching sessions at the event.</div>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className = "subconThree">
+              <div class="accordion vertical">
+              <ul>
+                  <li>
+                      <input type="checkbox" id="checkbox-5" name="checkbox-accordion" />
+                      <label for="checkbox-5">Who should come to this hackathon?</label>
+                      <div class="content">
+                        <div className="text textThree" >Everybody is welcome to join JunctionX Singapore! You can either be a developer, designer, a business person or a professional of any other field. What really matters is how you combine your different skill sets within your team. Our advice is to have a diverse team with at least one developer and network with others.</div>
+                      </div>
+                  </li>
+                  <li>
+                      <input type="checkbox" id="checkbox-6" name="checkbox-accordion" />
+                      <label for="checkbox-6">When and where can I apply?</label>
+                      <div class="content">
+                        <div className="text textThree" >Application period for both participants and volunteers starts on 1st Aug 2019. Application period closes at 9 th Sep 2019. You can apply at our website https://singapore.hackjunction.com/register ! </div>
+                      </div>
+                  </li>
+                  <li>
+                      <input type="checkbox" id="checkbox-7" name="checkbox-accordion" />
+                      <label for="checkbox-7">I want to participate, but don't have a team yet?</label>
+                      <div class="content">
+                        <div className="text textThree" >If you’re missing a few members to complete your dream-team, our advice is to leave a post on the event page (which will be made in the near future - we will let you know when it's ready!), detailing who/what you’re looking for and/or what you could potentially provide to a team. We’re sure you can assemble a team this way in no time.</div>
+                      </div>
+                  </li>
+                  <li>
+                      <input type="checkbox" id="checkbox-8" name="checkbox-accordion" />
+                      <label for="checkbox-8">Where can I ask more questions?</label>
+                      <div class="content">
+                        <div className="text textThree" >We are happy to help out with any questions! Please send an email, or message to @JunctionX Singapore (Facebook) / @junctionx_singapore (Instagram).</div>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-      </div> */}
+      </div>
       <Footer />
   </div>
     );

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
 .container {
   margin-top: -4rem;
   width: 100%;
@@ -129,90 +131,20 @@ iframe {
   display: inline-block;
   height: 200px;
   width: 250px;
-  padding: 12px;
+  padding: 2px;
 }
 
 .entre_logo{
   width: 350px
 }
 
-@media(max-width: 768px){
-    .container {
-        background: black;
-        width: 100%;
-        padding: 0;
-        display: block
-    }
-    img{
-        height: 200px;
-        width: 200px
-    }
-    #wrapper{
-        justify-content: center
-    }
-
-    .wrapperOne {
-        background: black;
-        padding: 2rem;
-    }
-    .wrapperFour {
-        background: white;
-        padding: 2rem;
-    }
-    
-    .wrapperTwo {
-        background: #ffffff;
-        padding: 2rem;
-        height: 75rem;
-    }
-    
-    .wrapperThree {
-        background: #232323;
-        padding: 2rem;
-    }
-
-    .subconOne {
-      width: 100%;
-      display: inline-block;
-      padding-left: 0;
-    }
-
-    .subconTwo {
-      width: 100%;
-      display: inline-block;
-      padding-left: 0;
-    }
-
-    image{
-      display: inline-block
-    }
-
-    .volunteerSection{
-      width: 100%;
-      display: inline-block;
-    }
-    
-    .partnershipSection{
-      width: 100%;
-      display: inline-block;
-      float: left;
-    }
-
-    .containerTwo{
-      text-align: center
-    }
-    .containerThree{
-      text-align: center
-    }
-    .containerFour{
-      text-align: center
-    }
-}
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
-
 .container-partners {
   width: 100%;
+}
+
+.subconThree{
+  width: 50%;
+  display: inline-block;
 }
 
 /*Button*/
@@ -252,4 +184,156 @@ iframe {
   &--red{ @include color(#C60021); }
   
   &--gray{ @include color(#CDCDCD); }
+}
+
+/*Accordion*/
+.accordion {
+  margin:0 auto;
+}
+.accordion ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.accordion li {
+  margin:0;
+  padding:25px;
+}
+.accordion [type=radio], .accordion [type=checkbox] {
+  display:none;
+}
+.accordion label {
+  display:block;
+  font-size:16px;
+  line-height:16px;
+  background-color: #a9a9a9; 
+  color:#fff;
+  font-weight:700;
+  cursor:pointer;
+  text-transform:uppercase;
+}
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+  color: black;
+}
+.accordion .content {
+  padding:0 10px;
+  overflow:hidden;
+}
+.accordion .text{
+  color:white;
+  padding:15px 10px;
+}
+.accordion p:hover {
+  color:red;
+  cursor: pointer;
+  background-color: #d9d9d9;
+}
+.accordion h3 {
+  padding:0;
+  margin:10px 0;
+}
+
+
+
+.vertical ul li {
+  overflow:hidden;
+  margin:0 0 1px;
+}
+.vertical ul li label {
+  padding:10px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+  border-bottom:0;
+}
+.vertical ul li label:hover {
+  background-color: #d9d9d9;
+}
+.vertical ul li .content {
+  height:0px;
+  border-top:0;
+  transition: all .5s ease-out;
+}
+.vertical [type=checkbox]:checked ~ label ~ .content {
+  height:100%;
+}
+
+@media(max-width: 768px){
+  .container {
+      background: black;
+      width: 100%;
+      padding: 0;
+      display: block
+  }
+  img{
+      height: 200px;
+      width: 200px
+  }
+  #wrapper{
+      justify-content: center
+  }
+
+  .wrapperOne {
+      background: black;
+      padding: 2rem;
+  }
+  .wrapperFour {
+      background: white;
+      padding: 2rem;
+  }
+  
+  .wrapperTwo {
+      background: #ffffff;
+      padding: 2rem;
+      height: 75rem;
+  }
+  
+  .wrapperThree {
+      background: #232323;
+      padding: 2rem;
+  }
+
+  .subconOne {
+    width: 100%;
+    display: inline-block;
+    padding-left: 0;
+  }
+
+  .subconTwo {
+    width: 100%;
+    display: inline-block;
+    padding-left: 0;
+  }
+
+  image{
+    display: inline-block
+  }
+
+  .volunteerSection{
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .partnershipSection{
+    width: 100%;
+    display: inline-block;
+    float: left;
+  }
+
+  .containerTwo{
+    text-align: center
+  }
+  .containerThree{
+    text-align: center
+  }
+  .containerFour{
+    text-align: center
+  }
+  .vertical ul li label {
+    display: flex;
+    align-items: center;
+    height: 70px;
+  }
+  .accordion li {
+    padding:5px;
+  }
 }

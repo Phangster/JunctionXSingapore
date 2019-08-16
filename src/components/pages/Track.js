@@ -13,15 +13,15 @@ class Track extends Component {
             <h1>2019 TRACKS</h1>
                 <div className = "grid-container">
                     <div>
-                        <div className = "grid grid-size" ><img className="image" src={Api} alt="Api Hack " /></div>
+                        <div className = "grid grid-size" ><img className="image1" src={Api} alt="Api Hack " /></div>
                         <p>API HACK</p>
                     </div>
                     <div>
-                        <div className = "grid"><img className="image" src={Smartnation} alt="Smart Nation" /></div>
+                        <div className = "grid"><img className="image1" src={Smartnation} alt="Smart Nation" /></div>
                         <p>SMART NATION</p>
                     </div>
                     <div>
-                        <div className = "grid"><img className="image anomynous" src={Anonymous} alt="Anonymous" /></div>
+                        <div className = "grid"><img className="image1 anomynous" src={Anonymous} alt="Anonymous" /></div>
                         <p>MYSTERY HACK</p>
                     </div>
                 </div>

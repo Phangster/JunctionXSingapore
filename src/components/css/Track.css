@@ -37,7 +37,7 @@ p{
 .h1 {
     margin-top: 0rem;
 }
-.image{
+.image1{
     width: 400px;
     padding: 0;
     background-size: cover;
@@ -59,7 +59,7 @@ p{
         height: 100%;
         width: 100%;
     }
-    .image{
+    .image1{
         background-size: cover;
         background-position: center;
         padding: 0
