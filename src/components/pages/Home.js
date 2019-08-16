@@ -7,7 +7,7 @@ import Rakuten from '../../images/partners_img/Rakuten.png'
 import RakutenRapidAPI from '../../images/partners_img/RakutenRapidAPI.png'
 // import Intel from '../../images/partners_img/intel_logo.png'
 import Redbull from '../../images/partners_img/Redbull_logo.png'
-import Sutdec from '../../images/partners_img/ec_logo.jpg'
+import Sutdec from '../../images/partners_img/ec_logo.png'
 import sample from '../../videos/intro.mp4';
 import JunctionLogo from '../../images/junction_img/JunctionX_logos_white.png'
 import JunctionL from '../../images/junction_img/junctionx_globe_black.svg'
