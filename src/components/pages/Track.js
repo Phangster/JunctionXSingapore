@@ -13,7 +13,7 @@ class Track extends Component {
             <h1>2019 TRACKS</h1>
                 <div className = "grid-container">
                     <div>
-                        <div className = "grid grid-size" ><img className="image1" src={Api} alt="Api Hack " /></div>
+                        <div className = "grid" ><img className="image1" src={Api} alt="Api Hack " /></div>
                         <p>API HACK</p>
                     </div>
                     <div>

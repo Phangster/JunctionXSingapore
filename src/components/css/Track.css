@@ -23,9 +23,6 @@
     justify-content: center;
 }
 
-.grid-size{
-    width:92%
-}
 
 p{
     text-align: center
@@ -45,14 +42,17 @@ p{
 }
 .anomynous{
     background: black;
-    width: 350px
+}
+
+.image1{
+    height:250px
 }
 
 @media(max-width: 768px){
     .grid-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 5rem;
+        padding: 2rem
     }
     .container {
         background: black;
@@ -62,7 +62,11 @@ p{
     .image1{
         background-size: cover;
         background-position: center;
-        padding: 0
+        padding: 0;
+        display: inline-block;
     }
 
+    img{
+        border:none;
+    }
 }
