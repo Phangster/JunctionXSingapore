@@ -172,6 +172,13 @@ class Home extends Component {
                         <div className="text textThree" >Teams can be up to 5 people. If you want to hack alone, that's totally fine. If you are still looking for a team, don't worry, we will have team building and pitching sessions at the event.</div>
                       </div>
                   </li>
+                  <li>
+                      <input type="checkbox" id="checkbox-9" name="checkbox-accordion" />
+                      <label for="checkbox-9">Is there any travel remeburisment?</label>
+                      <div class="content">
+                        <div className="text textThree" >Unfortunately, we do not have any travel remeburisment for this years JunctionX Singapore Hackathon</div>
+                      </div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -204,6 +211,13 @@ class Home extends Component {
                       <label for="checkbox-8">Where can I ask more questions?</label>
                       <div class="content">
                         <div className="text textThree" >We are happy to help out with any questions! Please send an email, or message to @JunctionX Singapore (Facebook) / @junctionx_singapore (Instagram).</div>
+                      </div>
+                  </li>
+                  <li>
+                      <input type="checkbox" id="checkbox-10" name="checkbox-accordion" />
+                      <label for="checkbox-10">What size can a team be ?</label>
+                      <div class="content">
+                        <div className="text textThree" >Teams can be up to 2 - 5 people. If you are still looking for a team, don't worry, we will have team building and pitching sessions at the event.</div>
                       </div>
                   </li>
                 </ul>

@@ -7,7 +7,7 @@ class MenuLinks extends Component {
           <div className={this.props.menuStatus} id='menu'>
             <ul>
             <li><NavLink exact to="/" onClick={this.props.menuToggle}>HOME</NavLink></li>
-            {/* <li><NavLink to="/about">ABOUT</NavLink></li> */}
+            <li><NavLink to="/partners" onClick={this.props.menuToggle}>PARTNERS</NavLink></li>
             <li><NavLink to='/register' onClick={this.props.menuToggle}>REGISTER</NavLink></li>
             <li><NavLink to='/tracks' onClick={this.props.menuToggle}>TRACKS</NavLink></li>
             <li><NavLink to='/schedule' onClick={this.props.menuToggle}>SCHEDULE</NavLink></li>

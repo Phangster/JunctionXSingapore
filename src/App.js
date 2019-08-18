@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, BrowserRouter } from "react-router-dom";
 import Nav from "./components/global/Nav";
 import Home from "./components/pages/Home";
-// import About from "./components/pages/About";
+import Partners from "./components/pages/Partners";
 import Registration from "./components/pages/Registration";
 import Track from "./components/pages/Track";
 import Schedule from "./components/pages/Schedule";
@@ -20,7 +20,7 @@ class App extends Component {
         <Nav />
           <div className="content">
               <Route exact path="/" component={Home} />
-              {/* <Route exact path="/about" component={About} /> */}
+              <Route exact path="/partners" component={Partners} />
               <Route exact path="/register" component={Registration} />
               <Route exact path="/tracks" component={Track} />
               <Route exact path="/schedule" component={Schedule} />
