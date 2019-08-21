@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e8622a7d618b1f58f7d49e7f7e9c180",
+    "revision": "83220789beaa841c879ac442d9d5eb65",
     "url": "/index.html"
   },
   {
-    "revision": "82716921abf9026ccb12",
-    "url": "/static/css/main.74432c9d.chunk.css"
+    "revision": "b5e36feb0ef968e16d51",
+    "url": "/static/css/main.5a2e07c4.chunk.css"
   },
   {
-    "revision": "e6042efd48cc4a8e1e4e",
-    "url": "/static/js/2.a032b4a1.chunk.js"
+    "revision": "5cd8fecc1cdd04bfd4ed",
+    "url": "/static/js/2.4143d1d1.chunk.js"
   },
   {
-    "revision": "82716921abf9026ccb12",
-    "url": "/static/js/main.8388af40.chunk.js"
+    "revision": "b5e36feb0ef968e16d51",
+    "url": "/static/js/main.78ce3718.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "154b43c306228b2aa3d1edca7d476c99",
     "url": "/static/media/JunctionX_logos_white.154b43c3.png"
+  },
+  {
+    "revision": "7ae57dd00df696d0b8c20adc631d533a",
+    "url": "/static/media/JunctionX_nav.7ae57dd0.png"
   },
   {
     "revision": "94c02e24fcb45e0152b1dadcd9b0a216",
