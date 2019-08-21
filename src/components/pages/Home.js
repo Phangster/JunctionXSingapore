@@ -3,11 +3,6 @@ import React, { Component } from "react";
 import '../css/Home.scss';
 import '../css/Home.sass';
 import Footer from "../global/Footer";
-import Rakuten from '../../images/partners_img/Rakuten.png'
-import RakutenRapidAPI from '../../images/partners_img/RakutenRapidAPI.png'
-// import Intel from '../../images/partners_img/intel_logo.png'
-import Redbull from '../../images/partners_img/Redbull_logo.png'
-import Sutdec from '../../images/partners_img/ec_logo.png'
 import sample from '../../videos/intro.mp4';
 import JunctionLogo from '../../images/junction_img/JunctionX_logos_white.png'
 import JunctionL from '../../images/junction_img/junctionx_globe_black.svg'
@@ -130,16 +125,6 @@ class Home extends Component {
       </div>
       <div className = "wrapperFour" >
           <div className = "containerFour">
-          <div className="textColor">PARTNERS</div>
-              <img className="image home" src={Rakuten} alt="Rakuten" />
-              <img className="image home" src={RakutenRapidAPI} alt="Rakuten Rapid API" />
-              {/* <img className="image" src={Intel} alt="Intel" /> */}
-              <img className="image home" src={Redbull} alt="Allswell" />
-              <img className="image entre_logo home" src={Sutdec} alt="SUTD Entrepreneurship centre" />
-          </div>
-      </div>
-      <div className = "wrapperThree" >
-          <div className = "containerThree">
           <div className="textColor">FAQ</div>
             <div className = "subconThree">
               <div class="accordion vertical">

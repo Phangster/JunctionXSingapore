@@ -22,9 +22,10 @@ a
   text-decoration: none
   color: #232323
   transition: color 0.3s ease
+  font-family: Lato, sans-serif
  
 a:hover
-  color: tomato
+  color: black
 
 .textOne
   font-size: 24px
@@ -151,16 +152,17 @@ a:hover
   transition: transform 300ms
   z-index: 1
   height: 100vh
+
   & ul
-    margin-top: 0px
     padding: 0px
     color: black
     list-style-type: none
     text-align: left
+    margin-bottom: 4rem
   & li
-    padding: 30px 0 20px 20px
+    padding: 25px 0 10px 20px
     font-size: 1.5em
-    margin-left: 4rem
+    margin-left: 2rem
 .fa
   color: black
   padding-right: 8px
@@ -170,6 +172,8 @@ li a
 
 #menu.isopen
   transform: none
+  overflow-x: hidden
+  overflow-x: scroll
 
 @media screen and (max-width: 768px)
   .menubar span

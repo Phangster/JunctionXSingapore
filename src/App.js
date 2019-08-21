@@ -9,7 +9,14 @@ import Schedule from "./components/pages/Schedule";
 import Venue from "./components/pages/Venue";
 import Submission from "./components/pages/Submission";
 import Rules from "./components/pages/Rules";
-import Faq from "./components/pages/Faq";
+import Prize from "./components/pages/Prize";
+
+// import ApiHack from "./components/tracks/ApiHack";
+// import SmartNationHack from "./components/tracks/SmartNationHack";
+// import MysteryHack from "./components/tracks/MysteryHack";
+
+
+
 
 class App extends Component {
   render() {
@@ -27,7 +34,11 @@ class App extends Component {
               <Route exact path="/venue" component={Venue} />
               <Route exact path="/submission" component={Submission} />
               <Route exact path="/rules" component={Rules} />
-              <Route exact path="/faq" component={Faq} />
+              <Route exact path="/prize" component={Prize} />
+              
+              {/* <Route exact path="/apihack" component={ApiHack} />
+              <Route exact path="/smartnation" component={SmartNationHack} />
+              <Route exact path="/mystery" component={MysteryHack} /> */}
           </div>
         </div>
         </BrowserRouter>

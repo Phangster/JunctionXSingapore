@@ -25,6 +25,11 @@
   margin-top: 6rem;
 }
 
+.NavLogo{
+  width: 80%;
+  margin-top: 3rem;
+}
+
 .locationText {
   font-size: 30px 
 }
@@ -207,26 +212,26 @@ iframe {
   font-size:16px;
   line-height:16px;
   background-color: #a9a9a9; 
-  color:#fff;
+  color:black;
   font-weight:700;
   cursor:pointer;
   text-transform:uppercase;
 }
 .accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
-  color: black;
+  color: white;
 }
 .accordion .content {
   padding:0 10px;
   overflow:hidden;
 }
 .accordion .text{
-  color:white;
+  color:black;
   padding:15px 10px;
 }
 .accordion p:hover {
   color:red;
   cursor: pointer;
-  background-color: #d9d9d9;
+  background-color: #35e2df;
 }
 .accordion h3 {
   padding:0;
