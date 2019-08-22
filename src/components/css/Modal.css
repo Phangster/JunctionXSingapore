@@ -8,6 +8,7 @@
   position: absolute;
   z-index: 2;
   border-radius: 2rem;
+  position: fixed;
 }
 
 .modal-header {
@@ -78,14 +79,6 @@
   font-size: 18px
 }
 
-.back-drop {
-  background-color: rgba(48, 49, 48, 0.42);
-  height: 100%;
-  position: fixed;
-  transition: all 1.3s;
-  width: 100%;
-}
-
 .open-modal-btn {
   margin: 15px;
   padding: 10px;
@@ -109,4 +102,15 @@
 .wrapper-modal{
   display: flex;
   justify-content: center;
+}
+
+@media(max-width: 768px){
+  .modal-wrapper {
+    width: 77%;
+    margin-left: 3rem;
+  }
+
+  .btn-continue {
+    font-size: 15px;
+  }
 }

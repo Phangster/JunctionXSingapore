@@ -35,7 +35,7 @@ class Home extends Component {
     return (
       <div>
         <div className="modal-position">
-          { this.state.showModal ? <div onClick={this.close} className="back-drop"></div> : null }
+          { this.state.showModal ? <div onClick={this.close}></div> : null }
           <Modal 
             className="modal"
             show={this.state.showModal}

@@ -98,4 +98,18 @@ p{
     img{
         border:none;
     }
+
+    .grid-prize{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2rem;
+    }
+
+    .wrappertrack{
+        padding: 0rem;
+    }
+    .containerPrize {
+        margin-top: 2rem;
+        display: inline-block;
+    }
 }
