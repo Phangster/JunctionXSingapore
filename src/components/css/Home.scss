@@ -152,6 +152,14 @@ iframe {
   display: inline-block;
 }
 
+
+/*Modal*/
+
+.modal-position{
+  display: flex;
+  align-items: center
+}
+
 /*Button*/
 @mixin color($color){
   background-color: $color;
