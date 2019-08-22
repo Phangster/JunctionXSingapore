@@ -21,9 +21,9 @@ class Submission extends Component {
               </ul>
             </div>
             <div className = "textOne">Community judging - You decide the winner</div>
-            <div className = "textThree">Participants will choose the winner for the JunctionX price. Through voting for their favourite project*</div>
+            <div className = "textThree">The set up will be like an exhibition style where participants can look at other teams project and vote for them. The top 3 teams will be able to do a pitch for the JunctionX grand prize.</div>
             <div className = "textOne">Partner judging - Choosing challenge winners</div>
-            <div className = "textThree">Partners will choose the winners of the challenges by going around and reviewing your projects. Your task is to demo your projects to the partners. When presenting, it might be good to focus on the criteria that the partner has set in the challenge.</div>
+            <div className = "textThree">Partners will choose the winners of the challenges. Each time will be scheduled a timing to present to the partners in the meeting room. Your task is to demo your projects to the partners. When presenting, it might be good to focus on the criteria that the partner has set in the challenge.</div>
             <div className = "textOne">GITHUB</div>
             <div className = "textThree"> On submission day, link will be release</div>
             <div className = "textThree">*Any participants caught double voting or voting for their own team might have their vote rejected</div>
