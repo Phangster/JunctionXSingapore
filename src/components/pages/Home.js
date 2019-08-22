@@ -191,7 +191,7 @@ class Home extends Component {
                         <input type="checkbox" id="checkbox-9" name="checkbox-accordion" />
                         <label htmlFor="checkbox-9">Is there any travel remeburisment?</label>
                         <div className="content">
-                          <div className="text textThree" >Unfortunately, we do not have any travel remeburisment for this years JunctionX Singapore Hackathon. However we do have accomodation discounts check --> Go to this site - https://hotels.cloudbeds.com/reservation/inxTZO#promo=HACKJUNCTIONxTT and use the promocode "HACKJUNCTIONxTT" (This discount is only applicable for our single capsule)</div>
+                          <div className="text textThree" >Unfortunately, we do not have any travel reimbursement for this years JunctionX Singapore Hackathon. However we do have accomodation discounts check.......Visit (https://hotels.cloudbeds.com/reservation/inxTZO#promo=HACKJUNCTIONxTT) and use the promocode "HACKJUNCTIONxTT" *This discount is only applicable for our single capsule</div>
                         </div>
                     </li>
                   </ul>

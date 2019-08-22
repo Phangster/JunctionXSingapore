@@ -21,7 +21,7 @@ class Partners extends Component {
                 {/* <img className="image" src={Intel} alt="Intel" /> */}
                 </div>
                 <div className="Sliver">
-                <h2>SLIVER</h2>
+                <h2>SILVER</h2>
                     <img className="image home" src={Rakuten} alt="Rakuten" />
                 </div>
                 <div className="Bronze">
