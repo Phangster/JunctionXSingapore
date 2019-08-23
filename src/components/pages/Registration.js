@@ -16,7 +16,7 @@ class Registration extends Component {
                         <div className = "content-register">
                             <div className="textOne">INDIVIDUAL</div>
                             <div className="paragraph-register">
-                                <div className="textTwo">The only failure one man should fear, is the failure to do his best. You do your best and leave we'll find you a team!</div>
+                                <div className="textTwo">The only failure one man should fear, is the failure to do his best. You do your best, just leave us the rest! We'll find you a team!</div>
                             </div>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfXAggEafwx4O7TA2wMLml5i_hv3x7alIQNNnPocpVesPbOWA/viewform?usp=pp_url">
                                 <button class="btn btn--cyan">REGISTER HERE!</button>

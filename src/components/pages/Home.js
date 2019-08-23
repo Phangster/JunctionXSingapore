@@ -163,7 +163,7 @@ class Home extends Component {
                         <input type="checkbox" id="checkbox-1" name="checkbox-accordion" />
                         <label htmlFor="checkbox-1">What is a hackathon?</label>
                         <div className="content">
-                          <div className="text textThree" >A hackathon is an event in which small teams (2-5 pers) of developers, designers, entrepreneurs and other specialists collaborate intensively on software projects aimed at solving particular problems. Within 48 hours, teams should come up with a working prototype and a presentation.</div>
+                          <div className="text textThree" >A hackathon is an event in which small teams (2-5 person) of developers, designers, entrepreneurs and other specialists collaborate intensively on software projects aimed at solving particular problems. Within 48 hours, teams should come up with a working prototype and a presentation.</div>
                         </div>
                     </li>
                     <li>
