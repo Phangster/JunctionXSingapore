@@ -12,7 +12,7 @@ class MenuLinks extends Component {
               <li><a href='https://singapore.hackjunction.com/tracks' onClick={this.props.menuToggle}>Tracks and Prizes</a></li>
               <li><a href='https://singapore.hackjunction.com/schedule' onClick={this.props.menuToggle}>Schedule</a></li>
               <li><a href='https://singapore.hackjunction.com/venue' onClick={this.props.menuToggle}>Venue</a></li>
-              <li><a href='https://singapore.hackjunction.com/team' onClick={this.props.menuToggle}>Team</a></li>
+              {/* <li><a href='https://singapore.hackjunction.com/team' onClick={this.props.menuToggle}>Team</a></li> */}
               <li><a href="https://singapore.hackjunction.com/partners" onClick={this.props.menuToggle}>Partners</a></li>
             </ul>
           <p className='header-css'>Event Day</p>
