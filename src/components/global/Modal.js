@@ -24,8 +24,8 @@ const modal = (props) => {
                     </div>
                 </div>
                 <div className="modal-footer">
-                    {/* <button className="btn-cancel" onClick={props.close}>CLOSE</button> */}
-                    <a href='https://www.facebook.com/events/704092956683803/'><button className="btn-continue">Click here for more information</button></a>
+                    <a href='https://www.facebook.com/events/704092956683803/'><button className="btn-continue">More infomation on the webinar</button></a>
+                    <a href='https://hotels.cloudbeds.com/reservation/inxTZO#promo=HACKJUNCTIONxTT'><button className="btn-continue" >Need an accommodation?</button></a>
                 </div>
             </div>
         </div>

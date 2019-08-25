@@ -6,6 +6,8 @@ import RakutenRapidAPI from '../../images/partners_img/RakutenRapidAPI.png'
 // import Intel from '../../images/partners_img/intel_logo.png'
 import Redbull from '../../images/partners_img/Redbull_logo.png'
 import Sutdec from '../../images/partners_img/ec_logo.png'
+import Tribe from '../../images/partners_img/Tribe_logo.png'
+
 
 class Partners extends Component {
   render() {
@@ -28,6 +30,10 @@ class Partners extends Component {
                 <h2>BRONZE</h2>
                     <img className="image home" src={RakutenRapidAPI} alt="Rakuten Rapid API" />
                     <img className="image home" src={Redbull} alt="Allswell" />
+                </div>
+                <div className="ComPartner">
+                    <h2>COMMUNITY PARTNER</h2>
+                    <img className="image home" src={Tribe} alt="Tribe" />
                 </div>
             </div>
             <Footer /> 

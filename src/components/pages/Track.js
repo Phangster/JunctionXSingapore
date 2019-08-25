@@ -19,7 +19,7 @@ class Track extends Component {
                             <p>API HACK</p>
                         </div>
                         <div>
-                            <div className = "grid"><NavLink to='/smartnation' onClick={this.props.menuToggle}><img className="image1" src={Smartnation} alt="Smart Nation" /></NavLink></div>
+                            <div className = "grid"><NavLink to='/smartnation' onClick={this.props.menuToggle}><img className="image" src={Smartnation} alt="Smart Nation" /></NavLink></div>
                             <p>SMART NATION</p>
                         </div>
                         <div>

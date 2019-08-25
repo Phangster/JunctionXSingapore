@@ -19,11 +19,15 @@
 }
             
 .Bronze{
+    padding-top: 2rem;
+}
+
+.ComPartner{
     padding-bottom: 4rem;
 }
 
 @media(max-width: 768px){
-    .Bronze .image {
+    .ComPartner .image {
         padding-left: 0rem;
     }
 

@@ -62,8 +62,8 @@ class Nav extends Component {
           <div className="title">
             <span>{ this.props.title }</span>
           </div>
-          <img className="imageHeading" src={Junction} alt="Junction" />
-          <img className="imageNav" src={JunctionLogo} alt="Junction Logo" />
+          <a exact href="https://singapore.hackjunction.com"><img className="imageHeading" src={Junction} alt="Junction" /></a>
+          <a exact href="https://singapore.hackjunction.com"><img className="imageNav" src={JunctionLogo} alt="Junction Logo" /></a>
         </div>
         <MenuLinks menuStatus={ menuStatus } menuToggle={(e) => this._menuToggle(e)}/>
         </nav>

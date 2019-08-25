@@ -1,3 +1,12 @@
-.container{
-    margin-top: 2rem
+.containerTrackOne{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
+
+h2{
+    font-family: 'Lato' , sans-serif
+}
+
+/* .tracks-css{
+    
+} */

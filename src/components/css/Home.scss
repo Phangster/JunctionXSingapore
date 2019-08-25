@@ -6,7 +6,7 @@
   height: 100%;
   padding: 0;
   display: block;
-}
+}s
 
 .color {
   color: #35e2df;
@@ -345,6 +345,7 @@ iframe {
     display: flex;
     align-items: center;
     height: 70px;
+    justify-content: center;
   }
   .accordion li {
     padding:5px;

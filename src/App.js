@@ -10,10 +10,13 @@ import Venue from "./components/pages/Venue";
 import Submission from "./components/pages/Submission";
 import Rules from "./components/pages/Rules";
 import Prize from "./components/pages/Prize";
+import Hiring from "./components/pages/Hiring";
+import Team from "./components/pages/Team";
 
-// import ApiHack from "./components/tracks/ApiHack";
-// import SmartNationHack from "./components/tracks/SmartNationHack";
-// import MysteryHack from "./components/tracks/MysteryHack";
+
+import ApiHack from "./components/tracks/ApiHack";
+import SmartNationHack from "./components/tracks/SmartNationHack";
+import MysteryHack from "./components/tracks/MysteryHack";
 
 
 
@@ -35,10 +38,12 @@ class App extends Component {
               <Route exact path="/submission" component={Submission} />
               <Route exact path="/rules" component={Rules} />
               <Route exact path="/prize" component={Prize} />
+              <Route exact path="/hiring" component={Hiring} />
+              <Route exact path="/team" component={Team} />
               
-              {/* <Route exact path="/apihack" component={ApiHack} />
+              <Route exact path="/apihack" component={ApiHack} />
               <Route exact path="/smartnation" component={SmartNationHack} />
-              <Route exact path="/mystery" component={MysteryHack} /> */}
+              <Route exact path="/mystery" component={MysteryHack} />
           </div>
         </div>
         </BrowserRouter>
