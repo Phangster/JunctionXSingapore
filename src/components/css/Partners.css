@@ -10,6 +10,18 @@
     padding: 2rem 0 2rem 0;
 }
 
+.circles{
+    height: 100%;
+    padding: 2rem
+}
+
+.boxing{
+    display: inline-flex;
+    align-items: center;
+    height: 250px;
+    width: 250px
+}
+
 .Bronze .image{
     padding-left: 2rem;
 }

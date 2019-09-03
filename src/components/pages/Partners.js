@@ -35,8 +35,9 @@ class Partners extends Component {
                 <div className="ComPartner">
                     <h2>COMMUNITY PARTNER</h2>
                     <img className="image home" src={Tribe} alt="Tribe" />
-                    <img className="image home" src={Circles} alt="Circles.life" />
-
+                    <div className="boxing">
+                        <img className="image circles" src={Circles} alt="Circles.life" />
+                    </div>
                 </div>
             </div>
             <Footer /> 
