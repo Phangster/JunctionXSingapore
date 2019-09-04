@@ -1,23 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6162aac23cae765223a8eed1494968fc",
+    "revision": "a7e72e05da94e27bb7002640fc509619",
     "url": "/index.html"
   },
   {
-    "revision": "13d6690e00c29007b942",
-    "url": "/static/css/main.8b45a178.chunk.css"
+    "revision": "b1f5a1971e36273a375e",
+    "url": "/static/css/main.fb03cbfa.chunk.css"
   },
   {
-    "revision": "8a6dda6893bc1381f132",
-    "url": "/static/js/2.8b5c062e.chunk.js"
+    "revision": "1e2001c2d225916b04ba",
+    "url": "/static/js/2.8002188d.chunk.js"
   },
   {
-    "revision": "13d6690e00c29007b942",
-    "url": "/static/js/main.23f9eba1.chunk.js"
+    "revision": "b1f5a1971e36273a375e",
+    "url": "/static/js/main.fe9c8cc5.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
+  },
+  {
+    "revision": "1d34223d20dd578eee4fc8d25d1b1579",
+    "url": "/static/media/Bryan.1d34223d.jpg"
+  },
+  {
+    "revision": "59a8961bd28346750a98a5e8032e2509",
+    "url": "/static/media/ChangHsi.59a8961b.jpg"
+  },
+  {
+    "revision": "fa8c900cbebfdae31bf01bb08f9f7b7c",
+    "url": "/static/media/Emir.fa8c900c.jpg"
+  },
+  {
+    "revision": "37e7b86c2f25a5f2c88b20112b7399c2",
+    "url": "/static/media/Helena.37e7b86c.jpg"
   },
   {
     "revision": "2aad815e4eb2e7026ad94e75a7846688",
@@ -30,6 +46,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7ae57dd00df696d0b8c20adc631d533a",
     "url": "/static/media/JunctionX_nav.7ae57dd0.png"
+  },
+  {
+    "revision": "ff0fda02b83b37babde5b36de0481d17",
+    "url": "/static/media/Naomi.ff0fda02.jpg"
+  },
+  {
+    "revision": "4a695774ab949705009efe46c1b719f6",
+    "url": "/static/media/Petra.4a695774.jpg"
   },
   {
     "revision": "94c02e24fcb45e0152b1dadcd9b0a216",
@@ -70,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fa0565b7118e33bb11d38c66366893a8",
     "url": "/static/media/smart-nation-singapore.fa0565b7.jpg"
+  },
+  {
+    "revision": "4f8c86791eb14fb0638a10e5d31168e8",
+    "url": "/static/media/startupx1.4f8c8679.jpeg"
   },
   {
     "revision": "af735b9691a01161e8dcb2aaddfef819",
