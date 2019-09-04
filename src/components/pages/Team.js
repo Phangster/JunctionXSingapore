@@ -20,31 +20,37 @@ class Team extends Component {
               <div className='profile'>
                 <div>
                   <img className="avatar" src={Bryan} alt="Bryan" />
-                  <p>Head of JunctionX Singapore</p>
+                  <p>Bryan Phang</p>
+                  <p className="position">Head of JunctionX Singapore</p>
                 </div>
                 <div>
                   <img className="avatar" src={ChangHsi} alt="ChangHsi" />
-                  <p>Head of JunctionX Singapore</p>
+                  <p>Chang Hsi</p>
+                  <p className="position">Head of JunctionX Singapore</p>
                 </div>
               </div>
               <div className='profile'>
                 <div>
                   <img className="avatar" src={Petra} alt="Petra" />
-                  <p>Marketing Strategist</p>
+                  <p>Petra Jääskeläinen</p>
+                  <p className="position">Marketing Strategist</p>
                 </div>
                 <div>
                   <img className="avatar" src={Emir} alt="Emir" />
-                  <p>Marketing Designer</p>
+                  <p>Emir Hamzah Mustaffa</p>
+                  <p className="position">Marketing Designer</p>
                 </div>
               </div>
               <div className='profile'>
                 <div>
                   <img className="avatar" src={Naomi} alt="Naomi" />
-                  <p>Apparel Designer</p>
+                  <p>Naomi Wong</p>
+                  <p className="position">Apparel Designer</p>
                 </div>
                 <div>
                   <img className="avatar" src={Helena} alt="Helena Hilander" />
-                  <p>Head of Participants</p>
+                  <p>Helena Hilander</p>
+                  <p className="position">Head of Participants</p>
                 </div>
               </div>
             </div>
