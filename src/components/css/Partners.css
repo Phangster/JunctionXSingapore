@@ -12,18 +12,18 @@
 
 .circles{
     height: 100%;
-    padding: 2rem
 }
 
-.boxing{
+.boxing {
     display: inline-flex;
     align-items: center;
     height: 250px;
     width: 250px
 }
 
-.Bronze .image{
-    padding-left: 2rem;
+.container-box{
+    display: flex;
+    justify-content: space-evenly
 }
 
 .CoOrganising{
@@ -39,11 +39,16 @@
 }
 
 @media(max-width: 768px){
-    .ComPartner .image {
-        padding-left: 0rem;
-    }
 
     .containment{
         padding: 2rem;
+    }
+
+    .container-box{
+        display: block
+    }
+
+    .ComPartner{
+        padding-bottom: 0rem
     }
 }
