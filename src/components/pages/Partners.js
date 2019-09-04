@@ -8,6 +8,8 @@ import Sutdec from '../../images/partners_img/ec_logo.png'
 import Tribe from '../../images/partners_img/Tribe_logo.png'
 import Circles from '../../images/partners_img/circles_life.png'
 import StartupX from '../../images/partners_img/startupx1.jpeg'
+import Kickstart from '../../images/partners_img/kickstart.jpg'
+
 
 
 
@@ -49,6 +51,9 @@ class Partners extends Component {
                         </div>
                         <div className="boxing">
                             <img className="image" src={StartupX} alt="StartUpX" />
+                        </div>
+                        <div className="boxing">
+                            <img className="image" src={Kickstart} alt="KickStart" />
                         </div>
                     </div>
                 </div>
