@@ -67,13 +67,6 @@ class Partners extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="Media">
-                    <h2>MEDIA PARTNER</h2>
-                    <div className="container-box">
-                        <img className="image home" src={Reassemble} alt="Reassemble" />
-                        <img className="image home" src={Salesforce} alt="Salesforce" />
-                    </div>
-                </div>
             </div>
             <Footer /> 
         </div>
