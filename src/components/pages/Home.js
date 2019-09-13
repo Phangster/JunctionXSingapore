@@ -4,7 +4,7 @@ import '../css/Home.scss';
 import '../css/Home.sass';
 import Footer from "../global/Footer";
 import sample from '../../videos/intro.mp4';
-import Modal from "../global/Modal";
+// import Modal from "../global/Modal";
 import JunctionLogo from '../../images/junction_img/JunctionX_logos_white.png'
 import JunctionL from '../../images/junction_img/junctionx_globe_black.svg'
 import JunctionR from '../../images/junction_img/junctionx_globe_white.svg'
@@ -34,7 +34,7 @@ class Home extends Component {
     console.log(this.state.showModal)
     return (
       <div>
-        <div className="modal-position">
+        {/* <div className="modal-position">
           { this.state.showModal ? <div onClick={this.close}></div> : null }
           <Modal 
             className="modal"
@@ -42,7 +42,7 @@ class Home extends Component {
             close={this.close}>
               Maybe aircrafts fly very high because they don't want to be seen in plane sight?
           </Modal>
-        </div>
+        </div> */}
         <div className = "container">
         <div className = "wrapperOne">
           <video className='videoTag' autoPlay loop muted>

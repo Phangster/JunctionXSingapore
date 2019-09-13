@@ -9,9 +9,9 @@ import Tribe from '../../images/partners_img/Tribe_logo.png'
 import Circles from '../../images/partners_img/circles_life.png'
 import StartupX from '../../images/partners_img/startupx1.jpeg'
 import Kickstart from '../../images/partners_img/kickstart.jpg'
-
-
-
+import Shopee from '../../images/partners_img/Shopee.png'
+import Reassemble from '../../images/partners_img/Reassemble.jpeg'
+import Salesforce from '../../images/partners_img/Salesforce.png'
 
 
 class Partners extends Component {
@@ -30,6 +30,7 @@ class Partners extends Component {
                 <h2>GOLD</h2>
                     <div className="container-box">
                         <img className="image home" src={Rakuten} alt="Rakuten" />
+                        <img className="image home" src={Shopee} alt="Rakuten" />
                     </div>
                 </div>
                 <div className="Sliver">
@@ -47,14 +48,30 @@ class Partners extends Component {
                     <div className="container-box">
                         <img className="image home" src={Tribe} alt="Tribe" />
                         <div className="boxing">
-                            <img className="image circles" src={Circles} alt="Circles.life" />
-                        </div>
-                        <div className="boxing">
                             <img className="image" src={StartupX} alt="StartUpX" />
                         </div>
                         <div className="boxing">
                             <img className="image" src={Kickstart} alt="KickStart" />
                         </div>
+                    </div>
+                </div>
+                <div className="Supporter">
+                    <h2>SUPPORTING PARTNER</h2>
+                    <div className="container-box">
+                        <img className="image home" src={Reassemble} alt="Reassemble" />
+                        <div className="boxing">
+                            <img className="image home" src={Salesforce} alt="Salesforce" />
+                        </div>
+                        <div className="boxing">
+                            <img className="image circles" src={Circles} alt="Circles.life" />
+                        </div>
+                    </div>
+                </div>
+                <div className="Media">
+                    <h2>MEDIA PARTNER</h2>
+                    <div className="container-box">
+                        <img className="image home" src={Reassemble} alt="Reassemble" />
+                        <img className="image home" src={Salesforce} alt="Salesforce" />
                     </div>
                 </div>
             </div>
