@@ -1,23 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0cb960b49fc8d4c61ebce99af1a0b0b3",
+    "revision": "6d32cba6a317c8252d2d3a5b1e971473",
     "url": "/index.html"
   },
   {
-    "revision": "7ee85321340fb4de49b4",
-    "url": "/static/css/main.3c8e20cf.chunk.css"
+    "revision": "c92a351799cd7dbc773e",
+    "url": "/static/css/main.ba64b57f.chunk.css"
   },
   {
-    "revision": "57bb1456d8e9c6ed9ffd",
-    "url": "/static/js/2.1ed2597e.chunk.js"
+    "revision": "26bce0ae7b431f14126d",
+    "url": "/static/js/2.7baa1dd7.chunk.js"
   },
   {
-    "revision": "7ee85321340fb4de49b4",
-    "url": "/static/js/main.aefc64dc.chunk.js"
+    "revision": "c92a351799cd7dbc773e",
+    "url": "/static/js/main.baa98d6c.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
+  },
+  {
+    "revision": "1d34223d20dd578eee4fc8d25d1b1579",
+    "url": "/static/media/Bryan.1d34223d.jpg"
+  },
+  {
+    "revision": "59a8961bd28346750a98a5e8032e2509",
+    "url": "/static/media/ChangHsi.59a8961b.jpg"
+  },
+  {
+    "revision": "fa8c900cbebfdae31bf01bb08f9f7b7c",
+    "url": "/static/media/Emir.fa8c900c.jpg"
+  },
+  {
+    "revision": "37e7b86c2f25a5f2c88b20112b7399c2",
+    "url": "/static/media/Helena.37e7b86c.jpg"
   },
   {
     "revision": "2aad815e4eb2e7026ad94e75a7846688",
@@ -32,16 +48,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/JunctionX_nav.7ae57dd0.png"
   },
   {
+    "revision": "ff0fda02b83b37babde5b36de0481d17",
+    "url": "/static/media/Naomi.ff0fda02.jpg"
+  },
+  {
+    "revision": "4a695774ab949705009efe46c1b719f6",
+    "url": "/static/media/Petra.4a695774.jpg"
+  },
+  {
     "revision": "94c02e24fcb45e0152b1dadcd9b0a216",
     "url": "/static/media/Rakuten.94c02e24.png"
+  },
+  {
+    "revision": "905e3a0832ea593d66b6e0037185aada",
+    "url": "/static/media/Reassemble.905e3a08.jpeg"
   },
   {
     "revision": "ea11116b2819ad36793da913a2e3e6f7",
     "url": "/static/media/Redbull_logo.ea11116b.png"
   },
   {
+    "revision": "ae52848ba285c6991b013f9b2eef6d35",
+    "url": "/static/media/Salesforce.ae52848b.png"
+  },
+  {
+    "revision": "12eab1d61868ca5cedc84c0ae7b98f3b",
+    "url": "/static/media/Shopee.12eab1d6.png"
+  },
+  {
     "revision": "e2435b987e716ab45e2884348ccc328a",
     "url": "/static/media/api-prog.e2435b98.jpg"
+  },
+  {
+    "revision": "08b1ada5f0af9ed797e445070542b102",
+    "url": "/static/media/circles_life.08b1ada5.png"
   },
   {
     "revision": "5c8f2bcfc9e884531d4ef64953ce4f10",
@@ -66,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fa0565b7118e33bb11d38c66366893a8",
     "url": "/static/media/smart-nation-singapore.fa0565b7.jpg"
+  },
+  {
+    "revision": "4f8c86791eb14fb0638a10e5d31168e8",
+    "url": "/static/media/startupx1.4f8c8679.jpeg"
   },
   {
     "revision": "af735b9691a01161e8dcb2aaddfef819",
