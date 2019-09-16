@@ -12,6 +12,7 @@ import Kickstart from '../../images/partners_img/kickstart.jpg'
 import Shopee from '../../images/partners_img/Shopee.png'
 import Reassemble from '../../images/partners_img/Reassemble.jpeg'
 import Salesforce from '../../images/partners_img/Salesforce.png'
+import Kaspersky from '../../images/partners_img/kaspersky.png'
 
 
 class Partners extends Component {
@@ -34,7 +35,10 @@ class Partners extends Component {
                     </div>
                 </div>
                 <div className="Sliver">
-                {/* <h2>SILVER</h2> */}
+                <h2>SILVER</h2>
+                    <div className="container-box">
+                        <img className="image home" src={Kaspersky} alt="Kaspersky" />
+                    </div>
                 </div>
                 <div className="Bronze">
                 <h2>BRONZE</h2>
