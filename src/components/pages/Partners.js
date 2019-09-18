@@ -13,6 +13,8 @@ import Shopee from '../../images/partners_img/Shopee.png'
 import Reassemble from '../../images/partners_img/Reassemble.jpeg'
 import Salesforce from '../../images/partners_img/Salesforce.png'
 import Kaspersky from '../../images/partners_img/kaspersky.png'
+import Ambidextr from '../../images/partners_img/ambidextr.png'
+
 
 
 class Partners extends Component {
@@ -68,6 +70,14 @@ class Partners extends Component {
                         </div>
                         <div className="boxing">
                             <img className="image circles" src={Circles} alt="Circles.life" />
+                        </div>
+                    </div>
+                </div>
+                <div className="Media">
+                    <h2>MEDIA PARTNER</h2>
+                    <div className="container-box">
+                        <div className="boxing">
+                            <img className="image" src={Ambidextr} alt="Circles.life" />
                         </div>
                     </div>
                 </div>
