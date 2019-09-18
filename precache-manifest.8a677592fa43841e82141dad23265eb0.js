@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "514e860f9115be5765d7360c61019d0e",
+    "revision": "b1d0547970e554742f265173796078a7",
     "url": "/index.html"
   },
   {
-    "revision": "a33983e7905bc30c2da3",
+    "revision": "80b01189a311a609fc55",
     "url": "/static/css/main.ca1db974.chunk.css"
   },
   {
-    "revision": "497e3ebc2971dc3d9b37",
-    "url": "/static/js/2.766518b8.chunk.js"
+    "revision": "6692a2293e9715208aba",
+    "url": "/static/js/2.6f647680.chunk.js"
   },
   {
-    "revision": "a33983e7905bc30c2da3",
-    "url": "/static/js/main.7dc04129.chunk.js"
+    "revision": "80b01189a311a609fc55",
+    "url": "/static/js/main.53095073.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "12eab1d61868ca5cedc84c0ae7b98f3b",
     "url": "/static/media/Shopee.12eab1d6.png"
+  },
+  {
+    "revision": "e931c9914b686a57172a3b103846b452",
+    "url": "/static/media/ambidextr.e931c991.png"
   },
   {
     "revision": "e2435b987e716ab45e2884348ccc328a",
