@@ -12,7 +12,7 @@ import Kickstart from '../../images/partners_img/kickstart.jpg'
 import Shopee from '../../images/partners_img/Shopee.png'
 import Reassemble from '../../images/partners_img/Reassemble.jpeg'
 import Salesforce from '../../images/partners_img/Salesforce.png'
-import Kaspersky from '../../images/partners_img/kaspersky.png'
+import Kaspersky from '../../images/partners_img/kaspersky.academy.png'
 import Ambidextr from '../../images/partners_img/ambidextr.png'
 
 
@@ -39,7 +39,7 @@ class Partners extends Component {
                 <div className="Sliver">
                 <h2>SILVER</h2>
                     <div className="container-box">
-                        <img className="image home" src={Kaspersky} alt="Kaspersky" />
+                        <img className="image home" style={{width:"23rem"}} src={Kaspersky} alt="Kaspersky" />
                     </div>
                 </div>
                 <div className="Bronze">
