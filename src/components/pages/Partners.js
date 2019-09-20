@@ -8,7 +8,7 @@ import Sutdec from '../../images/partners_img/ec_logo.png'
 import Tribe from '../../images/partners_img/Tribe_logo.png'
 import Circles from '../../images/partners_img/circles_life.png'
 import StartupX from '../../images/partners_img/startupx1.jpeg'
-// import Kickstart from '../../images/partners_img/kickstart.jpg'
+import Kickstart from '../../images/partners_img/kickstart.jpg'
 import Shopee from '../../images/partners_img/Shopee.png'
 import Reassemble from '../../images/partners_img/Reassemble.jpeg'
 import Salesforce from '../../images/partners_img/Salesforce.png'
@@ -56,9 +56,9 @@ class Partners extends Component {
                         <div className="boxing">
                             <img className="image" src={StartupX} alt="StartUpX" />
                         </div>
-                        {/* <div className="boxing">
+                        <div className="boxing">
                             <img className="image" src={Kickstart} alt="KickStart" />
-                        </div> */}
+                        </div>
                     </div>
                 </div>
                 <div className="Supporter">

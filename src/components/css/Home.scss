@@ -50,7 +50,6 @@
 .wrapperThree {
     background: #232323;
     padding: 10rem;
-    padding-top: 5rem;
 }
 
 .wrapperFour {
@@ -150,8 +149,31 @@ iframe {
 .subconThree{
   width: 50%;
   display: inline-block;
+  color: white
 }
 
+.avatarMentor {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  opacity: 1;
+}
+
+.position {
+  font-family: 'Lato';
+  font-size: 14px
+}
+
+.mentor{
+  width: 250px;
+  display: inline-block
+}
+
+.listOfMentors{
+  display: flex;
+  justify-content: space-around;
+}
 
 /*Modal*/
 
@@ -233,7 +255,7 @@ iframe {
   overflow:hidden;
 }
 .accordion .text{
-  color:black;
+  
   padding:15px 10px;
 }
 .accordion p:hover {
@@ -276,10 +298,6 @@ iframe {
       width: 100%;
       padding: 0;
       display: block
-  }
-  img{
-      height: 200px;
-      width: 200px
   }
   #wrapper{
       justify-content: center
@@ -355,4 +373,7 @@ iframe {
     width: 100%;
   }
 
+  .listOfMentors{
+    display: inline-block;
+  }
 }

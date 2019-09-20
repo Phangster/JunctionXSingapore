@@ -8,6 +8,13 @@ import sample from '../../videos/intro.mp4';
 import JunctionLogo from '../../images/junction_img/JunctionX_logos_white.png'
 import JunctionL from '../../images/junction_img/junctionx_globe_black.svg'
 import JunctionR from '../../images/junction_img/junctionx_globe_white.svg'
+import Mark from '../../images/mentor_img/mark_lven_palejaro.JPG'
+import Jackie from '../../images/mentor_img/jackie.JPG'
+import Shoaib from '../../images/mentor_img/shoaib_ahmed_malik.png'
+import Marie from '../../images/mentor_img/marie_wong.jpeg'
+import Eric from '../../images/mentor_img/eric_chang.jpg'
+
+
 
 
 
@@ -83,8 +90,44 @@ class Home extends Component {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.819926160307!2d103.84793611550867!3d1.281802599065105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190c2b3223d1%3A0x922bbd5aba9592c2!2sRakuten+Asia+Pte+Ltd!5e0!3m2!1sen!2ssg!4v1562581464126!5m2!1sen!2ssg" frameBorder="0" allowFullScreen></iframe>
             </div>
         </div>
-        <div className = "wrapperFour" style = {{padding: '4rem'}} >
+        <div className = "wrapperFour">
             <div className = "containerFour">
+              <div className='textColor'>MENTORS</div>
+              <p style={{fontSize:"30px"}}>MENTORS</p>
+                <div className="listOfMentors">
+                  <div className="mentor">
+                    <img className="avatarMentor" src={Mark} alt="Mark Lven Tupa Palejaro" />
+                    <p>Mark Lven Tupa Palejaro</p>
+                    <p className="position">Co-founder of Pocket Hologram</p>
+                  </div>
+                  <div className="mentor">
+                    <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Jackie} alt="Jackie Tan" />
+                    <p>Jackie Tan</p>
+                    <p className="position">Co-founder of UpLevel</p>
+                  </div>
+                  <div className="mentor">
+                    <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Shoaib} alt="Shoaib Ahmed Malik" />
+                    <p>Shoaib Ahmed Malik</p>
+                    <p className="position">Team Lead of Business Intelligence & Data Warehouse Development </p>
+                  </div>
+                </div>
+                <p style={{fontSize:"30px"}}>WORKSHOP</p>
+                <div className="listOfMentors">
+                  <div className="mentor">
+                    <img className="avatarMentor"  style={{objectPosition: "100% 0"}} src={Marie} alt="Marie Wong" />
+                    <p>Marie Wong</p>
+                    <p className="position">Co-Founder & UX Designer at REASSEMBLE</p>
+                  </div>
+                  <div className="mentor">
+                    <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Eric} alt="Eric Chang" />
+                    <p>Eric Chang</p>
+                    <p className="position">Lead Solutions Architect, Trusted Data Division, NDI</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div className = "wrapperThree" >
+            <div className = "containerThree">
             <div  className='textColor'>ROADMAP</div>
             <ul className="timeline" id="timeline">
               <li className="li complete">
@@ -95,7 +138,7 @@ class Home extends Component {
                   <h4> APPLICATION OPENS</h4>
                 </div>
               </li>
-              <li className="li">
+              <li className="li complete">
                 <div className="timestamp">
                   <span className="date">9 SEPTEMBER</span>
                 </div>
@@ -103,7 +146,7 @@ class Home extends Component {
                   <h4> APPLICATION CLOSES </h4>
                 </div>
               </li>
-              <li className="li">
+              <li className="li complete">
                 <div className="timestamp">
                   <span className="date">11 SEPTEMBER</span>
                 </div>
@@ -130,8 +173,8 @@ class Home extends Component {
             </ul>     
             </div>
         </div>
-        <div className = "wrapperThree" >
-            <div className = "containerThree centerClass">
+        <div className = "wrapperFour" >
+            <div className = "containerFour centerClass">
             <div className='textColor'>COMMUNITY</div>
               <div className="partnershipSection">
                 <img className = "logoSize big" src={JunctionL} alt= "JunctionLogo"/>
@@ -153,8 +196,8 @@ class Home extends Component {
             </div>
             </div>
         </div>
-        <div className = "wrapperFour" >
-            <div className = "containerFour">
+        <div className = "wrapperThree" >
+            <div className = "containerThree">
             <div className="textColor">FAQ</div>
               <div className = "subconThree">
                 <div className="accordion vertical">
