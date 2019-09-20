@@ -21,7 +21,7 @@ class MenuLinks extends Component {
               <li><a href='https://singapore.hackjunction.com/hiring' onClick={this.props.menuToggle}>Hiring</a></li>
               <li></li> 
             </ul>
-          <p className='header-css'>More Information</p>
+          <p className='header-css'>More </p>
             <ul className='bottom-margin'>
               <li><a href='https://singapore.hackjunction.com/team' onClick={this.props.menuToggle}>Team</a></li>
               <li><a href="https://blog.hackjunction.com/">Blog</a></li>
