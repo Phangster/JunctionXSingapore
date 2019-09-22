@@ -2,9 +2,14 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import '../css/Track.css';
 import Footer from '../global/Footer'
-import Smartnation from '../../images/track_img/smart-nation-singapore.jpg'
-import Anonymous from '../../images/track_img/anonymous.jpg'
-import Api from '../../images/track_img/api-prog.jpg'
+import Smartcommerce from '../../images/track_img/smartcommerce.jpg'
+import Security from '../../images/track_img/security.jpg'
+import ARVR from '../../images/track_img/arvr.jpg'
+import Rakuten from '../../images/partners_img/Rakuten.png'
+import Shopee from '../../images/partners_img/Shopee.png'
+import Kaspersky from '../../images/partners_img/kaspersky.academy.png'
+
+
 
 class Track extends Component {
   render() {
@@ -15,16 +20,19 @@ class Track extends Component {
                 <div className = "wrappertrack">
                     <div className = "grid-container">
                         <div>
-                            <div className = "grid"><NavLink to='/apihack' onClick={this.props.menuToggle}><img className="image1" src={Api} alt="Api Hack " /></NavLink></div>
-                            <p>API HACK</p>
+                            <img className= "sponsor" src={Rakuten} alt="Rakuten"/>
+                            <div className = "grid"><NavLink to='/apihack' onClick={this.props.menuToggle}><img className="image1" src={ARVR} alt="AR/VR " /></NavLink></div>
+                            <p>Augmented Reality and Virtual Reality</p>
                         </div>
                         <div>
-                            <div className = "grid"><NavLink to='/smartnation' onClick={this.props.menuToggle}><img className="image" src={Smartnation} alt="Smart Nation" /></NavLink></div>
-                            <p>SMART NATION</p>
+                            <img className= "sponsor" src={Shopee} alt="Shopee"/>
+                            <div className = "grid"><NavLink to='/smartnation' onClick={this.props.menuToggle}><img className="image1" src={Smartcommerce} alt="Smartcommerce" /></NavLink></div>
+                            <p>The future of smart Ecommerce</p>
                         </div>
                         <div>
-                            <div className = "grid"><NavLink to='/mystery' onClick={this.props.menuToggle}><img className="image1 anomynous" src={Anonymous} alt="Anonymous" /></NavLink></div>
-                            <p>MYSTERY HACK</p>
+                            <img className= "sponsor" src={Kaspersky} alt="Kaspersky" />
+                            <div className = "grid"><NavLink to='/mystery' onClick={this.props.menuToggle}><img className="image1 anomynous" src={Security} alt="Security" /></NavLink></div>
+                            <p>Security in Finance and Mobility</p>
                         </div>
                     </div>
                 </div>
@@ -47,21 +55,6 @@ class Track extends Component {
                                 <div>
                                     <h3 className="textColor">3rd</h3>
                                     <p>$100 worth of Rakuten RapidAPI credits</p>
-                                </div>
-                            </div>
-                            <div className = "grid-subPrice">
-                                <h1>Partner Prizes</h1>
-                                <div>
-                                    <h3>Api Hack</h3>
-                                    <p>TBC</p>
-                                </div>
-                                <div>
-                                    <h3>Smart Nation Hack</h3>
-                                    <p>TBC</p>
-                                </div>
-                                <div>
-                                    <h3>Mystery Hack</h3>
-                                    <p>TBC</p>
                                 </div>
                             </div>
                         </div>

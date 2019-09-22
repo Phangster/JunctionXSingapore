@@ -41,9 +41,9 @@ class App extends Component {
               <Route exact path="/hiring" component={Hiring} />
               <Route exact path="/team" component={Team} />
               
-              <Route exact path="/apihack" component={ApiHack} />
-              <Route exact path="/smartnation" component={SmartNationHack} />
-              <Route exact path="/mystery" component={MysteryHack} />
+              <Route exact path="/rakuten" component={ApiHack} />
+              <Route exact path="/shopee" component={SmartNationHack} />
+              <Route exact path="/kaspersky" component={MysteryHack} />
           </div>
         </div>
         </BrowserRouter>

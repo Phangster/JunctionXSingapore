@@ -8,8 +8,8 @@ class ApiHack extends Component {
       <div>
         <div className = "containerTrackOne">
           <div className= "tracks-css">
-            <h1>Api Hack</h1>
-            <h2>To be Confirmed . . .</h2>
+            <h1>AR/VR</h1>
+            <h2>More information will be released on the competition day itself. . .</h2>
             {/* <h2>The Challenge</h2>
             <div className="grid-track">
               <h2>What we will bring</h2>
