@@ -13,12 +13,12 @@ class Schedule extends Component {
             <div className="grid-block">
               <h2 className="schedule">DAY 1 - SEP 27</h2>
               <div className="grid-sub">
-                <p>1800</p>
-                <p>Registration</p>
-                <p>1900</p>	
-                <p>Opening ceremony</p>
-                <p>1930</p>
-                <p> Dinner and Team formation</p>
+                <p>1830</p>
+                <p>Registration and dinner</p>
+                <p>1930</p>	
+                <p>Grand Opening ceremony</p>
+                <p>2030</p>
+                <p>Team formation</p>
                 <p>2100</p>	
                 <p>Hacking begins</p>
               </div>
