@@ -26,7 +26,7 @@ class Schedule extends Component {
             <div className="grid-block">
               <h2 className="schedule">DAY 2 - SEP 28</h2>
               <div className="grid-sub">
-                <p>0900</p>
+                <p>0830</p>
                 <p>Breakfast</p>
                 <p>1000</p>
                 <p>Workshop</p>
@@ -45,7 +45,7 @@ class Schedule extends Component {
             <div className="grid-block">
               <h2 className="schedule">DAY 3 - SEP 29</h2>
               <div className="grid-sub">
-                <p>0900</p>
+                <p>0830</p>
                 <p>Breakfast</p>
                 <p>1000</p>	
                 <p>Hacking</p>
@@ -55,14 +55,20 @@ class Schedule extends Component {
                 <p>Lunch</p>
                 <p>1330</p>
                 <p>Community & partner judging</p>	
-                <p>1530</p>
-                <p>Grand pitch</p>
+                <p>1600</p>
+                <p>Score tabulation</p>
                 <p>1630</p>
-                <p>Award ceremony</p>
-                <p>1730</p>
-                <p>Closing ceremony</p>
+                <p>Rearranging the tables</p>
+                <p>1700</p>
+                <p>Final Pitch</p>
                 <p>1800</p>
-                <p>Networking</p>
+                <p>JunctionX Prize winner</p>
+                <p>1830</p>
+                <p>Score tablulation</p>
+                <p>1900</p>
+                <p>Closing ceremony</p>
+                <p>2000</p>
+                <p>Afterparty at Tribe Theory!!!</p>
               </div>
             </div>
             <div className="grid-block"></div>
