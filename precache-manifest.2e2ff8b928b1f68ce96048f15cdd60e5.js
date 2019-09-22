@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0fe27dcde5d8e3f6aed575748ac8240",
+    "revision": "dc9be8088bf38434073b9732d6a8f580",
     "url": "/index.html"
   },
   {
-    "revision": "b415ca1eaa9b73dee5ab",
-    "url": "/static/css/main.b6d2b24e.chunk.css"
+    "revision": "b8cac3f9459498235e2d",
+    "url": "/static/css/main.395c5389.chunk.css"
   },
   {
-    "revision": "aa3f698f793ed07f8d44",
-    "url": "/static/js/2.4467c5ca.chunk.js"
+    "revision": "604fcad45fd3bc0df947",
+    "url": "/static/js/2.d3abd528.chunk.js"
   },
   {
-    "revision": "b415ca1eaa9b73dee5ab",
-    "url": "/static/js/main.b9d5aad2.chunk.js"
+    "revision": "b8cac3f9459498235e2d",
+    "url": "/static/js/main.fc21e3d4.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ambidextr.e931c991.png"
   },
   {
-    "revision": "e2435b987e716ab45e2884348ccc328a",
-    "url": "/static/media/api-prog.e2435b98.jpg"
+    "revision": "a0d6d6b8d5605947e87ace74e0b25878",
+    "url": "/static/media/arvr.a0d6d6b8.jpg"
   },
   {
     "revision": "08b1ada5f0af9ed797e445070542b102",
@@ -124,12 +124,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mark_lven_palejaro.07093e8b.JPG"
   },
   {
+    "revision": "460678f34f2683d452b82545d471eb3e",
+    "url": "/static/media/security.460678f3.jpg"
+  },
+  {
     "revision": "26685929c8dadc34bb23c465bd7a8dd7",
     "url": "/static/media/shoaib_ahmed_malik.26685929.png"
   },
   {
-    "revision": "fa0565b7118e33bb11d38c66366893a8",
-    "url": "/static/media/smart-nation-singapore.fa0565b7.jpg"
+    "revision": "eb36b176b6beefbf8c219ea5a6616cd7",
+    "url": "/static/media/smartcommerce.eb36b176.jpg"
   },
   {
     "revision": "4f8c86791eb14fb0638a10e5d31168e8",
