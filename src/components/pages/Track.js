@@ -7,7 +7,7 @@ import Security from '../../images/track_img/security.jpg'
 import ARVR from '../../images/track_img/arvr.jpg'
 import Rakuten from '../../images/partners_img/Rakuten.png'
 import Shopee from '../../images/partners_img/Shopee.png'
-import Kaspersky from '../../images/partners_img/kaspersky.academy.png'
+import Kaspersky from '../../images/partners_img/kaspersky_white.png'
 
 
 
