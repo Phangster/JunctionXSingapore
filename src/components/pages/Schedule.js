@@ -50,7 +50,9 @@ class Schedule extends Component {
                 <p>1000</p>	
                 <p>Hacking</p>
                 <p>1200</p>	
-                <p>Submission deadline and Lunch</p>
+                <p>Submission deadline</p>
+                <p>1230</p>	
+                <p>Lunch</p>
                 <p>1330</p>
                 <p>Community & partner judging</p>	
                 <p>1600</p>
