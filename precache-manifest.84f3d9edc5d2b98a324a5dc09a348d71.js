@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ee4a46c8fefcfbcd7afe37ed46102c6",
+    "revision": "9f8f9ca0ac32664d5ce5c07a78b396a5",
     "url": "/index.html"
   },
   {
-    "revision": "9c8f575df36f68416c83",
+    "revision": "aa8bfc0af75333b9b07f",
     "url": "/static/css/main.395c5389.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f062b475.chunk.js"
   },
   {
-    "revision": "9c8f575df36f68416c83",
-    "url": "/static/js/main.49446d82.chunk.js"
+    "revision": "aa8bfc0af75333b9b07f",
+    "url": "/static/js/main.43993f14.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -114,10 +114,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "79230066bf33210a4d30388ba37250fb",
     "url": "/static/media/junctionx_globe_white.79230066.svg"
-  },
-  {
-    "revision": "c6f6de35af517f0fc4cf3e879e4be589",
-    "url": "/static/media/kaspersky_white.c6f6de35.png"
   },
   {
     "revision": "9e9c21a805b631f352c31cd4842630f8",
