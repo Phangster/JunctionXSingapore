@@ -13,6 +13,8 @@ import Jackie from '../../images/mentor_img/jackie.JPG'
 import Shoaib from '../../images/mentor_img/shoaib_ahmed_malik.png'
 import Marie from '../../images/mentor_img/marie_wong.jpeg'
 import Eric from '../../images/mentor_img/eric_chang.jpg'
+import Weihan from '../../images/mentor_img/weihan.jpg'
+
 
 
 
@@ -96,6 +98,11 @@ class Home extends Component {
               <p style={{fontSize:"30px"}}>MENTORS</p>
                 <div className="listOfMentors">
                   <div className="mentor">
+                    <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Weihan} alt="Goh Wei Han" />
+                    <p>Goh Wei Han</p>
+                    <p className="position">Kaspersky-certified Malware Reverse Engineering and Analysis trainer & AP of Singapore Institute of Technology in Information Security and Software Engineering</p>
+                  </div>
+                  <div className="mentor">
                     <img className="avatarMentor" src={Mark} alt="Mark Lven Tupa Palejaro" />
                     <p>Mark Lven Tupa Palejaro</p>
                     <p className="position">Co-founder of Pocket Hologram</p>
@@ -105,6 +112,8 @@ class Home extends Component {
                     <p>Jackie Tan</p>
                     <p className="position">Co-founder of UpLevel</p>
                   </div>
+                </div>
+                <div className="listOfMentors">
                   <div className="mentor">
                     <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Shoaib} alt="Shoaib Ahmed Malik" />
                     <p>Shoaib Ahmed Malik</p>
