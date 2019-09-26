@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f562f0ebf13d2509cc549f244f2729a5",
+    "revision": "6b9fb3426659226a49021dcac0642067",
     "url": "/index.html"
   },
   {
-    "revision": "203dabdbb6ce4ac6f6a9",
+    "revision": "f8add607ab21a36e5083",
     "url": "/static/css/main.bbb62b0d.chunk.css"
   },
   {
-    "revision": "71d2749db32fd150e747",
-    "url": "/static/js/2.2d57a675.chunk.js"
+    "revision": "ccf18d8c094f1b144d3b",
+    "url": "/static/js/2.6be25fda.chunk.js"
   },
   {
-    "revision": "203dabdbb6ce4ac6f6a9",
-    "url": "/static/js/main.8284c2e9.chunk.js"
+    "revision": "f8add607ab21a36e5083",
+    "url": "/static/js/main.235c34bb.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -128,6 +128,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mark_lven_palejaro.07093e8b.JPG"
   },
   {
+    "revision": "376699cbff37c7099b0fe1066312383a",
+    "url": "/static/media/satoshi.376699cb.jpg"
+  },
+  {
     "revision": "460678f34f2683d452b82545d471eb3e",
     "url": "/static/media/security.460678f3.jpg"
   },
@@ -146,5 +150,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "af735b9691a01161e8dcb2aaddfef819",
     "url": "/static/media/team.af735b96.jpg"
+  },
+  {
+    "revision": "89236235c93c9e698e0118d504052d0a",
+    "url": "/static/media/yash_datta.89236235.jpeg"
   }
 ]);

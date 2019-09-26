@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.bbb62b0d.chunk.css",
-    "main.js": "/static/js/main.8284c2e9.chunk.js",
-    "main.js.map": "/static/js/main.8284c2e9.chunk.js.map",
+    "main.js": "/static/js/main.235c34bb.chunk.js",
+    "main.js.map": "/static/js/main.235c34bb.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.2d57a675.chunk.js": "/static/js/2.2d57a675.chunk.js",
-    "static/js/2.2d57a675.chunk.js.map": "/static/js/2.2d57a675.chunk.js.map",
+    "static/js/2.6be25fda.chunk.js": "/static/js/2.6be25fda.chunk.js",
+    "static/js/2.6be25fda.chunk.js.map": "/static/js/2.6be25fda.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.81ddd6d7e92fce6e5361060029a276f8.js": "/precache-manifest.81ddd6d7e92fce6e5361060029a276f8.js",
+    "precache-manifest.6755ff808e516bd289798c6d7ff5677e.js": "/precache-manifest.6755ff808e516bd289798c6d7ff5677e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.bbb62b0d.chunk.css.map": "/static/css/main.bbb62b0d.chunk.css.map",
     "static/media/Bryan.jpg": "/static/media/Bryan.1d34223d.jpg",
@@ -38,10 +38,12 @@
     "static/media/junctionx_globe_white.svg": "/static/media/junctionx_globe_white.79230066.svg",
     "static/media/marie_wong.jpeg": "/static/media/marie_wong.9e9c21a8.jpeg",
     "static/media/mark_lven_palejaro.JPG": "/static/media/mark_lven_palejaro.07093e8b.JPG",
+    "static/media/satoshi.jpg": "/static/media/satoshi.376699cb.jpg",
     "static/media/security.jpg": "/static/media/security.460678f3.jpg",
     "static/media/shoaib_ahmed_malik.png": "/static/media/shoaib_ahmed_malik.26685929.png",
     "static/media/smartcommerce.jpg": "/static/media/smartcommerce.eb36b176.jpg",
     "static/media/startupx1.jpeg": "/static/media/startupx1.4f8c8679.jpeg",
-    "static/media/team.jpg": "/static/media/team.af735b96.jpg"
+    "static/media/team.jpg": "/static/media/team.af735b96.jpg",
+    "static/media/yash_datta.jpeg": "/static/media/yash_datta.89236235.jpeg"
   }
 }
