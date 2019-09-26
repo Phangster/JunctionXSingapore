@@ -21,17 +21,17 @@ class Track extends Component {
                     <div className = "grid-container">
                         <div>
                             <img className= "sponsor" src={Rakuten} alt="Rakuten"/>
-                            <div className = "grid"><NavLink to='/apihack' onClick={this.props.menuToggle}><img className="image1" src={ARVR} alt="AR/VR " /></NavLink></div>
+                            <div className = "grid"><NavLink to='/rakuten' onClick={this.props.menuToggle}><img className="image1" src={ARVR} alt="AR/VR " /></NavLink></div>
                             <p>Augmented Reality and Virtual Reality</p>
                         </div>
                         <div>
                             <img className= "sponsor" src={Shopee} alt="Shopee"/>
-                            <div className = "grid"><NavLink to='/smartnation' onClick={this.props.menuToggle}><img className="image1" src={Smartcommerce} alt="Smartcommerce" /></NavLink></div>
+                            <div className = "grid"><NavLink to='/shopee' onClick={this.props.menuToggle}><img className="image1" src={Smartcommerce} alt="Smartcommerce" /></NavLink></div>
                             <p>The future of smart Ecommerce</p>
                         </div>
                         <div>
                             <img className= "sponsor" src={Kaspersky} alt="Kaspersky" />
-                            <div className = "grid"><NavLink to='/mystery' onClick={this.props.menuToggle}><img className="image1 anomynous" src={Security} alt="Security" /></NavLink></div>
+                            <div className = "grid"><NavLink to='/kaspersky' onClick={this.props.menuToggle}><img className="image1 anomynous" src={Security} alt="Security" /></NavLink></div>
                             <p>Security in Finance and Mobility</p>
                         </div>
                     </div>
