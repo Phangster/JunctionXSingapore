@@ -45,17 +45,9 @@ class Track extends Component {
                                 <div>
                                     <h3 className="textColor">1st</h3>
                                     <p>All team members gets a the *GOLDEN TICKET</p>
-                                    <p>$250 worth of Rakuten RapidAPI credits</p>
+                                    <p>$500 worth of Rakuten RapidAPI credits</p>
                                     <p className="smallWords">* An opportunity of the life time to fly to Helsinki to Hackjunction to participate in </p>
                                     <p className="smallWords">Europe's largest hackathon with 200 Euros reimbursement and free accomodation over the period of the event</p>
-                                </div>
-                                <div>
-                                    <h3 className="textColor">2nd</h3>
-                                    <p>$150 worth of Rakuten RapidAPI credits</p>
-                                </div>
-                                <div>
-                                    <h3 className="textColor">3rd</h3>
-                                    <p>$100 worth of Rakuten RapidAPI credits</p>
                                 </div>
                             </div>
                             <div></div>
