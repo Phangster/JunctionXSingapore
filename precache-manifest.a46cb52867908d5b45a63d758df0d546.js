@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b9fb3426659226a49021dcac0642067",
+    "revision": "8f99315f22604c00cce8a9d19ecef520",
     "url": "/index.html"
   },
   {
-    "revision": "f8add607ab21a36e5083",
+    "revision": "7f7aad20f71483f59014",
     "url": "/static/css/main.bbb62b0d.chunk.css"
   },
   {
-    "revision": "ccf18d8c094f1b144d3b",
-    "url": "/static/js/2.6be25fda.chunk.js"
+    "revision": "b68085d364903cb1ef89",
+    "url": "/static/js/2.02a9e3d3.chunk.js"
   },
   {
-    "revision": "f8add607ab21a36e5083",
-    "url": "/static/js/main.235c34bb.chunk.js"
+    "revision": "7f7aad20f71483f59014",
+    "url": "/static/js/main.0cbb33c7.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Helena.37e7b86c.jpg"
   },
   {
+    "revision": "e6b5b4fc9e4d462af7eba31e9321e60e",
+    "url": "/static/media/Jeff_Guo_Qing.e6b5b4fc.png"
+  },
+  {
     "revision": "2aad815e4eb2e7026ad94e75a7846688",
     "url": "/static/media/JunctionX_logos-wordmark-white.2aad815e.svg"
   },
@@ -48,12 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/JunctionX_nav.7ae57dd0.png"
   },
   {
+    "revision": "dcd47e405a812b2f2b514c95acc9dde1",
+    "url": "/static/media/Liang_Jingxi.dcd47e40.jpg"
+  },
+  {
     "revision": "ff0fda02b83b37babde5b36de0481d17",
     "url": "/static/media/Naomi.ff0fda02.jpg"
   },
   {
     "revision": "4a695774ab949705009efe46c1b719f6",
     "url": "/static/media/Petra.4a695774.jpg"
+  },
+  {
+    "revision": "56e51226f2977dcf255a7913b4b80264",
+    "url": "/static/media/Phan_Huy_Nguyen.56e51226.jpg"
   },
   {
     "revision": "94c02e24fcb45e0152b1dadcd9b0a216",
