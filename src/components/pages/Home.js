@@ -18,12 +18,11 @@ import Jed from '../../images/mentor_img/jed.jpeg'
 import Satoshi from '../../images/mentor_img/satoshi.jpg'
 import Yash from '../../images/mentor_img/yash_datta.jpeg'
 import Ahmed from '../../images/mentor_img/ahmed_amer.jpeg'
-
-
-
-
-
-
+// import Do from '../../images/mentor_img/Do_Hoang_Giang.jpg'
+import Jeff from '../../images/mentor_img/Jeff_Guo_Qing.png'
+// import Jingchang from '../../images/mentor_img/Jingchang_Zhang.JPG'
+import Liang from '../../images/mentor_img/Liang_Jingxi.jpg'
+import Phan from '../../images/mentor_img/Phan_Huy_Nguyen.jpg'
 
 
 class Home extends Component {
@@ -124,6 +123,26 @@ class Home extends Component {
               </div>
               <div className="listOfMentors">
                 <div className="mentor">
+                  <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Jeff} alt="Jeff Guo Qing" />
+                  <p>Jeff Guo Qing</p>
+                  <p className="position">Software Engineer in Shopee</p>
+                  <h4 style={{textAlign: "center", color: "orange"}}>Shopee</h4>
+                </div>
+                <div className="mentor">
+                  <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Phan} alt="Phan Huy Nguyen" />
+                  <p>Phan Huy Nguyen</p>
+                  <p className="position">Software Engineer (Data) in Shopee</p>
+                  <h4 style={{textAlign: "center", color: "orange"}}>Shopee</h4>
+                </div>
+                <div className="mentor">
+                  <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Liang} alt="Liang Jingxi" />
+                  <p>Liang Jingxi</p>
+                  <p className="position">Software Engineer in Shopee</p>
+                  <h4 style={{textAlign: "center", color: "orange"}}>Shopee</h4>
+                </div>
+              </div>
+              <div className="listOfMentors">
+                <div className="mentor">
                   <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Weihan} alt="Goh Wei Han" />
                   <p>Goh Wei Han</p>
                   <p className="position">Kaspersky-certified Malware Reverse Engineering and Analysis Trainer</p>
@@ -199,18 +218,10 @@ class Home extends Component {
               </li>
               <li className="li">
                 <div className="timestamp">
-                  <span className="date">26 SEPTEMBER</span>
-                </div>
-                <div className="status">
-                  <h4> RELEASE OF QUESTIONS </h4>
-                </div>
-              </li>
-              <li className="li">
-                <div className="timestamp">
                   <span className="date">27 SEPTEMBER</span>
                 </div>
                 <div className="status">
-                  <h4> HACKATHON DAY </h4>
+                  <h4> HACKATHON DAY & RELEASE OF QUESTIONS </h4>
                 </div>
               </li>
             </ul>     
