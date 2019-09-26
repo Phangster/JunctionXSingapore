@@ -15,6 +15,10 @@ import Marie from '../../images/mentor_img/marie_wong.jpeg'
 import Eric from '../../images/mentor_img/eric_chang.jpg'
 import Weihan from '../../images/mentor_img/weihan.jpg'
 import Jed from '../../images/mentor_img/jed.jpeg'
+import Satoshi from '../../images/mentor_img/satoshi.jpg'
+import Yash from '../../images/mentor_img/yash_datta.jpeg'
+import Ahmed from '../../images/mentor_img/ahmed_amer.jpeg'
+
 
 
 
@@ -100,11 +104,33 @@ class Home extends Component {
               <p style={{fontSize:"30px"}}>TRACK MENTORS</p>
               <div className="listOfMentors">
                 <div className="mentor">
-                    <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Weihan} alt="Goh Wei Han" />
-                    <p>Goh Wei Han</p>
-                    <p className="position">Kaspersky-certified Malware Reverse Engineering and Analysis trainer & AP of Singapore Institute of Technology in Information Security and Software Engineering</p>
-                  </div>
+                  <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Yash} alt="Datta, Yash" />
+                  <p>Datta, Yash</p>
+                  <p className="position">Senior Software Engineer, Data Management Group</p>
+                  <h4 style={{textAlign: "center", color: "red"}}>Rakuten</h4>
                 </div>
+                <div className="mentor">
+                  <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Ahmed} alt="Amer, Ahmed" />
+                  <p>Amer, Ahmed</p>
+                  <p className="position">Senior Product Manager, Data Management Group</p>
+                  <h4 style={{textAlign: "center", color: "red"}}>Rakuten</h4>
+                </div>
+                <div className="mentor">
+                  <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Satoshi} alt="Goto, Satoshi" />
+                  <p>Goto, Satoshi</p>
+                  <p className="position">Senior Software Engineer, Rakuten Web Search Group</p>
+                  <h4 style={{textAlign: "center", color: "red"}}>Rakuten</h4>
+                </div>
+              </div>
+              <div className="listOfMentors">
+                <div className="mentor">
+                  <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Weihan} alt="Goh Wei Han" />
+                  <p>Goh Wei Han</p>
+                  <p className="position">Kaspersky-certified Malware Reverse Engineering and Analysis Trainer</p>
+                  <h4 style={{textAlign: "center", color: "green"}}>Kaspersky</h4>
+                </div>
+              </div>
+
               <p style={{fontSize:"30px"}}>GUEST MENTORS</p>
                 <div className="listOfMentors">
                   <div className="mentor">
