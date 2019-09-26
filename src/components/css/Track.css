@@ -79,6 +79,14 @@ img{
 .sponsor{
     height: 5rem;
 }
+
+.grid-track{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-column-gap: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
 @media(max-width: 768px){
     .grid-container {
         display: grid;
@@ -102,6 +110,12 @@ img{
     }
 
     .grid-prize{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2rem;
+    }
+
+    .grid-track{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 2rem;
