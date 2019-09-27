@@ -292,6 +292,12 @@ iframe {
   height:100%;
 }
 
+.context-box-des{
+  width: 35rem;
+  font-family: 'Lato';
+  font-weight: '200'
+}
+
 @media(max-width: 768px){
   .container {
       background: black;
@@ -379,5 +385,9 @@ iframe {
 
   img {
     display: inline-block
+  }
+  
+  .context-box-des{
+    width: auto;
   }
 }

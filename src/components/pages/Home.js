@@ -10,7 +10,6 @@ import JunctionL from '../../images/junction_img/junctionx_globe_black.svg'
 import JunctionR from '../../images/junction_img/junctionx_globe_white.svg'
 import Mark from '../../images/mentor_img/mark_lven_palejaro.JPG'
 import Jackie from '../../images/mentor_img/jackie.JPG'
-import Shoaib from '../../images/mentor_img/shoaib_ahmed_malik.png'
 import Marie from '../../images/mentor_img/marie_wong.jpeg'
 import Eric from '../../images/mentor_img/eric_chang.jpg'
 import Weihan from '../../images/mentor_img/weihan.jpg'
@@ -108,19 +107,33 @@ class Home extends Component {
                   <p className="position">Senior Software Engineer, Data Management Group</p>
                   <h4 style={{textAlign: "center", color: "red"}}>Rakuten</h4>
                 </div>
+                <div className="context-box-des">
+                  <p style={{objectPosition: "100% 0"}}>Yash is a builder and a maker at heart. He is passionate about solving real world problems through the use of technology. A scala fan-boy, Yash is also an avid open source enthusiast and has contributed code to several open source projects. Yash has been architecting and developing complex, robust, distributed systems in his various roles at Internet scale companies like Agoda and Rakuten. His interests include but are not limited to : Data Analytics, Database systems, Big data systems, Theoretical Physics, Chaos Theory, Number Theory etc. In his free time he loves to play table tennis and chess.</p>
+                </div>
+              </div>
+
+              <div className="listOfMentors">
                 <div className="mentor">
                   <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Ahmed} alt="Amer, Ahmed" />
                   <p>Amer, Ahmed</p>
                   <p className="position">Senior Product Manager, Data Management Group</p>
                   <h4 style={{textAlign: "center", color: "red"}}>Rakuten</h4>
                 </div>
+                <div className="context-box-des"><p>Ahmed loves technology so much it made him study Software Engineering. Out of school, he managed & delivered Web & UX Design projects for clients like Astro and M1. Fast forward a few years, he moved into designing & building digital products for Internet companies like Tech In Asia and Rakuten. Beyond work, he helped his parents run a Middle Eastern Vegetarian restaurant and self publishes books to raise awareness & funds for less privileged communities.</p></div>
+              </div>
+
+              <div className="listOfMentors">
                 <div className="mentor">
                   <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Satoshi} alt="Goto, Satoshi" />
                   <p>Goto, Satoshi</p>
                   <p className="position">Senior Software Engineer, Rakuten Web Search Group</p>
                   <h4 style={{textAlign: "center", color: "red"}}>Rakuten</h4>
                 </div>
+                <div className="context-box-des">
+                  <p>Started engineering career from Desktop app with C/C++/C# and eventually moved to financial frontend/backend area for trader/security exchanges. Now contributing to the mobile/web area with swift/java/objective c/python/c++ and browser extension with react/JS. Made many individual contribution for my own apps and start-up in Singapore.</p>
+                </div>
               </div>
+
               <div className="listOfMentors">
                 <div className="mentor">
                   <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Jeff} alt="Jeff Guo Qing" />
@@ -128,19 +141,29 @@ class Home extends Component {
                   <p className="position">Software Engineer in Shopee</p>
                   <h4 style={{textAlign: "center", color: "orange"}}>Shopee</h4>
                 </div>
+                <div className="context-box-des"><p>Jeff Guo is a software engineer in Shopee. He is currently developing recommender systems for Shopee platform to promote the user experience. He obtained Ph.D from Nanyang Technological University in Singapore. Jeff’s research interests are recommender systems and AI technologies. His vision of future technology is that it will constantly enable the connectivity between all different kinds of entities in this world. In the future, more advanced intelligent systems will be developed to drive connectivity and make our planet a better place to live in.</p></div>
+              </div>
+
+              <div className="listOfMentors">
                 <div className="mentor">
                   <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Phan} alt="Phan Huy Nguyen" />
                   <p>Phan Huy Nguyen</p>
                   <p className="position">Software Engineer (Data) in Shopee</p>
                   <h4 style={{textAlign: "center", color: "orange"}}>Shopee</h4>
                 </div>
+                <div className="context-box-des"><p>Phan Huy Nguyen graduated from NTU Computer Science and has since been working in Shopee as a software engineer for the past two years. As a relatively fresh software engineer, he is keen to explore different fields in the IT industry. He has worked in both data and dev-ops team, and was involved in various projects, including building data pipelines, writing web servers, developing monitoring tools and containerising services. He is excited to work with students from the JunctionX Singapore Hackathon, supporting their bold and creative ideas.</p></div>
+              </div>
+
+              <div className="listOfMentors">
                 <div className="mentor">
                   <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Liang} alt="Liang Jingxi" />
                   <p>Liang Jingxi</p>
                   <p className="position">Software Engineer in Shopee</p>
                   <h4 style={{textAlign: "center", color: "orange"}}>Shopee</h4>
                 </div>
+                <div className="context-box-des"><p>Liang Jingxi is a technology enthusiast who believes in the power of artificial intelligence. He is now a Machine Learning Engineer at Shopee and he applies his machine learning skills to build models and provide libraries to serve Shopee's recommender system to improve the end-user experience. Jingxi also writes and maintains high-availability, scalable services to support Shopee’s rapidly-increasing traffic.</p></div>
               </div>
+              
               <div className="listOfMentors">
                 <div className="mentor">
                   <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Weihan} alt="Goh Wei Han" />
@@ -148,26 +171,30 @@ class Home extends Component {
                   <p className="position">Kaspersky-certified Malware Reverse Engineering and Analysis Trainer</p>
                   <h4 style={{textAlign: "center", color: "green"}}>Kaspersky</h4>
                 </div>
+                <div className="context-box-des"><p>Goh Weihan is a Kaspersky-certified Malware Reverse Engineering and Analysis trainer, and an Assistant Professor at the Singapore Institute of Technology (SIT), teaching in the Information Security and Software Engineering degree programmes.  His current research interests include blockchain, web and network protocol security, digital anti-forensics, and applied cryptography.  </p></div>
               </div>
 
               <p style={{fontSize:"30px"}}>GUEST MENTORS</p>
+
                 <div className="listOfMentors">
                   <div className="mentor">
                     <img className="avatarMentor" src={Mark} alt="Mark Lven Tupa Palejaro" />
                     <p>Mark Lven Tupa Palejaro</p>
                     <p className="position">Co-founder of Pocket Hologram</p>
                   </div>
+                  <div className="context-box-des"><p>Co-founder of Pocket Hologram as well as an active volunteer in One Maker Group, Sustainable Living Lab, and in various National Geographic Channel events. These groups use their talents in the field of Mechatronics, Internet of Things, Artificial Intelligence, virtual and augmented reality, challenge their knowledge and create innovations that science has to offer. Don't miss the opportunity to learn from a MAKER, ENGINEER, and a sharer of knowledge. Come and let's learn together! See you!</p></div>
+                </div>
+
+                <div className="listOfMentors">
                   <div className="mentor">
                     <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Jackie} alt="Jackie Tan" />
                     <p>Jackie Tan</p>
                     <p className="position">Co-founder of UpLevel</p>
                   </div>
-                  <div className="mentor">
-                    <img className="avatarMentor" style={{objectPosition: "100% 0"}} src={Shoaib} alt="Shoaib Ahmed Malik" />
-                    <p>Shoaib Ahmed Malik</p>
-                    <p className="position">Team Lead of Business Intelligence & Data Warehouse Development </p>
+                  <div className="context-box-des"><p>Jackie Tan is currently the co-founder of UpLevel, an edutech company that bridges the gap between coding education and technical employment through mentorship and projects. Previously, he ran fundMyLife, a Q&A platform for financial planning questions which he exited in early 2019. He is also a Forbes 30 Under 30 honoree for his work on transforming how young adults approach finance. He was the Chief Academic Officer of UpCode Academy, a coding school that provides industry-ready skills to professionals and students.Passionate about giving back ,Jackie is a mentor for the NEXT50 Mentorship movement and for the Sustainable Developmental Goal startup generator YSI SEA. He is also involved in hackathons as judge and mentor. When he is not working, he admins the largest Telegram meme group in Singapore, Memes n Dreams. </p>
                   </div>
                 </div>
+
                 <p style={{fontSize:"30px"}}>WORKSHOP</p>
                 <div className="listOfMentors">
                   <div className="mentor">
