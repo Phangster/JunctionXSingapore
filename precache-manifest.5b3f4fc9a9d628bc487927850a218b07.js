@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc0e0d9a8c82933dd938d1b4bcf9896e",
+    "revision": "07388eb0195c115f81220173ee8f340a",
     "url": "/index.html"
   },
   {
-    "revision": "9a91f8c402219e27b0b1",
-    "url": "/static/css/main.02c06c4c.chunk.css"
+    "revision": "1bad2a612742a315f256",
+    "url": "/static/css/main.5a51569a.chunk.css"
   },
   {
-    "revision": "f7646567edbd1b58a689",
-    "url": "/static/js/2.df1b2cba.chunk.js"
+    "revision": "73f2a2b72031c1b73fdc",
+    "url": "/static/js/2.314c4c9b.chunk.js"
   },
   {
-    "revision": "9a91f8c402219e27b0b1",
-    "url": "/static/js/main.09e857c4.chunk.js"
+    "revision": "1bad2a612742a315f256",
+    "url": "/static/js/main.028299f7.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -150,10 +150,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "460678f34f2683d452b82545d471eb3e",
     "url": "/static/media/security.460678f3.jpg"
-  },
-  {
-    "revision": "26685929c8dadc34bb23c465bd7a8dd7",
-    "url": "/static/media/shoaib_ahmed_malik.26685929.png"
   },
   {
     "revision": "eb36b176b6beefbf8c219ea5a6616cd7",
