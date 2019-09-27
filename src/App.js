@@ -14,10 +14,9 @@ import Hiring from "./components/pages/Hiring";
 import Team from "./components/pages/Team";
 
 
-import ApiHack from "./components/tracks/ApiHack";
-import SmartNationHack from "./components/tracks/SmartNationHack";
-import MysteryHack from "./components/tracks/MysteryHack";
-
+import Rakuten from "./components/tracks/Rakuten";
+import Shopee from "./components/tracks/Shopee";
+import Kaspersky from "./components/tracks/Kaspersky";
 
 
 
@@ -41,9 +40,9 @@ class App extends Component {
               <Route exact path="/hiring" component={Hiring} />
               <Route exact path="/team" component={Team} />
               
-              <Route exact path="/rakuten" component={ApiHack} />
-              <Route exact path="/shopee" component={SmartNationHack} />
-              <Route exact path="/kaspersky" component={MysteryHack} />
+              <Route exact path="/rakuten" component={Rakuten} />
+              <Route exact path="/shopee" component={Shopee} />
+              <Route exact path="/kaspersky" component={Kaspersky} />
           </div>
         </div>
         </BrowserRouter>

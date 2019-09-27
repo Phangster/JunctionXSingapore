@@ -1,5 +1,5 @@
 .containerTrackOne{
-    padding-top: 10rem;
+    padding-top: 2rem;
     padding-bottom: 10rem;
 }
 
@@ -7,6 +7,19 @@ h2{
     font-family: 'Lato' , sans-serif
 }
 
-/* .tracks-css{
-    
-} */
+.track-css {
+    padding: 0 25rem 0 25rem;
+}
+
+.partner_block{
+    display: flex;
+    justify-content: center;
+}
+
+.partner_img{
+    width: 400px
+}
+
+.textsmaller{
+    font-family: Lato
+}
