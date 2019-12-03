@@ -61,11 +61,11 @@ class Track extends Component {
                                     </div>
                                     <div>
                                         <h3 className="textColor">2nd</h3>
-                                        <p>$200 cash</p>
+                                        <p>$125 cash</p>
                                     </div>
                                     <div>
                                         <h3 className="textColor">3rd</h3>
-                                        <p>$100 Cash</p>
+                                        <p>$75 Cash</p>
                                     </div>
                                 </div>
                                 <div className = "grid-subPrice">
