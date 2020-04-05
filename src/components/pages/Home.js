@@ -64,7 +64,7 @@ class Home extends Component {
           </video>
           <div className = "containerOne">
             <img className = "logoSize" src={JunctionLogo} alt= "JunctionLogo"/>
-            <p className = "headerLogo">JUNCTIONX SINGAPORE</p>
+            <p className = "headerLogo">JUNCTIONX ASIA</p>
             <p>HACK THE FUTURE</p>
             <div className = "textTwo color">27. - 29.09.2019</div>
           </div>
@@ -75,7 +75,7 @@ class Home extends Component {
             <div>
               <div className="textOne">JunctionX Singapore</div>
               <div className="textTwo subconOne">
-                <div>Europe's biggest hackathon is coming to SINGAPORE!</div>
+                <div>Europe's biggest hackathon is coming to ASIA!</div>
                 <br></br>
                 <div>
                   JunctionX Singapore is an event where developers, coders and designers compete in diverse teams to build and present their innovative and revolutionary ideas. Hackers from different backgrounds form teams to work on cutting edge technologies and solve real business problems proposed by companies.
