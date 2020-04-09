@@ -8,6 +8,7 @@ import sample from '../../videos/intro.mp4';
 import JunctionLogo from '../../images/junction_img/JunctionX_logos_white.png'
 import JunctionL from '../../images/junction_img/junctionx_globe_black.svg'
 import JunctionR from '../../images/junction_img/junctionx_globe_white.svg'
+import JunctionCollab from '../../images/junction_img/junctionx_2020_collab.jpg'
 import Mark from '../../images/mentor_img/mark_lven_palejaro.JPG'
 import Jackie from '../../images/mentor_img/jackie.JPG'
 import Marie from '../../images/mentor_img/marie_wong.jpeg'
@@ -66,7 +67,7 @@ class Home extends Component {
             <img className = "logoSize" src={JunctionLogo} alt= "JunctionLogo"/>
             <p className = "headerLogo">JUNCTIONX SINGAPORE</p>
             <p>HACK THE FUTURE</p>
-            <div className = "textTwo color">27. - 29.09.2019</div>
+            <div className = "textTwo color">To be confirmed - We will update you guys soon!</div>
           </div>
         </div>
         <div className = "wrapperTwo">
@@ -75,16 +76,14 @@ class Home extends Component {
             <div>
               <div className="textOne">JunctionX Singapore</div>
               <div className="textTwo subconOne">
-                <div>Europe's biggest hackathon is coming to SINGAPORE!</div>
+                <div>Europe's biggest hackathon is going online!</div>
                 <br></br>
                 <div>
-                  JunctionX Singapore is an event where developers, coders and designers compete in diverse teams to build and present their innovative and revolutionary ideas. Hackers from different backgrounds form teams to work on cutting edge technologies and solve real business problems proposed by companies.
+                  JunctionX Singapore will be collaborating with other JunctionX teams from Asia, to host an online Hackathon to tackle the current global pandemic.
                 </div>
-                <br></br>
-                <div>Hack the future with us!</div>
               </div>
               <div className="subconTwo">
-                <iframe src="https://www.youtube.com/embed/c7SoIr0I2Qg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <img className="logoSize" src={JunctionCollab} alt= "JunctionCollab"/>
               </div>
             </div>
           </div>
