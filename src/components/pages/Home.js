@@ -23,6 +23,10 @@ import Jeff from '../../images/mentor_img/Jeff_Guo_Qing.png'
 import Liang from '../../images/mentor_img/Liang_Jingxi.jpg'
 import Phan from '../../images/mentor_img/Phan_Huy_Nguyen.jpg'
 
+// JunctionXAsia
+import JunctionAsiaPoster from '../../images/junctionx_asia_img/JunctionX_2020_intro.jpg'
+import JunctionAsiaLogo1 from '../../images/junctionx_asia_img/junctionx_asia_white_oneline.png'
+
 
 class Home extends Component {
 
@@ -64,9 +68,10 @@ class Home extends Component {
           </video>
           <div className = "containerOne">
             <img className = "logoSize" src={JunctionLogo} alt= "JunctionLogo"/>
-            <p className = "headerLogo">JUNCTIONX ASIA</p>
-            <p>HACK THE FUTURE</p>
-            <div className = "textTwo color">27. - 29.09.2019</div>
+            {/* <p className = "headerLogo">JUNCTIONX ASIA</p> */}
+            <img src={JunctionAsiaLogo1} className="headerLogoImg" ></img>
+            <p>HACK THE VIRUS</p>
+            <div className = "textTwo color">4. - 7.06.2020</div>
           </div>
         </div>
         <div className = "wrapperTwo">
@@ -75,22 +80,25 @@ class Home extends Component {
             <div>
               <div className="textOne">JunctionX Singapore</div>
               <div className="textTwo subconOne">
-                <div>Europe's biggest hackathon is coming to ASIA!</div>
+                <div>JunctionX Asia is going ONLINE!</div>
                 <br></br>
                 <div>
-                  JunctionX Singapore is an event where developers, coders and designers compete in diverse teams to build and present their innovative and revolutionary ideas. Hackers from different backgrounds form teams to work on cutting edge technologies and solve real business problems proposed by companies.
+                    JunctionX Singapore will be collaborating with other JunctionX teams from Asia, to host an online hackathon.
+                    The theme of the hackathon revolves around the current global pandemic.
                 </div>
+                <div>Sign-ups will be opening soon, stay tuned!</div>
                 <br></br>
-                <div>Hack the future with us!</div>
+                <div>Hack the virus with us!</div>
               </div>
               <div className="subconTwo">
-                <iframe src="https://www.youtube.com/embed/c7SoIr0I2Qg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <img src={JunctionAsiaPoster} />
               </div>
             </div>
           </div>
         </div>
         <div className = "wrapperThree">
             <div className = "containerThree">
+                <div className = "textColorHeader">Checkout JunctionX Singapore 2019</div>
                 <div  className='textColor'>LOCATION</div>
                 <div className="textOne">See you at <span className = "locationText">Rakuten Asia Pte Ltd!</span></div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.819926160307!2d103.84793611550867!3d1.281802599065105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190c2b3223d1%3A0x922bbd5aba9592c2!2sRakuten+Asia+Pte+Ltd!5e0!3m2!1sen!2ssg!4v1562581464126!5m2!1sen!2ssg" frameBorder="0" allowFullScreen></iframe>
