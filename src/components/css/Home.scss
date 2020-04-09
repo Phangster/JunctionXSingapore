@@ -1,37 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900');
-
 .container {
-  margin-top: -4rem;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  display: block;
-}s
-
-.color {
-  color: #35e2df;
+    margin-top: -4rem;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: block;
 }
 
-.image{
-  width: 30%;
-  opacity: 1;
-  border: none;
+s .color {
+    color: #35e2df;
 }
 
-.logoSize{
-  width: 20%;
-  border: 0;
-  opacity: 1;
-  margin-top: 6rem;
+.image {
+    width: 30%;
+    opacity: 1;
+    border: none;
 }
 
-.NavLogo{
-  width: 80%;
-  margin-top: 3rem;
+.logoSize {
+    width: 20%;
+    border: 0;
+    opacity: 1;
+    margin-top: 4rem;
+}
+
+.NavLogo {
+    width: 80%;
+    margin-top: 3rem;
 }
 
 .locationText {
-  font-size: 30px 
+    font-size: 30px
 }
 
 .wrapperOne {
@@ -53,9 +52,9 @@
 }
 
 .wrapperFour {
-  background: white;
-  padding: 10rem;
-  padding-top: 5rem;
+    background: white;
+    padding: 10rem;
+    padding-top: 5rem;
 }
 
 .headerLogo {
@@ -64,11 +63,18 @@
     padding-bottom: 0
 }
 
+.headerLogoImg {
+    padding-bottom: 0;
+    width: 40%;
+    display: block;
+    margin: auto
+}
+
 .containerOne {
     text-align: center;
     color: white;
     width: 100%;
-    z-index:1;
+    z-index: 1;
     position: absolute;
     margin-top: 4rem
 }
@@ -78,316 +84,339 @@
 }
 
 .subconOne {
-  display: inline-block;
-  position: relative;
-  width: 50%
+    display: inline-block;
+    position: relative;
+    width: 50%
 }
 
 .subconTwo {
-  width: 45%;
-  display: inline-block;
-  float: right;
-
+    width: 50%;
+    display: inline-block;
+    float: right;
+    margin-top: -2rem;
+    margin-left: 0rem;
 }
 
 iframe {
-  width: 100%;
-  height: 40vh;
+    width: 100%;
+    height: 40vh;
 }
 
 .containerThree {
-  color: #ffffff;
+    color: #ffffff;
 }
 
-.containerFour{
+.containerFour {
     color: black
 }
 
-.centerClass{
-  text-align: center;
+.centerClass {
+    text-align: center;
 }
 
-.volunteerSection{
-  width: 45%;
-  display: inline-block;
+.volunteerSection {
+    width: 45%;
+    display: inline-block;
 }
 
-.partnershipSection{
-  width: 45%;
-  display: inline-block;
-  float: left;
+.partnershipSection {
+    width: 45%;
+    display: inline-block;
+    float: left;
 }
 
-.big{
-  margin-top: 0;
-  width: 45%
+.big {
+    margin-top: 0;
+    width: 45%
 }
 
-.videoTag{
-  position: relative;
-  max-width: 100%; 
-  z-index:0;
-  margin-top: auto;
-  height: 100vh
+.videoTag {
+    position: relative;
+    max-width: 100%;
+    z-index: 0;
+    margin-top: auto;
+    height: 100vh
 }
 
-.image{
-  display: inline-block;
-  height: 200px;
-  width: 250px;
-  padding: 2px;
+.image {
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    padding: 2px;
 }
 
-.entre_logo{
-  width: 350px
+.entre_logo {
+    width: 350px
 }
 
 .container-partners {
-  width: 100%;
+    width: 100%;
 }
 
-.subconThree{
-  width: 50%;
-  display: inline-block;
-  color: white
+.subconThree {
+    width: 50%;
+    display: inline-block;
+    color: white
 }
 
 .avatarMentor {
-  object-fit: cover;
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-  opacity: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    opacity: 1;
 }
 
 .position {
-  font-family: 'Lato';
-  font-size: 14px
+    font-family: 'Lato';
+    font-size: 14px
 }
 
-.mentor{
-  width: 250px;
-  display: inline-block
+.mentor {
+    width: 250px;
+    display: inline-block
 }
 
-.listOfMentors{
-  display: flex;
-  justify-content: space-around;
+.listOfMentors {
+    display: flex;
+    justify-content: space-around;
 }
+
 
 /*Modal*/
 
-.modal-position{
-  display: flex;
-  align-items: center
+.modal-position {
+    display: flex;
+    align-items: center
 }
+
 
 /*Button*/
-@mixin color($color){
-  background-color: $color;
-  border: 2px solid $color;
-  
-  &:hover{
-    background-color: white;
-    color: $color;
-  }
+
+@mixin color($color) {
+    background-color: $color;
+    border: 2px solid $color;
+    &:hover {
+        background-color: white;
+        color: $color;
+    }
 }
 
-.center{ text-align: center; }
-
-.btn{
-  color: white;
-  cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  letter-spacing: .08rem;
-  margin: 1.8rem .8rem;
-  padding: 1rem 2rem;
-  transition: all .4s;
-  text-transform: uppercase;
-  
-  &--orange{ @include color(#F79E02); }
-  
-  &--cyan{ @include color(#5CDB95); }
-  
-  &--blue{ @include color(#97CAEF); }
-  
-  &--pink{ @include color(#F64C72); }
-  
-  &--black{ @include color(#112D32); }
-  
-  &--red{ @include color(#C60021); }
-  
-  &--gray{ @include color(#CDCDCD); }
+.center {
+    text-align: center;
 }
+
+.btn {
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: .08rem;
+    margin: 1.8rem .8rem;
+    padding: 1rem 2rem;
+    transition: all .4s;
+    text-transform: uppercase;
+    &--orange {
+        @include color(#F79E02);
+    }
+    &--cyan {
+        @include color(#5CDB95);
+    }
+    &--blue {
+        @include color(#97CAEF);
+    }
+    &--pink {
+        @include color(#F64C72);
+    }
+    &--black {
+        @include color(#112D32);
+    }
+    &--red {
+        @include color(#C60021);
+    }
+    &--gray {
+        @include color(#CDCDCD);
+    }
+}
+
 
 /*Accordion*/
+
 .accordion {
-  margin:0 auto;
+    margin: 0 auto;
 }
+
 .accordion ul {
-  list-style:none;
-  margin:0;
-  padding:0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
 .accordion li {
-  margin:0;
-  padding:25px;
+    margin: 0;
+    padding: 25px;
 }
-.accordion [type=radio], .accordion [type=checkbox] {
-  display:none;
+
+.accordion [type=radio],
+.accordion [type=checkbox] {
+    display: none;
 }
+
 .accordion label {
-  display:block;
-  font-size:16px;
-  line-height:16px;
-  background-color: #a9a9a9; 
-  color:black;
-  font-weight:700;
-  cursor:pointer;
-  text-transform:uppercase;
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: #a9a9a9;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
 }
-.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
-  color: white;
+
+.accordion ul li label:hover,
+.accordion [type=radio]:checked~label,
+.accordion [type=checkbox]:checked~label {
+    color: white;
 }
+
 .accordion .content {
-  padding:0 10px;
-  overflow:hidden;
+    padding: 0 10px;
+    overflow: hidden;
 }
-.accordion .text{
-  
-  padding:15px 10px;
+
+.accordion .text {
+    padding: 15px 10px;
 }
+
 .accordion p:hover {
-  color:red;
-  cursor: pointer;
-  background-color: #35e2df;
+    color: red;
+    cursor: pointer;
+    background-color: #35e2df;
 }
+
 .accordion h3 {
-  padding:0;
-  margin:10px 0;
+    padding: 0;
+    margin: 10px 0;
 }
-
-
 
 .vertical ul li {
-  overflow:hidden;
-  margin:0 0 1px;
+    overflow: hidden;
+    margin: 0 0 1px;
 }
+
 .vertical ul li label {
-  padding:10px;
+    padding: 10px;
 }
-.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
-  border-bottom:0;
+
+.vertical [type=radio]:checked~label,
+.vertical [type=checkbox]:checked~label {
+    border-bottom: 0;
 }
+
 .vertical ul li label:hover {
-  background-color: #d9d9d9;
+    background-color: #d9d9d9;
 }
+
 .vertical ul li .content {
-  height:0px;
-  border-top:0;
-  transition: all .5s ease-out;
-}
-.vertical [type=checkbox]:checked ~ label ~ .content {
-  height:100%;
+    height: 0px;
+    border-top: 0;
+    transition: all .5s ease-out;
 }
 
-.context-box-des{
-  width: 35rem;
-  font-family: 'Lato';
-  font-weight: 'e'
+.vertical [type=checkbox]:checked~label~.content {
+    height: 100%;
 }
 
-@media(max-width: 768px){
-  .container {
-      background: black;
-      width: 100%;
-      padding: 0;
-      display: block
-  }
-  #wrapper{
-      justify-content: center
-  }
+.context-box-des {
+    width: 35rem;
+    font-family: 'Lato';
+    font-weight: 'e'
+}
 
-  .wrapperOne {
-      background: black;
-      padding: 2rem;
-  }
-  .wrapperFour {
-      background: white;
-      padding: 2rem;
-  }
-  
-  .wrapperTwo {
-      background: #ffffff;
-      padding: 2rem;
-      height: 75rem;
-  }
-  
-  .wrapperThree {
-      background: #232323;
-      padding: 2rem;
-  }
+.textColorHeader {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2rem
+}
 
-  .subconOne {
-    width: 100%;
-    display: inline-block;
-    padding-left: 0;
-  }
-
-  .subconTwo {
-    width: 100%;
-    display: inline-block;
-    padding-left: 0;
-  }
-
-  image{
-    display: inline-block
-  }
-
-  .volunteerSection{
-    width: 100%;
-    display: inline-block;
-  }
-  
-  .partnershipSection{
-    width: 100%;
-    display: inline-block;
-    float: left;
-  }
-
-  .containerTwo{
-    text-align: center
-  }
-  .containerThree{
-    text-align: center
-  }
-  .containerFour{
-    text-align: center
-  }
-  .vertical ul li label {
-    display: flex;
-    align-items: center;
-    height: 70px;
-    justify-content: center;
-  }
-  .accordion li {
-    padding:5px;
-  }
-
-  .subconThree {
-    width: 100%;
-  }
-
-  .listOfMentors{
-    display: inline-block;
-  }
-
-  img {
-    display: inline-block
-  }
-  
-  .context-box-des{
-    width: auto;
-  }
+@media(max-width: 768px) {
+    .container {
+        background: black;
+        width: 100%;
+        padding: 0;
+        display: block
+    }
+    #wrapper {
+        justify-content: center
+    }
+    .wrapperOne {
+        background: black;
+        padding: 2rem;
+    }
+    .wrapperFour {
+        background: white;
+        padding: 2rem;
+    }
+    .wrapperTwo {
+        background: #ffffff;
+        padding: 2rem;
+        height: 75rem;
+    }
+    .wrapperThree {
+        background: #232323;
+        padding: 2rem;
+    }
+    .subconOne {
+        width: 100%;
+        display: inline-block;
+        padding-left: 0;
+    }
+    .subconTwo {
+        width: 30%;
+        display: inline-block;
+        padding-left: 0;
+        margin: -7.5rem;
+    }
+    image {
+        display: inline-block
+    }
+    .volunteerSection {
+        width: 100%;
+        display: inline-block;
+    }
+    .partnershipSection {
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+    .containerTwo {
+        text-align: center
+    }
+    .containerThree {
+        text-align: center
+    }
+    .containerFour {
+        text-align: center
+    }
+    .vertical ul li label {
+        display: flex;
+        align-items: center;
+        height: 70px;
+        justify-content: center;
+    }
+    .accordion li {
+        padding: 5px;
+    }
+    .subconThree {
+        width: 100%;
+    }
+    .listOfMentors {
+        display: inline-block;
+    }
+    img {
+        display: inline-block
+    }
+    .context-box-des {
+        width: auto;
+    }
 }
