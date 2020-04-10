@@ -8,6 +8,7 @@ import sample from '../../videos/intro.mp4';
 import JunctionLogo from '../../images/junction_img/JunctionX_logos_white.png'
 import JunctionL from '../../images/junction_img/junctionx_globe_black.svg'
 import JunctionR from '../../images/junction_img/junctionx_globe_white.svg'
+import JunctionCollab from '../../images/junction_img/junctionx_2020_collab.jpg'
 import Mark from '../../images/mentor_img/mark_lven_palejaro.JPG'
 import Jackie from '../../images/mentor_img/jackie.JPG'
 import Marie from '../../images/mentor_img/marie_wong.jpeg'

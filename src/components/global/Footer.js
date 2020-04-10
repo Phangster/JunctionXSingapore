@@ -12,7 +12,7 @@ class Footer extends Component {
                         <h2 className="textColor" >CONTACT US !</h2>
                         <p>General inquiries: </p>
                         <h2>singapore@hackjunction.com</h2>
-                        <p>&copy; 2019 JunctionX Singapore</p>
+                        <p>&copy; 2020 JunctionX Singapore</p>
                     </div>
                     <div className="social-links">
                         <a href="https://www.facebook.com/JunctionXSingapore/"><i id="social-fb" className="fa fa-facebook-square fa-3x social"></i></a>
