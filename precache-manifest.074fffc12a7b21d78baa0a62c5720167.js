@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5229b46623e7e2a5c0815ca85bbbc220",
+    "revision": "4750b8b6a1542b7f32433dcb0f6be528",
     "url": "/index.html"
   },
   {
-    "revision": "7435d07ed51dc50c2081",
-    "url": "/static/css/main.42101624.chunk.css"
+    "revision": "ae452c9b2d6f628839e3",
+    "url": "/static/css/main.d64d898a.chunk.css"
   },
   {
-    "revision": "73f2a2b72031c1b73fdc",
-    "url": "/static/js/2.314c4c9b.chunk.js"
+    "revision": "79c2ee826bd1ddf30f0f",
+    "url": "/static/js/2.56f63e02.chunk.js"
   },
   {
-    "revision": "7435d07ed51dc50c2081",
-    "url": "/static/js/main.3823dd90.chunk.js"
+    "revision": "ae452c9b2d6f628839e3",
+    "url": "/static/js/main.d2195bac.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e6b5b4fc9e4d462af7eba31e9321e60e",
     "url": "/static/media/Jeff_Guo_Qing.e6b5b4fc.png"
+  },
+  {
+    "revision": "fb0d34896d94c1929de6d442c990011b",
+    "url": "/static/media/JunctionX_2020_intro.fb0d3489.jpg"
   },
   {
     "revision": "2aad815e4eb2e7026ad94e75a7846688",
@@ -122,6 +126,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "39e857b133a0a9e42dd60deff4eef8be",
     "url": "/static/media/jed.39e857b1.jpeg"
+  },
+  {
+    "revision": "097a0eac75d45d5c0e606eb750df576e",
+    "url": "/static/media/junctionx_2020_collab.097a0eac.jpg"
+  },
+  {
+    "revision": "87631293e5ae61e70075ef1c5f7dfd87",
+    "url": "/static/media/junctionx_asia_white_oneline.87631293.png"
   },
   {
     "revision": "b3439e9a7db85fe2055cdfb95f6567c4",
