@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Route, BrowserRouter } from "react-router-dom";
 import Nav from "./components/global/Nav";
-import Home from "./components/pages/Home";
+import Home from "./components/pages/home/Home.jsx";
 import Partners from "./components/pages/Partners";
 import Registration from "./components/pages/Registration";
 import Track from "./components/pages/Track";
