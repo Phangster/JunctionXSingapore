@@ -1,29 +1,36 @@
 import React, { Component } from "react";
 import JunctionBlack from '../../images/junction_img/JunctionX_nav.png'
+import {Link} from 'react-router-dom'
+
+
+//Note:
+//<Link> is essentially a wrapper for <a> tag hence it will get the css properties of <a>
+//If <Link> is placed at outermost tag, it will not have <a> css properties. This has been intentionally done for the "Home", "Events", "Community" titles
 
 class MenuLinks extends Component {
     render() {
       return (
           <div className={this.props.menuStatus} id='menu'>
-          <a exact href="https://singapore.hackjunction.com"><img className = "logoSize NavLogo" src={JunctionBlack} alt= "JunctionLogo"/></a>
-          <p className='header-css'>Home</p>
+          <Link to="/"><img className = "logoSize NavLogo" src={JunctionBlack} alt= "JunctionLogo"/></Link>
+          <Link to="/"><p className='header-css' onClick={this.props.menuToggle}>Home</p></Link>
             <ul>
-              <li><a href='https://singapore.hackjunction.com/register' onClick={this.props.menuToggle}>Registration</a></li>
-              <li><a href='https://singapore.hackjunction.com/tracks' onClick={this.props.menuToggle}>Tracks and Prizes</a></li>
-              <li><a href='https://singapore.hackjunction.com/schedule' onClick={this.props.menuToggle}>Schedule</a></li>
-              <li><a href='https://singapore.hackjunction.com/venue' onClick={this.props.menuToggle}>Venue</a></li>
-              <li><a href="https://singapore.hackjunction.com/partners" onClick={this.props.menuToggle}>Partners</a></li>
+              <li><Link to="/" onClick={this.props.menuToggle}>Our Story</Link></li>
+              <li><Link to="/register" onClick={this.props.menuToggle}>Registration</Link></li>
+              <li><Link to="/tracks" onClick={this.props.menuToggle}>Tracks and Prizes</Link></li>
+              <li><Link to="/schedule" onClick={this.props.menuToggle}>Schedule</Link></li>
+              <li><Link to="/venue" onClick={this.props.menuToggle}>Venue</Link></li>
+              <li><Link to="/partners" onClick={this.props.menuToggle}>Partners</Link></li>
             </ul>
-          <p className='header-css'>Event Day</p>
+          <Link to="/"><p className='header-css' onClick={this.props.menuToggle}>Event Day</p></Link>
             <ul>
-              <li><a href='https://singapore.hackjunction.com/submission' onClick={this.props.menuToggle}>Submission</a></li>
-              <li><a href='https://singapore.hackjunction.com/rules' onClick={this.props.menuToggle}>Rules</a></li>
-              <li><a href='https://singapore.hackjunction.com/hiring' onClick={this.props.menuToggle}>Hiring</a></li>
-              <li></li> 
+            <li><Link to="/submission" onClick={this.props.menuToggle}>Submission</Link></li>
+            <li><Link to="/rules" onClick={this.props.menuToggle}>Rules</Link></li>
+            <li><Link to="/hiring" onClick={this.props.menuToggle}>Hiring</Link></li>
             </ul>
-          <p className='header-css'>More </p>
+          <Link to="/"><p className='header-css' onClick={this.props.menuToggle}>More</p></Link>
             <ul className='bottom-margin'>
-              <li><a href='https://singapore.hackjunction.com/team' onClick={this.props.menuToggle}>Team</a></li>
+              <li><Link to="/team" onClick={this.props.menuToggle}>Team</Link></li>
+              <li><Link to="/hiring" onClick={this.props.menuToggle}>Hiring</Link></li>
               <li><a href="https://blog.hackjunction.com/">Blog</a></li>
             </ul>
           </div>
