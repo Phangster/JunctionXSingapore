@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import '../../components/tracks/track.css';
-import Footer from '../global/Footer'
-import RakutenImg from '../../images/partners_img/Rakuten.png'
+import "../tracks/track.css";
+import Footer from '../../../../global/Footer'
+import RakutenImg from "../../../../../images/JxSingapore2019/partners_img/Rakuten.png"
 
 class Rakuten extends Component {
   render() {

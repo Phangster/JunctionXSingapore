@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import '../css/Schedule.css';
-import Footer from '../global/Footer'
+import '../../../css/Schedule.css';
+import Footer from '../../../global/Footer'
 
 class Schedule extends Component {
   render() {

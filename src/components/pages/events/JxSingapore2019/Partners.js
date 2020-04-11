@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import '../../../css/Partners.css';
 import Footer from '../../../global/Footer'
-import Rakuten from '../../../../images/partners_img/Rakuten.png'
+import Rakuten from '../../../../images/JxSingapore2019/partners_img/Rakuten.png'
 import RakutenRapidAPI from '../../../../images/partners_img/RakutenRapidAPI.png'
 import Redbull from '../../../../images/partners_img/Redbull_logo.png'
 import Sutdec from '../../../../images/partners_img/ec_logo.png'

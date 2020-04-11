@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import '../css/Track.css';
-import Footer from '../global/Footer'
-import Smartcommerce from '../../images/track_img/smartcommerce.jpg'
-import Security from '../../images/track_img/security.jpg'
-import ARVR from '../../images/track_img/arvr.jpg'
-import Rakuten from '../../images/partners_img/Rakuten.png'
-import Shopee from '../../images/partners_img/Shopee.png'
-import Kaspersky from '../../images/partners_img/kaspersky_white.png'
+import './tracks/track.css';
+import '../../../css/Track.css';
+import Footer from '../../../global/Footer'
+import Smartcommerce from '../../../../images/JxSingapore2019/track_img/smartcommerce.jpg'
+import Security from '../../../../images/JxSingapore2019/track_img/security.jpg'
+import ARVR from '../../../../images/JxSingapore2019/track_img/arvr.jpg'
+import Rakuten from '../../../../images/JxSingapore2019/partners_img/Rakuten.png'
+import Shopee from '../../../../images/JxSingapore2019/partners_img/Shopee.png'
+import Kaspersky from '../../../../images/JxSingapore2019/partners_img/kaspersky_white.png'
 
 
 

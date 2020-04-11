@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import '../css/Registration.scss';
-import Footer from '../global/Footer'
-import individual from '../../images/junction_img/individual.jpg'
-import team from '../../images/junction_img/team.jpg'
+import '../../../css/Registration.scss';
+import Footer from '../../../global/Footer'
+import individual from '../../../../images/junction_img/individual.jpg'
+import team from '../../../../images/junction_img/team.jpg'
 
 
 class Registration extends Component {
