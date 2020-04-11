@@ -43,6 +43,7 @@ import ForVolunteers from "./components/pages/community/ForVolunteers.jsx"
 // ========OTHERS========
 import Blog from "./components/pages/others/Blog.jsx"
 import SocialMedia from "./components/pages/others/SocialMedia.jsx"
+import Page404 from "./components/pages/others/Page404.jsx"
 
 
 
@@ -69,7 +70,7 @@ class App extends Component {
 
             {/* EVENTS */}
               <Route exact path="/junctionxasia2020" component={JxAsia2020} />
-              <Route exact path="/junctionxsingapore2020" component={JxSingapore2019} />
+              <Route exact path="/junctionxsingapore2019" component={JxSingapore2019} />
               {/* to be removed soon*/}
               <Route exact path="/submission" component={Submission} />
               <Route exact path="/rules" component={Rules} />
@@ -88,6 +89,7 @@ class App extends Component {
             {/* OTHERS */}
               <Route exact path="/blog" component={Blog} />
               <Route exact path="/socialmedia" component={SocialMedia} />
+              <Route exact path="*" component={Page404} />
 
           </div>
         </div>
