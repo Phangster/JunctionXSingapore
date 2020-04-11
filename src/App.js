@@ -11,7 +11,7 @@ import Submission from "./components/pages/Submission";
 import Rules from "./components/pages/Rules";
 import Prize from "./components/pages/Prize";
 import Hiring from "./components/pages/Hiring";
-import Team from "./components/pages/Team";
+import Team from "./components/pages/home/Team.jsx";
 
 
 import Rakuten from "./components/tracks/Rakuten";
