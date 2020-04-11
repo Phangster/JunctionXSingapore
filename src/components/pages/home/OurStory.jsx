@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import '../css/About.css';
 
 class OurStory extends Component {
   render() {
