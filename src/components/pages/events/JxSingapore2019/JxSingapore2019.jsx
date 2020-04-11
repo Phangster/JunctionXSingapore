@@ -100,7 +100,8 @@ class Home extends Component {
                 <div>Hack the virus with us!</div>
               </div>
               <div className="subconTwo">
-                <img src={JunctionAsiaPoster} />
+                {/* <img src={JunctionAsiaPoster} /> */}
+                <iframe src="https://www.youtube.com/embed/c7SoIr0I2Qg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
             </div>
           </div>

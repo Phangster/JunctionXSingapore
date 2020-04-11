@@ -77,8 +77,8 @@ class Home extends Component {
           </video>
           <div className = "containerOne">
             <img className = "logoSize" src={JunctionLogo} alt= "JunctionLogo"/>
-            {/* <p className = "headerLogo">JUNCTIONX ASIA</p> */}
-            <img src={JunctionAsiaLogo1} className="headerLogoImg" ></img>
+            <p className = "headerLogo">JUNCTIONX SINGAPORE</p>
+            {/* <img src={JunctionAsiaLogo1} className="headerLogoImg" ></img> */}
             <p>HACK THE VIRUS</p>
             <div className = "textTwo color">4. - 7.06.2020</div>
           </div>
@@ -100,7 +100,8 @@ class Home extends Component {
                 <div>Hack the virus with us!</div>
               </div>
               <div className="subconTwo">
-                <img src={JunctionAsiaPoster} />
+                {/* <img src={JunctionAsiaPoster} /> */}
+                <iframe src="https://www.youtube.com/embed/c7SoIr0I2Qg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
             </div>
           </div>
