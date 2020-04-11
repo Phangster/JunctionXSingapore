@@ -3,6 +3,8 @@ import '../css/Nav.sass';
 import JunctionLogo from '../../images/junction_img/JunctionX_logos_white.png'
 import Junction from '../../images/junction_img/JunctionX_logos-wordmark-white.svg'
 import MenuLinks from '../global/MenuLinks'
+//import {Route} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 class Nav extends Component {
   constructor(props) {
@@ -62,8 +64,10 @@ class Nav extends Component {
           <div className="title">
             <span>{ this.props.title }</span>
           </div>
-          <a exact href="https://singapore.hackjunction.com"><img className="imageHeading" src={Junction} alt="Junction" /></a>
-          <a exact href="https://singapore.hackjunction.com"><img className="imageNav" src={JunctionLogo} alt="Junction Logo" /></a>
+          {/* <a exact href="https://singapore.hackjunction.com"><img className="imageHeading" src={Junction} alt="Junction" /></a> */}
+          <Link to="/"><img className="imageHeading" src={Junction} alt="Junction"/></Link>
+          
+          <Link to="/"><img className="imageNav" src={JunctionLogo} alt="Junction Logo" /></Link>
         </div>
         <MenuLinks menuStatus={ menuStatus } menuToggle={(e) => this._menuToggle(e)}/>
         </nav>
