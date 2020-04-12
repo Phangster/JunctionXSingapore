@@ -2,8 +2,15 @@
 import React, { Component } from "react";
 import '../../../css/Home.scss';
 import '../../../css/Home.sass';
+// import './JxSingapore2019.scss'; //TO FIX
+// import './JxSingapore2019.sass';
+// import '../../../css/JxSingapore2019.scss';
+// import '../../../css/JxSingapore2019.sass';
 import Footer from "../../../global/Footer";
 import sample from '../../../../videos/intro.mp4';
+import CoverPhoto from "../../../../images/JxSingapore2019/main_coverphoto.jpg"
+import JunctionXSGLogo from "../../../../images/JxSingapore2019/JunctionX Singapore logo_white_twoline.png"
+import JunctionXSGTablePic from "../../../../images/JxSingapore2019/JunctionXSGtable.jpg"
 // import Modal from "../global/Modal";
 import JunctionLogo from '../../../../images/junction_img/JunctionX_logos_white.png'
 import JunctionL from '../../../../images/junction_img/junctionx_globe_black.svg'
@@ -32,7 +39,7 @@ import JunctionAsiaLogo1 from '../../../../images/junctionx_asia_img/junctionx_a
 import { useHistory } from 'react-router-dom';
 
 
-class Home extends Component {
+class JxSingapore2019 extends Component {
     
 
   constructor(...args) {
@@ -71,16 +78,17 @@ class Home extends Component {
         </div> */}
         <div className = "container">
         <div className = "wrapperOne">
-          <video className='videoTag' autoPlay loop muted>
+          {/* <video className='videoTag' autoPlay loop muted>
             <source src={sample} type='video/mp4' />
             <h1>hello</h1>
-          </video>
+          </video> */}
+          <img src={CoverPhoto} className="coverPhotoTag"></img>
           <div className = "containerOne">
-            <img className = "logoSize" src={JunctionLogo} alt= "JunctionLogo"/>
+            {/* <img className = "logoSize" src={JunctionLogo} alt= "JunctionLogo"/> */}
             {/* <p className = "headerLogo">JUNCTIONX ASIA</p> */}
-            <img src={JunctionAsiaLogo1} className="headerLogoImg" ></img>
-            <p>HACK THE VIRUS</p>
-            <div className = "textTwo color">4. - 7.06.2020</div>
+            <img src={JunctionXSGLogo} className="headerLogoImg" ></img>
+            <p style={{fontSize: 30 +"px"}}>HACK THE FUTURE</p>
+            <div style={{fontSize: 25 +"px"}} className="textTwo color">4. - 7.06.2020</div>
           </div>
         </div>
         <div className = "wrapperTwo">
@@ -389,4 +397,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default JxSingapore2019;

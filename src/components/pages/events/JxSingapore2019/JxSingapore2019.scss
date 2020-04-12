@@ -64,7 +64,7 @@ s .color {
 }
 
 .headerLogoImg {
-    padding-top: 20vh;
+    padding-bottom: 0;
     width: 40%;
     display: block;
     margin: auto
@@ -128,15 +128,6 @@ iframe {
 }
 
 .videoTag {
-    position: relative;
-    max-width: 100%;
-    z-index: 0;
-    margin-top: auto;
-    height: 100vh
-}
-
-.coverPhotoTag {
-    opacity: 45%;
     position: relative;
     max-width: 100%;
     z-index: 0;
