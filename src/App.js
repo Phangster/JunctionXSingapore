@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, BrowserRouter } from "react-router-dom";
+import { Route, BrowserRouter, Switch } from "react-router-dom";
 
 // Website Layout Components
 import Nav from "./components/global/Nav";
@@ -56,6 +56,7 @@ class App extends Component {
         <div>
         <Nav />
           <div className="content">
+            <Switch>
             {/* HOME */}
               <Route exact path="/" component={Home} />
               <Route exact path="/ourstory" component={OurStory} />
@@ -89,7 +90,9 @@ class App extends Component {
             {/* OTHERS */}
               <Route exact path="/blog" component={Blog} />
               <Route exact path="/socialmedia" component={SocialMedia} />
-              <Route exact path="*" component={Page404} />
+              
+              <Route path="*" component={Page404} />
+          </Switch>
 
           </div>
         </div>
