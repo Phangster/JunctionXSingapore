@@ -2,7 +2,7 @@
     background: black;
     color: white;
     width: 100%;
-    height: 100vh;
+    display: block;
 }
 
 .header {
@@ -17,39 +17,44 @@
     padding-left: 5rem;
     padding-right: 5rem;
 }
+
 .grid {
     display: grid;
     align-items: center;
     justify-content: center;
 }
 
-.grid-prize{
+.grid-prize {
     display: grid;
     padding: 2rem;
 }
 
-.grid-subPrice{
+.grid-subPrice {
     text-align: center
 }
 
-.smallWords{
+.smallWords {
     font-size: 10px;
 }
 
-.boxSize{
+.boxSize {
     width: 33%
 }
 
-p{
+p {
     text-align: center;
-    font-family: Montserrat , 'Lato', sans-serif
+    font-family: Montserrat, 'Lato', sans-serif
 }
 
-.wrappertrack{
-  padding: 5rem
+.wrappertrack {
+    padding: 5rem
 }
 
-.containerTrack{
+.wrapperprize {
+    padding: 5rem
+}
+
+.containerTrack {
     margin-top: 10rem;
     height: 100%;
 }
@@ -57,30 +62,42 @@ p{
 .h1 {
     margin-top: 0rem;
 }
-.image1{
+
+h4 {
+    text-align: center;
+}
+
+.image1 {
     width: 400px;
     padding: 0;
     background-size: cover;
     background-position: center;
 }
-.anomynous{
+
+.anomynous {
     background: black;
 }
 
-.back-ground{
+.back-ground {
     background-color: white;
     color: black
 }
-img{
-    border:none;
+
+.prizesBackground {
+    background-color: white;
+    color: black
+}
+
+img {
+    border: none;
     opacity: 1;
 }
 
-.sponsor{
+.sponsor {
     height: 5rem;
 }
 
-.grid-track{
+.grid-track {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     grid-column-gap: 2rem;
@@ -88,7 +105,7 @@ img{
     padding-right: 5rem;
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .grid-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -96,33 +113,31 @@ img{
     }
     .container {
         background: black;
-        height: 100%;
         width: 100%;
     }
-    .image1{
+    .image1 {
         background-size: cover;
         background-position: center;
         padding: 0;
         display: inline-block;
     }
-
-    img{
-        border:none;
+    img {
+        border: none;
     }
-
-    .grid-prize{
+    .grid-prize {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 2rem;
     }
-
-    .grid-track{
+    .grid-track {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding: 2rem;
     }
-
-    .wrappertrack{
+    .wrappertrack {
+        padding: 0rem;
+    }
+    .wrapperprize {
         padding: 0rem;
     }
     .containerPrize {

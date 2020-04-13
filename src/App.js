@@ -16,7 +16,7 @@ import Registration from "./components/pages//events/JxSingapore2019/Registratio
 import Track from "../src/components/pages/events/JxSingapore2019/Track";
 import Schedule from "../src/components/pages/events/JxSingapore2019/Schedule";
 import Venue from "../src/components/pages/events/JxSingapore2019/Venue";
-import Prize from "./components/pages/Prize";
+import Prizes from "../src/components/pages/events/JxSingapore2019/Prizes";
 
 //_______________________________________________________________________________
 // ========EVENTS========
@@ -67,7 +67,7 @@ class App extends Component {
               <Route exact path="/tracks" component={Track} />
               <Route exact path="/schedule" component={Schedule} />
               <Route exact path="/venue" component={Venue} />
-              <Route exact path="/prize" component={Prize} />
+              <Route exact path="/prizes" component={Prizes} />
 
             {/* EVENTS */}
               <Route exact path="/junctionxasia2020" component={JxAsia2020} />
