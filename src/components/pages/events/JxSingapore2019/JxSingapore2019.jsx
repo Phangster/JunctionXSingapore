@@ -2,12 +2,9 @@
 import React, { Component } from "react";
 import '../../../css/Home.scss';
 import '../../../css/Home.sass';
-// import './JxSingapore2019.scss'; //TO FIX
+// import './JxSingapore2019.scss';
 // import './JxSingapore2019.sass';
-// import '../../../css/JxSingapore2019.scss';
-// import '../../../css/JxSingapore2019.sass';
 import Footer from "../../../global/Footer";
-import sample from '../../../../videos/intro.mp4';
 import CoverPhoto from "../../../../images/JxSingapore2019/main_coverphoto.jpg"
 import JunctionXSGLogo from "../../../../images/JxSingapore2019/JunctionX Singapore logo_white_twoline.png"
 import JunctionXSGTablePic from "../../../../images/JxSingapore2019/JunctionXSGtable.jpg"
@@ -78,10 +75,6 @@ class JxSingapore2019 extends Component {
         </div> */}
         <div className = "container">
         <div className = "wrapperOne">
-          {/* <video className='videoTag' autoPlay loop muted>
-            <source src={sample} type='video/mp4' />
-            <h1>hello</h1>
-          </video> */}
           <img src={CoverPhoto} className="coverPhotoTag"></img>
           <div className = "containerOne">
             {/* <img className = "logoSize" src={JunctionLogo} alt= "JunctionLogo"/> */}
@@ -95,30 +88,35 @@ class JxSingapore2019 extends Component {
           <div className = "containerTwo">
             <div className='textColor'>ABOUT</div>
             <div>
-              <div className="textOne">JunctionX Singapore</div>
+              <div className="textOne">JunctionX Singapore 2019</div>
               <div className="textTwo subconOne">
-                <div>JunctionX Asia is going ONLINE!</div>
+                <div>The first JunctionX Hackathon organised in Singapore!</div>
                 <br></br>
                 <div>
-                    JunctionX Singapore will be collaborating with other JunctionX teams from Asia, to host an online hackathon.
-                    The theme of the hackathon revolves around the current global pandemic.
+                    JunctionX Singapore 2019 is a hackathon organised for developers, by developers. 
+                    This was the first hackathon organised by the founding JunctionX Singapore team and it was a massive success.
+                    It was a 48 hour hackathon organised on the beautiful office of Rakuten Singapore in CBD.
                 </div>
-                <div>Sign-ups will be opening soon, stay tuned!</div>
+                <div>
+                    Participants came from a diverse range of background with more than half being international participants (from Algeria, Japan, etc.) who came to Singapore just to attend this hackathon.
+                </div>
+                <div>
+                    We had a real-life problem statements from our challenge owners (Rakuten, Shopee, Kaspersky) who made this hackathon a really insightful one for all parties.
+                </div>
                 <br></br>
-                <div>Hack the virus with us!</div>
+                <div>Hack the Future with us! See you for our next event!</div>
               </div>
               <div className="subconTwo">
-                {/* <img src={JunctionAsiaPoster} /> */}
-                <iframe src="https://www.youtube.com/embed/c7SoIr0I2Qg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <img src={JunctionXSGTablePic} />
               </div>
             </div>
           </div>
         </div>
         <div className = "wrapperThree">
             <div className = "containerThree">
-                <div className = "textColorHeader">Checkout JunctionX Singapore 2019</div>
+                {/* <div className = "textColorHeader">Checkout JunctionX Singapore 2019</div> */}
                 <div  className='textColor'>LOCATION</div>
-                <div className="textOne">See you at <span className = "locationText">Rakuten Asia Pte Ltd!</span></div>
+                <div className="textOne"> <span className = "locationText">Rakuten Asia</span></div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.819926160307!2d103.84793611550867!3d1.281802599065105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190c2b3223d1%3A0x922bbd5aba9592c2!2sRakuten+Asia+Pte+Ltd!5e0!3m2!1sen!2ssg!4v1562581464126!5m2!1sen!2ssg" frameBorder="0" allowFullScreen></iframe>
             </div>
         </div>
@@ -269,7 +267,7 @@ class JxSingapore2019 extends Component {
                   <h4> PARTICIPANTS CONFIRMATION</h4>
                 </div>
               </li>
-              <li className="li">
+              <li className="li complete">
                 <div className="timestamp">
                   <span className="date">27 SEPTEMBER</span>
                 </div>
