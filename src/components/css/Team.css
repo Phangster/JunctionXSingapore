@@ -3,6 +3,19 @@
     text-align: center
 }
 
+.containerIntro{
+    padding: 15rem;
+    text-align: center;
+    background-image: url("../../images/junction_img/team.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.containerIntro h1{
+    font-size: 50px;
+    text-align: center;
+}
+
 .avatar {
     object-fit: cover;
     object-position: 100% 0;
@@ -19,8 +32,9 @@
 .profile{
     display:flex;
     justify-content: space-around;
-    padding: 2rem
+    padding: 40px
 }
+
 
 @media(max-width: 768px){
     .containerTeam {

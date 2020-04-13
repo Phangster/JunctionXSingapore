@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import '../../components/tracks/track.css';
-import Footer from '../global/Footer'
-import KasperskyImg from '../../images/partners_img/kaspersky_track.png'
+import '../../../../css/Track.css';
+import Footer from '../../../../global/Footer.js'
+import KasperskyImg from '../../../../../images/JxSingapore2019/partners_img/kaspersky_track.png'
 
 
 class Kaspersky extends Component {

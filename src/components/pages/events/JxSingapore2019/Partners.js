@@ -1,19 +1,21 @@
 import React, { Component } from "react";
 import '../../../css/Partners.css';
 import Footer from '../../../global/Footer'
+
+//Import Partner Logo
 import Rakuten from '../../../../images/JxSingapore2019/partners_img/Rakuten.png'
-import RakutenRapidAPI from '../../../../images/partners_img/RakutenRapidAPI.png'
-import Redbull from '../../../../images/partners_img/Redbull_logo.png'
-import Sutdec from '../../../../images/partners_img/ec_logo.png'
-import Tribe from '../../../../images/partners_img/Tribe_logo.png'
-import Circles from '../../../../images/partners_img/circles_life.png'
-import StartupX from '../../../../images/partners_img/startupx1.jpeg'
-import Kickstart from '../../../../images/partners_img/kickstart.jpg'
-import Shopee from '../../../../images/partners_img/Shopee.png'
-import Reassemble from '../../../../images/partners_img/Reassemble.jpeg'
-import Salesforce from '../../../../images/partners_img/Salesforce.png'
-import Kaspersky from '../../../../images/partners_img/kaspersky.academy.png'
-import Ambidextr from '../../../../images/partners_img/ambidextr.png'
+import RakutenRapidAPI from '../../../../images/JxSingapore2019/partners_img/RakutenRapidAPI.png'
+import Redbull from '../../../../images/JxSingapore2019/partners_img/Redbull_logo.png'
+import Sutdec from '../../../../images/JxSingapore2019/partners_img/ec_logo.png'
+import Tribe from '../../../../images/JxSingapore2019/partners_img/Tribe_logo.png'
+import Circles from '../../../../images/JxSingapore2019/partners_img/circles_life.png'
+import StartupX from '../../../../images/JxSingapore2019/partners_img/startupx1.jpeg'
+import Kickstart from '../../../../images/JxSingapore2019/partners_img/kickstart.jpg'
+import Shopee from '../../../../images/JxSingapore2019/partners_img/Shopee.png'
+import Reassemble from '../../../../images/JxSingapore2019/partners_img/Reassemble.jpeg'
+import Salesforce from '../../../../images/JxSingapore2019/partners_img/Salesforce.png'
+import Kaspersky from '../../../../images/JxSingapore2019/partners_img/kaspersky.academy.png'
+import Ambidextr from '../../../../images/JxSingapore2019/partners_img/ambidextr.png'
 
 
 
