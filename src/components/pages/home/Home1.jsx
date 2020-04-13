@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { Component } from "react";
-import '../../css/Home.scss';
-import '../../css/Home.sass';
+import './Home1.css'
 import Footer from "../../global/Footer";
 import sample from '../../../videos/intro.mp4';
+
 // import Modal from "../global/Modal";
 import JunctionLogo from '../../../images/junction_img/JunctionX_logos_white.png'
 
