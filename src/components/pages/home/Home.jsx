@@ -9,24 +9,26 @@ import JunctionLogo from '../../../images/junction_img/JunctionX_logos_white.png
 import JunctionL from '../../../images/junction_img/junctionx_globe_black.svg'
 import JunctionR from '../../../images/junction_img/junctionx_globe_white.svg'
 import JunctionCollab from '../../../images/junction_img/junctionx_2020_collab.jpg'
-import Mark from '../../../images/mentor_img/mark_lven_palejaro.JPG'
-import Jackie from '../../../images/mentor_img/jackie.JPG'
-import Marie from '../../../images/mentor_img/marie_wong.jpeg'
-import Eric from '../../../images/mentor_img/eric_chang.jpg'
-import Weihan from '../../../images/mentor_img/weihan.jpg'
-import Jed from '../../../images/mentor_img/jed.jpeg'
-import Satoshi from '../../../images/mentor_img/satoshi.jpg'
-import Yash from '../../../images/mentor_img/yash_datta.jpeg'
-import Ahmed from '../../../images/mentor_img/ahmed_amer.jpeg'
-// import Do from '../../../images/mentor_img/Do_Hoang_Giang.jpg'
-import Jeff from '../../../images/mentor_img/Jeff_Guo_Qing.png'
-// import Jingchang from '../../../images/mentor_img/Jingchang_Zhang.JPG'
-import Liang from '../../../images/mentor_img/Liang_Jingxi.jpg'
-import Phan from '../../../images/mentor_img/Phan_Huy_Nguyen.jpg'
+
+// import Mentor images
+import Mark from '../../../images/JxSingapore2019/mentor_img/mark_lven_palejaro.JPG'
+import Jackie from '../../../images/JxSingapore2019/mentor_img/jackie.JPG'
+import Marie from '../../../images/JxSingapore2019/mentor_img/marie_wong.jpeg'
+import Eric from '../../../images/JxSingapore2019/mentor_img/eric_chang.jpg'
+import Weihan from '../../../images/JxSingapore2019/mentor_img/weihan.jpg'
+import Jed from '../../../images/JxSingapore2019/mentor_img/jed.jpeg'
+import Satoshi from '../../../images/JxSingapore2019/mentor_img/satoshi.jpg'
+import Yash from '../../../images/JxSingapore2019/mentor_img/yash_datta.jpeg'
+import Ahmed from '../../../images/JxSingapore2019/mentor_img/ahmed_amer.jpeg'
+// import Do from '../../../images/JxSingapore2019/mentor_img/Do_Hoang_Giang.jpg'
+import Jeff from '../../../images/JxSingapore2019/mentor_img/Jeff_Guo_Qing.png'
+// import Jingchang from '../../../images/JxSingapore2019/mentor_img/Jingchang_Zhang.JPG'
+import Liang from '../../../images/JxSingapore2019/mentor_img/Liang_Jingxi.jpg'
+import Phan from '../../../images/JxSingapore2019/mentor_img/Phan_Huy_Nguyen.jpg'
 
 // JunctionXAsia
-import JunctionAsiaPoster from '../../../images/junctionx_asia_img/JunctionX_2020_intro.jpg'
-import JunctionAsiaLogo1 from '../../../images/junctionx_asia_img/junctionx_asia_white_oneline.png'
+import JunctionAsiaPoster from '../../../images/JxAsia2020/JunctionX_2020_intro.jpg'
+import JunctionAsiaLogo1 from '../../../images/JxAsia2020/junctionx_asia_white_oneline.png'
 
 // For Router History
 import { useHistory } from 'react-router-dom';
