@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import '../../components/tracks/track.css';
-import Footer from '../global/Footer'
-import ShopeeImg from '../../images/partners_img/Shopee.png'
+import '../../../../css/Track.css';
+import Footer from '../../../../global/Footer.js'
+import ShopeeImg from '../../../../../images/JxSingapore2019/partners_img/Shopee.png'
 
 class Shopee extends Component {
   render() {

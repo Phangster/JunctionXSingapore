@@ -29,8 +29,8 @@ import Rules from "./components/pages/Rules";
 import Hiring from "./components/pages/Hiring";
 
 import Rakuten from "./components/pages/events/JxSingapore2019/tracks/Rakuten";
-import Shopee from "./components/tracks/Shopee";
-import Kaspersky from "./components/tracks/Kaspersky";
+import Shopee from "./components/pages/events/JxSingapore2019/tracks/Shopee";
+import Kaspersky from "./components/pages/events/JxSingapore2019/tracks/Kaspersky";
 
 //_______________________________________________________________________________
 // ========COMMUNITY========
