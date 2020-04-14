@@ -1,9 +1,9 @@
-.containerTeam{
+.containerTeam {
     padding: 10rem;
     text-align: center
 }
 
-.containerIntro{
+.containerIntro {
     padding: 15rem;
     text-align: center;
     background-image: url("../../images/junction_img/team.jpg");
@@ -11,7 +11,7 @@
     background-position: center;
 }
 
-.containerIntro h1{
+.containerIntro h1 {
     font-size: 50px;
     text-align: center;
 }
@@ -29,14 +29,14 @@
     font-family: 'Lato';
 }
 
-.profile{
-    display:flex;
+.profile {
+    display: flex;
     justify-content: space-around;
-    padding: 40px
+    padding: 40px;
+    flex-wrap: wrap;
 }
 
-
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .containerTeam {
         padding: 0rem;
         margin-top: 6rem;
@@ -49,5 +49,6 @@
         height: 100px;
         display: inline-block;
         opacity: 1;
+        margin-top: 40px;
     }
 }
