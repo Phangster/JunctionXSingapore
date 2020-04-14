@@ -47,4 +47,10 @@
     .flexbox {
         justify-content: space-between;
     }
+    .piechart-padding {
+        padding-bottom: 4rem;
+    }
+    .wrapper {
+        max-height: fit-content;
+    }
 }

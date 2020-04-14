@@ -65,7 +65,9 @@
     display: grid;
 }
 
-.wrapper {}
+.wrapper {
+    max-height: fit-content;
+}
 
 .wrapper2 {
     background: #ffffff;
@@ -191,7 +193,7 @@
     }
     .wrapper {
         padding: 2rem;
-        height: 75rem;
+        height: fit-content;
     }
     .flexbox {
         justify-content: space-evenly;
