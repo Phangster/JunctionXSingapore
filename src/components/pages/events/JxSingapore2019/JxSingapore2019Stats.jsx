@@ -92,13 +92,17 @@ class JxSingapore2019Stats extends Component {
 
 
             <div className="flexbox">
-            <div className="flexbox-left">Diverse group of Participants</div>
+            <div className="flexbox-left">
+                Diverse group of Participants
+            </div>
               {/* <div style={{width:20+'px'}}></div> */}
 
               {/* <div className="flexbox-right">
                 <ParticipantsPieChart/>
               </div> */}
+              
               <ParticipantsPieChart/>
+              
             </div>
 
         </div>
