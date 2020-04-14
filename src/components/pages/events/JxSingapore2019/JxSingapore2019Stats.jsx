@@ -5,12 +5,12 @@ import { PieChart, Pie, Sector, Cell, Legend, Tooltip, ResponsiveContainer } fro
 
 // PIECHART from recharts
 const data = [
-    {name: 'Singaporean', value: 60}, 
-    {name: 'Indonesian', value: 20},
-    {name: 'Filipino', value: 10}, 
-    {name: 'Algerian', value: 6}
+    {name: 'Singaporean Undergrad', value: 72}, 
+    {name: 'Singaporean Professionals', value: 13},
+    {name: 'Other parts of Asia', value: 22}, 
+    {name: 'Others', value: 13}
 ];
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+const COLORS = ['#333333', '#4F4F4F', '#828282', '#BDBDBD'];
 const RADIAN = Math.PI / 180;    
 
 const ParticipantsPieChart = ()=>{
@@ -80,10 +80,10 @@ class JxSingapore2019Stats extends Component {
             <div className="flexbox-left">JuntionX Singapore 2019 Stats</div>
               {/* <div style={{width:20+'px'}}></div> */}
               <div className="flexbox-right">
-                <InfoComponent topWord="03" bottomWord="tracks"/>
-                <InfoComponent topWord="40+" bottomWord="projects"/>
-                <InfoComponent topWord="160+" bottomWord="participants"/>
                 <InfoComponent topWord="10+" bottomWord="partners"/>
+                <InfoComponent topWord="40+" bottomWord="projects"/>
+                <InfoComponent topWord="120+" bottomWord="participants"/>
+                <InfoComponent topWord="20+" bottomWord="countries"/>
               </div>
             </div>
 
