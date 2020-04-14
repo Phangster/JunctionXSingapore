@@ -16,7 +16,7 @@ import Registration from "./components/pages//events/JxSingapore2019/Registratio
 import Track from "../src/components/pages/events/JxSingapore2019/Track";
 import Schedule from "../src/components/pages/events/JxSingapore2019/Schedule";
 import Venue from "../src/components/pages/events/JxSingapore2019/Venue";
-import Prize from "./components/pages/Prize";
+import Prizes from "../src/components/pages/events/JxSingapore2019/Prizes";
 
 //_______________________________________________________________________________
 // ========EVENTS========
@@ -44,6 +44,7 @@ import ForVolunteers from "./components/pages/community/ForVolunteers.jsx"
 import Blog from "./components/pages/others/Blog.jsx"
 import SocialMedia from "./components/pages/others/SocialMedia.jsx"
 import Page404 from "./components/pages/others/Page404.jsx"
+import JxSingapore2019Stats from "./components/pages/events/JxSingapore2019/JxSingapore2019Stats";
 
 
 
@@ -61,22 +62,23 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route exact path="/ourstory" component={OurStory} />
               <Route exact path="/calendar" component={Calendar} />
+              <Route exact path="/team" component={Team} />
               {/* to be removed soon*/}
               <Route exact path="/partners" component={Partners} />
               <Route exact path="/register" component={Registration} />
               <Route exact path="/tracks" component={Track} />
               <Route exact path="/schedule" component={Schedule} />
               <Route exact path="/venue" component={Venue} />
-              <Route exact path="/prize" component={Prize} />
+              <Route exact path="/prizes" component={Prizes} />
 
             {/* EVENTS */}
               <Route exact path="/junctionxasia2020" component={JxAsia2020} />
               <Route exact path="/junctionxsingapore2019" component={JxSingapore2019} />
+              <Route exact path="/junctionxsingapore2019/stats" component={JxSingapore2019Stats} />
               {/* to be removed soon*/}
               <Route exact path="/submission" component={Submission} />
               <Route exact path="/rules" component={Rules} />
               <Route exact path="/hiring" component={Hiring} />
-              <Route exact path="/team" component={Team} />
               <Route exact path="/rakuten" component={Rakuten} />
               <Route exact path="/shopee" component={Shopee} />
               <Route exact path="/kaspersky" component={Kaspersky} />

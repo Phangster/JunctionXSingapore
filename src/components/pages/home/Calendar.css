@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css?family=Montserrat:900');
+}
+
+.containerr {
+    margin-top: -4rem;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: block;
+}
+
+.coverPhotoTag {
+    opacity: 45%;
+    position: relative;
+    max-width: 100%;
+    z-index: 0;
+    margin-top: auto;
+    background-size: cover;
+}
+
+.headerLogoCommunity {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-top: 30vh;
+    text-align: start;
+}
+
+#header2LogoCommunity {
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 700px;
+    width: 70vw;
+    float: right;
+}
+
+.videoTag {
+    position: relative;
+    max-width: 100%;
+    z-index: 0;
+    margin-top: auto;
+    height: 100vh
+}
+
+.coverContainer {
+    text-align: center;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    width: -webkit-fill-available;
+}
+
+.wrapper1 {
+    height: 100vh;
+    background: black;
+    position: relative;
+    justify-content: center;
+    display: grid;
+}
+
+.wrapper {}
+
+.wrapper2 {
+    background: #ffffff;
+    color: black;
+    padding: 5rem 10rem 5rem 10rem;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.wrapperTwo-flexbox1-left {
+    display: block;
+    margin-bottom: 16px;
+    max-width: 350px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+}
+
+.wrapperTwo-flexbox1-right {
+    display: block;
+    max-width: 50%;
+    margin-bottom: 16px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    font-family: Montserrat, sans-serif;
+}
+
+.wrapper3 {
+    background: #232323;
+    padding: 5rem 10rem 5rem 10rem;
+}
+
+.wrapper4 {
+    background: white;
+    color: black;
+    padding: 5rem 10rem 5rem 10rem;
+}
+
+#partner-imgs {
+    padding: 50px;
+    height: auto;
+    width: 160px;
+}
+
+#title {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+#participantButton,
+#partnerButton,
+#volunteerButton {
+    color: black;
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    margin: 40px;
+    border-radius: 25px;
+    background-color: aqua;
+    text-align: center;
+}
+
+@media(max-width: 800px) {
+    .container {
+        width: 100%;
+        padding: 0;
+        display: block
+    }
+    .coverContainer {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .wrapper2 {
+        background: #ffffff;
+    }
+    .wrapper {
+        padding: 2rem;
+        height: 75rem;
+    }
+    .flexbox {
+        justify-content: space-evenly;
+    }
+}

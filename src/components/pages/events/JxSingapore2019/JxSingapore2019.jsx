@@ -38,6 +38,11 @@ import JunctionAsiaLogo1 from '../../../../images/JxAsia2020/junctionx_asia_whit
 // For Router History
 import { useHistory } from 'react-router-dom';
 
+//Import other components for JxSingapore 2019
+import Track from "./Track"
+import Prizes from "./Prizes"
+import Partners from "./Partners"
+
 
 class JxSingapore2019 extends Component {
     
@@ -115,6 +120,8 @@ class JxSingapore2019 extends Component {
             </div>
           </div>
         </div>
+        <Track/>
+        <Prizes/>
         <div className = "wrapperThree">
             <div className = "containerThree">
                 {/* <div className = "textColorHeader">Checkout JunctionX Singapore 2019</div> */}
@@ -243,7 +250,8 @@ class JxSingapore2019 extends Component {
             </div>
         </div>
         <div className = "wrapperThree" >
-            <div className = "containerThree">
+
+            {/* <div className = "containerThree">
             <div  className='textColor'>ROADMAP</div>
             <ul className="timeline" id="timeline">
               <li className="li complete">
@@ -279,10 +287,13 @@ class JxSingapore2019 extends Component {
                 </div>
               </li>
             </ul>     
-            </div>
+            </div> */}
+
         </div>
         <div className = "wrapperFour" >
-            <div className = "containerFour centerClass">
+          <Partners/>
+          
+            {/* <div className = "containerFour centerClass">
             <div className='textColor'>COMMUNITY</div>
               <div className="partnershipSection">
                 <img className = "logoSize big" src={JunctionL} alt= "JunctionLogo"/>
@@ -302,7 +313,8 @@ class JxSingapore2019 extends Component {
                 </a>
                 </div>
             </div>
-            </div>
+            </div> */}
+        
         </div>
         <div className = "wrapperThree" >
             <div className = "containerThree">

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css?family=Montserrat:900');
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.flexbox-left {
+    display: block;
+    margin-bottom: 16px;
+    max-width: 350px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+}
+
+.flexbox-right {
+    display: block;
+    max-width: 50%;
+    margin-bottom: 16px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.containerHiring {
+    max-width: 100%;
+    display: block;
+}
+
+.piechartwrapper {
+    display: block;
+}
+
+@media(max-width: 800px) {
+    .flexbox {
+        justify-content: space-between;
+    }
+}
