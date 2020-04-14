@@ -19,22 +19,22 @@ class MenuLinks extends Component {
               <li><Link to="/Calendar" onClick={this.props.menuToggle}>Calendar</Link></li>
               <li><Link to="/Team" onClick={this.props.menuToggle}>Team</Link></li>
 
-              <li>(below to be removed)</li>
+              {/* <li>(below to be removed)</li>
               <li><Link to="/Register" onClick={this.props.menuToggle}>Registration</Link></li>
               <li><Link to="/Tracks" onClick={this.props.menuToggle}>Tracks and Prizes</Link></li>
               <li><Link to="/Schedule" onClick={this.props.menuToggle}>Schedule</Link></li>
               <li><Link to="/Venue" onClick={this.props.menuToggle}>Venue</Link></li>
-              <li><Link to="/Partners" onClick={this.props.menuToggle}>Partners</Link></li>
+              <li><Link to="/Partners" onClick={this.props.menuToggle}>Partners</Link></li> */}
             </ul>
           <p className='header-css'>Events</p>
             <ul>
             <li><Link to="/JunctionxAsia2020" onClick={this.props.menuToggle}>JunctionX Asia 2020</Link></li>
             <li><Link to="/JunctionxSingapore2019" onClick={this.props.menuToggle}>JunctionX Singapore 2019</Link></li>
 
-            <li>(below to be removed)</li>
+            {/* <li>(below to be removed)</li>
             <li><Link to="/Submission" onClick={this.props.menuToggle}>Submission</Link></li>
             <li><Link to="/Rules" onClick={this.props.menuToggle}>Rules</Link></li>
-            <li><Link to="/Hiring" onClick={this.props.menuToggle}>Hiring</Link></li>
+            <li><Link to="/Hiring" onClick={this.props.menuToggle}>Hiring</Link></li> */}
             </ul>
 
             <p className='header-css'>Community</p>
