@@ -3,7 +3,7 @@
     src: url('https://fonts.googleapis.com/css?family=Montserrat:900');
 }
 
-.flexbox {
+.flexbox-upcomingevents {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -11,7 +11,7 @@
     margin: 0 auto;
 }
 
-.flexbox-left {
+.flexbox-left-upcomingevents {
     display: block;
     margin-bottom: 16px;
     max-width: 350px;
@@ -21,7 +21,7 @@
     font-family: Montserrat, sans-serif;
 }
 
-.flexbox-right {
+.flexbox-right-upcomingevents {
     display: block;
     max-width: 50%;
     margin-bottom: 16px;
@@ -34,17 +34,13 @@
     justify-content: space-between;
 }
 
-.containerHiring {
+.containerHiring-upcomingevents {
     max-width: 100%;
     display: block;
 }
 
-.piechartwrapper {
-    display: block;
-}
-
 @media(max-width: 800px) {
-    .flexbox {
-        justify-content: space-between;
+    .flexbox-upcomingevents {
+        justify-content: space-evenly;
     }
 }
