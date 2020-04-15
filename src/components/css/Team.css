@@ -27,7 +27,7 @@
 
 .position {
     font-family: 'Lato';
-    fon-weight: bold;
+    font-weight: bold;
 }
 
 .profile {
@@ -37,15 +37,11 @@
     flex-wrap: wrap;
 }
 
-<<<<<<< Updated upstream
-@media(max-width: 768px) {
-=======
 .email{
     font-size: 15px;
 }
 
 @media(max-width: 768px){
->>>>>>> Stashed changes
     .containerTeam {
         padding: 0rem;
         margin-top: 6rem;
