@@ -39,6 +39,7 @@ class Team extends Component {
               </div>
             </div>
 
+            <div class="img1"></div>
             <div className="Divider"></div>
 
 
