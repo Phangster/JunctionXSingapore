@@ -49,7 +49,7 @@ class MenuLinks extends Component {
             <p className='header-css'>Others</p>
             <ul className='bottom-margin'>
               <li><a href="https://blog.hackjunction.com/">Blog</a></li>
-              <li><Link to="/SocialMedia" onClick={this.props.menuToggle}>Contact Us</Link></li>
+              <li><Link to="/ContactUs" onClick={this.props.menuToggle}>Contact Us</Link></li>
             </ul>
           </div>
       )
