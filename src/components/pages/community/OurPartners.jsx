@@ -7,6 +7,7 @@ import './OurPartners.css'
 
 // Imported JSX Components
 import JxSingapore2019Stats from '../events/JxSingapore2019/JxSingapore2019Stats'
+import Partners from '../events/JxSingapore2019/Partners' //to be removed
 
 // Company Photos
 import RakutenImg from '../../../images/JxSingapore2019/partners_img/Rakuten.png'
@@ -33,7 +34,9 @@ class OurPartners extends Component {
 
     return (
       <div>
-        <div className = "container">
+
+        
+    <div className = "container">
         <div className = "wrapper1">
             <img src={OurPartnersCoverImg} className="coverPhotoTag"></img>
           <div className = "coverContainer">
@@ -50,339 +53,19 @@ class OurPartners extends Component {
 
 
         <div className = "wrapper2 wrapper">
-        {/*______________________________________________________________ */}
-
-          {/* <div style={{'margin-bottom': 60+'px'}}></div> */}
-          <div className="flexbox1 flexbox">
-            <div className="wrapperTwo-flexbox1-left">
-                <div>Gold Partners</div>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-
-                <div></div> 
-
-            </div>
-
-          </div>
-
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img className="ourpartners-img" src={ShopeeImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
-          </div>
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img className="ourpartners-img" src={RakutenImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
-          </div>
-          {/*______________________________________________________________ */}
-
-
-          {/*______________________________________________________________ */}
-
-          <div style={{'margin-bottom': 80+'px'}}></div>
-          <div className="flexbox1 flexbox">
-            <div className="wrapperTwo-flexbox1-left">
-                <div>Silver Partners</div>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-
-                <div></div> 
-
-            </div>
-
-          </div>
-
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img className="ourpartners-img" src={KasperskyAcademyImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
-
-
-          </div>
-          {/*______________________________________________________________ */}
-
-          {/*______________________________________________________________ */}
-
-          <div style={{'margin-bottom': 80+'px'}}></div>
-          <div className="flexbox1 flexbox">
-            <div className="wrapperTwo-flexbox1-left">
-                <div>Bronze Partners</div>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-
-                <div></div> 
-
-            </div>
-
-          </div>
-
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img className="ourpartners-img" src={RakutenRapidApiImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
         
-          </div>
-
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img id="ourpartners-img" src={RedBullImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
-        
-          </div>
-          {/*______________________________________________________________ */}
-
-          {/*______________________________________________________________ */}
-
-          <div style={{'margin-bottom': 80+'px'}}></div>
-          <div className="flexbox1 flexbox">
-            <div className="wrapperTwo-flexbox1-left">
-                <div>Community Partners</div>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-
-                <div></div> 
-
-            </div>
-
-          </div>
-
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img className="ourpartners-img" src={StartupXImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
-        
-          </div>
-
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img id="ourpartners-img" src={TribeTheoryImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
-        
-          </div>
-
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img id="ourpartners-img" src={KickstartImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
-        
-          </div>
-          {/*______________________________________________________________ */}
-
-          {/*______________________________________________________________ */}
-
-          <div style={{'margin-bottom': 80+'px'}}></div>
-          <div className="flexbox1 flexbox">
-            <div className="wrapperTwo-flexbox1-left">
-                <div>Supporting Partners</div>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-
-                <div></div> 
-
-            </div>
-
-          </div>
-
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img className="ourpartners-img" src={ReassembleImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
-        
-          </div>
-
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img id="ourpartners-img" src={SalesforceImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
-        
-          </div>
-
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img id="ourpartners-img" src={CirclesLifeImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
-        
-          </div>
-          {/*______________________________________________________________ */}
-
-          {/*______________________________________________________________ */}
-
-          <div style={{'margin-bottom': 80+'px'}}></div>
-          <div className="flexbox1 flexbox">
-            <div className="wrapperTwo-flexbox1-left">
-                <div>Community Partners</div>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-
-                <div></div> 
-
-            </div>
-
-          </div>
-
-          <div style={{'margin-bottom': 60+'px'}}></div>
-
-
-          <div className="flexbox1 flexbox-ourpartners">
-            <div className="wrapperTwo-flexbox1-left">
-                <img className="ourpartners-img" src={AmbidextrImg} style={{height:150+'px'}}/>
-            </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-            <div className="wrapperTwo-flexbox1-right">
-                <div>
-                    Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015.
-                    It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
-                </div> 
-            </div>
-
-        
-  
-        
-          </div>
-          {/*______________________________________________________________ */}
-
-          
-
+        <Partners/>
         </div>
 
-        <div className = "wrapper3 wrapper">
-            {/* <div className = "containerThree">
-            asdsa
-            </div> */}
-            
-        </div>
-
-
-        
-
-     
+ 
         <Footer />
     </div>
+ 
   </div>
     );
   }
+  
 }
 
 export default OurPartners;
+
