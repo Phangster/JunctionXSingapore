@@ -16,6 +16,7 @@ import AsiaLogo from '../../../../images/JxAsia2020/junctionx_asia_white_twoline
 // For Router History
 import { useHistory } from 'react-router-dom';
 
+import './JxAsia2020.css'
 
 
 class JxSingapore2019 extends Component {
@@ -36,8 +37,8 @@ class JxSingapore2019 extends Component {
         </div> */}
         <div className="container">
           <div className="wrapperOne">
-            <img src={JxAsiaCoverImg} className="coverPhotoTag"></img>
-            <div className="containerOne">
+            <img src={JxAsiaCoverImg} className="coverPhotoTag" id="wrapper1-JxAsia2020"></img>
+            <div className="containerOne" >
               {/* <img className = "logoSize" src={JunctionAsiaPoster} alt= "JunctionAsiaPoster"/> */}
               {/* <p className = "headerLogo">JUNCTIONX ASIA</p> */}
               <img src={AsiaLogo} className="headerLogoImg" ></img>
