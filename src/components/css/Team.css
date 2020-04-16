@@ -37,11 +37,11 @@
     flex-wrap: wrap;
 }
 
-.email{
+.email {
     font-size: 15px;
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
     .containerTeam {
         padding: 0rem;
         margin-top: 6rem;
@@ -56,27 +56,34 @@
         opacity: 1;
         margin-top: 40px;
     }
+    .containerIntro {
+        padding: 1rem;
+    }
 }
 
 * {
     box-sizing: border-box;
-  }
-  
-  .bg-image {
+}
+
+.bg-image {
     /* Full height */
     height: 50%;
-  
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  
-  /* Images used */
-  .img1 { background-image: url("../../images/junction_img/junctionx_globe_white.png"); }
-  /* .img2 { background-image: url("img_girl.jpg"); }
+}
+
+
+/* Images used */
+
+.img1 {
+    background-image: url("../../images/junction_img/junctionx_globe_white.png");
+}
+
+
+/* .img2 { background-image: url("img_girl.jpg"); }
   .img3 { background-image: url("img_lights.jpg"); }
   .img4 { background-image: url("img_nature.jpg"); }
   .img5 { background-image: url("img_forest.jpg"); }
   .img6 { background-image: url("img_woods.jpg"); } */
-  
