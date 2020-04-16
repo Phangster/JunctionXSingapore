@@ -25,7 +25,7 @@ class Team extends Component {
       <div className="container">
         <div>
 
-          <div className="containerIntro">
+          <div className="containerIntro" id="containerIntro-team">
             <h1>We are JunctionX Singapore</h1>
           </div>
 
