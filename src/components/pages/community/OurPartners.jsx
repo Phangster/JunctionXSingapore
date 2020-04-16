@@ -346,7 +346,7 @@ class OurPartners extends Component {
               {/* <div style={{width:20+'px'}}></div> */}
             <div className="wrapperTwo-flexbox1-right">
                 <div>
-                Shopee is a Singaporean e-commerce platform headquartered under the Sea Group, which was founded in 2015. It has since expanded and is now the largest e-commerce platform in SEA and Taiwan.
+                Ambidextr is a full-service content marketing studio serving some of the Asia Pacific’s leading tech companies. With its end-to-end services backed by Future Now Ventures, Ambidextr aims to prepare brands for the new digital economy.
                 </div> 
             </div>
 
