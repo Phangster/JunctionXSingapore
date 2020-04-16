@@ -6,7 +6,7 @@ import '../../../css/Home.sass';
 // import './JxSingapore2019.scss';
 // import './JxSingapore2019.sass';
 import Footer from "../../../global/Footer";
-import CoverPhoto from "../../../../images/JxSingapore2019/main_coverphoto.jpg"
+import JxAsiaCoverImg from "../../../../images/JxAsia2020/JxAsiaCoverImg.png"
 
 // JunctionXAsia
 
@@ -21,29 +21,8 @@ import { useHistory } from 'react-router-dom';
 class JxSingapore2019 extends Component {
 
 
-  constructor(...args) {
-    super(...args);
-    this.state = { showModal: false };
-
-    this.close = () => {
-      this.setState({ showModal: false });
-    };
-
-    this.open = () => {
-      this.setState({ showModal: true });
-    };
-
-  }
-
-  componentWillMount() {
-    this.open();
-  }
-
-
-
   render() {
 
-    console.log(this.state.showModal)
     return (
       <div>
         {/* <div className="modal-position">
@@ -57,46 +36,44 @@ class JxSingapore2019 extends Component {
         </div> */}
         <div className="container">
           <div className="wrapperOne">
-            <img src={CoverPhoto} className="coverPhotoTag"></img>
+            <img src={JxAsiaCoverImg} className="coverPhotoTag"></img>
             <div className="containerOne">
               {/* <img className = "logoSize" src={JunctionAsiaPoster} alt= "JunctionAsiaPoster"/> */}
               {/* <p className = "headerLogo">JUNCTIONX ASIA</p> */}
               <img src={AsiaLogo} className="headerLogoImg" ></img>
               <p style={{ fontSize: 30 + "px" }}>HACK THE FUTURE</p>
-              <div style={{ fontSize: 25 + "px" }} className="textTwo color">4th May 2020</div>
+              <div style={{ fontSize: 25 + "px" }} className="textTwo color">4. - 7.6.20</div>
             </div>
           </div>
-          <div className="wrapperTwo">
-            <div className="containerTwo">
-              <div className='textColor'>ABOUT</div>
-              <div>
-                <div className="textOne">JunctionX Asia 2020</div>
-                <div className="textTwo subconOne">
-                  <div>The first ONLINE Asia JunctionX Hackathon</div>
-                  <br></br>
-                  <div>
-                    JunctionX Asia 2020 is a hackathon organised by 3 different Asian countries.
-                    JunctionX Singapore, JunctionX Hanoi & JunctionX Seoul.
-                  </div>
-                  <br></br>
-                  <div>
-                    With the combined experience of these 3 countries, we will be organising a Hackthon which will target the current global pandemic, COVID-19.
-                  </div>
-                  <div>
-                    Participants from the Asia-Pacific region will be able to join us as we work to come up with solutions in order to combat the problems.
-                  </div>
-                    <br></br>
-                    <div>Hack the Future with us! We hope to see your online submissions!</div>
+          <div className="wrapper2 wrapper">
 
-                </div>
-                <div className="subconTwo">
-                  <img src={JunctionAsiaCollab} />
-
-                </div>
-              </div>
+             <div className="flexbox1 flexbox">
+            <div className="wrapperTwo-flexbox1-left">
+                <div>Never before</div>
             </div>
+              {/* <div style={{width:20+'px'}}></div> */}
+            <div className="wrapperTwo-flexbox1-right">
+                <div>
+                JunctionX Asia is an online hackathon targeted at solving problems we are facing during this ongoing pandemic. Bringing together developers, designers and other tech-minded individuals to create projects and solve intriguing challenges.
+                </div> <br/>
+                <div>
+                We will be collaborating with industry partners to come up with real life problem statements for the participants. Come join us! Registration opening in May and more details will be released soon!
+                </div>
+                <div>
+                Stay tuned:)
+                </div>
+            </div>
+            </div>
+            <br/><br/><br/>
+            <div>
+              <img src={JunctionAsiaCollab}/>
+            </div>
+
+
+       
           </div>
         </div>
+
         <Footer />
       </div>
     );
