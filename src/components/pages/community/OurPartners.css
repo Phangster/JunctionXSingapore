@@ -11,6 +11,22 @@
     display: block;
 }
 
+
+.containerIntro {
+    padding: 15rem;
+    text-align: center;
+}
+
+.containerIntro h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#containerIntro-ourpartners {
+    background-image: url("../../../images/junction_img/OurPartnersCoverImg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .coverPhotoTag {
     opacity: 45%;
     position: relative;
@@ -63,10 +79,14 @@
     position: relative;
     justify-content: center;
     display: grid;
+    background-image: url('../../../images/junction_img/OurPartnersCoverImg.jpg')
+
 }
 
 .wrapper {
     max-height: fit-content;
+    background-image: url('../../../images/junction_img/OurPartnersCoverImg.jpg')
+
 }
 
 .wrapper2 {
@@ -210,7 +230,7 @@
     .flexbox-reason {
         justify-content: space-around;
     }
-    ..flexbox-ourpartners {
+    .flexbox-ourpartners {
         padding-left: 0px;
     }
     .headerLogoCommunity {

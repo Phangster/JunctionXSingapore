@@ -3,3 +3,19 @@
     text-align: right;
     font-style: italic;
 }
+
+#containerIntro-volunteers {
+    background-image: url("../../../images/junction_img/ForVolunteersCoverImg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.containerIntro {
+    padding: 15rem;
+    text-align: center;
+}
+
+.containerIntro h1 {
+    font-size: 50px;
+    text-align: center;
+}
