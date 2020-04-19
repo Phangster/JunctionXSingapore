@@ -45,6 +45,14 @@ class Team extends Component {
 
             <h2>Partnership Team</h2>
             <div className='profile'>
+
+            <div>
+                <img className="avatar" src={Adam} alt="Adam" />
+                <p>Adam Proft</p>
+                <p className="position">Head of Partnership</p>
+                <a className="email" href="mailto:adam.proft@hackjunction.com" title="Adam Proft">adam.proft@hackjunction.com</a>
+              </div>
+
               <div>
                 <img className="avatar" src={Daryl} alt="Daryl" />
                 <p>Daryll Wong</p>
@@ -60,11 +68,11 @@ class Team extends Component {
                 <p className="position">Team Member</p>
               </div>
 
-              <div>
+              {/* <div>
                 <img className="avatar" src={Adam} alt="Adam" />
                 <p>Adam Proft</p>
                 <p className="position">Team Member</p>
-              </div>
+              </div> */}
             </div>
 
             <div className="Divider"></div>
