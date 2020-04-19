@@ -51,18 +51,21 @@ class Team extends Component {
                 <p className="position">Head of Partnership</p>
                 <a className="email" href="mailto:daryll.wong@hackjunction.com" title="Daryll Wong">daryll.wong@hackjunction.com</a>
               </div>
+
+              <div>
+                <img className="avatar" src={Adam} alt="Adam" />
+                <p>Adam Proft</p>
+                <p className="position">Head of Partnership</p>
+                <a className="email" href="mailto:adam.proft@hackjunction.com" title="Adam Proft">adam.proft@hackjunction.com</a>
+              </div>
             </div>
+
+
 
             <div className='profile'>
               <div>
                 <img className="avatar" src={Eloy} alt="Eloy" />
                 <p>Eloy Choo Hui</p>
-                <p className="position">Team Member</p>
-              </div>
-
-              <div>
-                <img className="avatar" src={Adam} alt="Adam" />
-                <p>Adam Proft</p>
                 <p className="position">Team Member</p>
               </div>
             </div>
