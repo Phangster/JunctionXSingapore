@@ -17,7 +17,7 @@ class Calendar extends Component {
     return (
       <div>
         <div className = "container">
-        <div className = "wrapper1">
+        <div className = "wrapper1" id="wrapper1-Calendar">
             <img src={CoverPhoto} className="coverPhotoTag"></img>
           <div className = "coverContainer">
             <p className = "headerLogoCommunity">WHAT'S NEXT?</p>

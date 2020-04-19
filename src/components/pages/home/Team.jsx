@@ -94,7 +94,7 @@ class Team extends Component {
 
               <div>
                 <img className="avatar" src={Saana} alt="Saana" />
-                <p>Saana</p>
+                <p>Saana Kuusela</p>
                 <p className="position">Content Editor</p>
               </div>
             </div>

@@ -65,6 +65,12 @@
     display: grid;
 }
 
+.wrapper1-ForPartners {
+    background-image: url(../../../images/junction_img/ForPartnersCoverImg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .wrapper {
     max-height: fit-content;
 }

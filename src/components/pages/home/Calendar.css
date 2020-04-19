@@ -65,6 +65,12 @@
     display: grid;
 }
 
+#wrapper1-Calendar {
+    background-image: url(../../../images/junction_img/calendarBackgroundPhoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .wrapper {}
 
 .wrapper2 {
