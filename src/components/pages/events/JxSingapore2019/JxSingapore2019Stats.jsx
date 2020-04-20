@@ -77,7 +77,7 @@ class JxSingapore2019Stats extends Component {
         <div class = "containerHiring"> 
 
             <div className="flexbox">
-            <div className="flexbox-left">JuntionX Singapore 2019 Stats</div>
+            <div className="flexbox-left">JunctionX Singapore 2019 stats</div>
               {/* <div style={{width:20+'px'}}></div> */}
               <div className="flexbox-right">
                 <InfoComponent topWord="10+" bottomWord="partners"/>
@@ -93,7 +93,7 @@ class JxSingapore2019Stats extends Component {
 
             <div className="flexbox">
             <div className="flexbox-left">
-                Diverse group of Participants
+                Diverse group of participants
             </div>
               {/* <div style={{width:20+'px'}}></div> */}
 

@@ -24,7 +24,7 @@ class Partners extends Component {
     return (
         <div> 
             <div className="containment">
-            <h1>OUR PARNTERS</h1>
+            <h1>OUR PARTNERS</h1>
                 <div className="CoOrganising">
                 <h2>CO-ORGANISING</h2>
                     <div className="container-box">

@@ -16,7 +16,7 @@ class OurStory extends Component {
               <div id="header2LogoCommunity">
                 A non-profit multi-disciplinary tech-community that is managed and run by Singapore tech-enthusiasts.
                 We come together in order to bring tech-enthusiasts an opportunity to showcase their talents
-                as well as to contribute back to the community. After all, it is intended to empower people to create with technology.
+                as well as to contribute back to the community. Our aim is to empower poeple to create with technology.
               </div>
             </div>
           </div>
@@ -48,10 +48,10 @@ class OurStory extends Component {
 
             <div class="row">
               <div class="col s2 l4">
-                <h3 class="MiddleSec">How did we started out?</h3>
+                <h3 class="MiddleSec">How did we start?</h3>
                 <p class="MiddleSec-Comments">Our first local hackathon in Singapore took place in 2019.
-                Through JunctionX Singapore, participants were able to challenge themselves as well
-                as being able to push themselves in order to solve the the problems.</p>
+                Through JunctionX Singapore, participants were able to challenge themselves
+                in order to solve the problems.</p>
               </div>
             </div>
           </div>

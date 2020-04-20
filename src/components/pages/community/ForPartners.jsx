@@ -30,9 +30,10 @@ class ForPartners extends Component {
         <div className = "wrapper1 wrapper1-ForPartners">
             {/* <img src={ForPartnersCoverImg} className="coverPhotoTag"></img> */}
           <div className = "coverContainer">
-            <p className = "headerLogoCommunity">UNLOCK THE HACKER WORLD.</p>
+            <p className = "headerLogoCommunity">Unlock the hacker world.</p>
             <div id="header2LogoCommunity">
-            Junction provides your company with a unique opportunity to work and interact with thousands of developers, designers and business talents from around the globe.
+            JunctionX provides your company with a unique opportunity to work and interact with thousands of developers, 
+            designers and business talents from around the globe.
             </div>
             {/* <div style={{fontSize: 15 +"px"}} className = "textTwo color">
             We organize hackathons, speaker events, coding workshops and other tech events around the year. We have something for every skill set and interest: take on new challenges, explore, and gain new experiences in Junction events!
@@ -60,7 +61,7 @@ class ForPartners extends Component {
                 The JunctionX Singapore team is a volunteer community of tech enthusiasts who work with the industry to craft out a one of a kind hackathons for people in Singapore, as well as the region.
                 </div> <br/>
                 <div>
-                In order to offer our participants the most stimulating problems and latest technology, we partner with industry partners to create real-life problem statements that their industry is facing. Our partcipants get an once-in-a-life opportunity to hack for solutions within a short time frame.
+                In order to offer our participants the most stimulating problems and latest technology, we team up with industry partners to create real-life problem statements that their industry is facing. Our participants get a once-in-a-lifetime opportunity to hack for solutions within a short time frame.
                 </div> <br/>
                 <div>
                 We believe that technology is a powerful tool when used right, and everybody should have the possibility to build meaningful things with it: that's why all of our events are centered around learning and creating with technology.
@@ -82,7 +83,7 @@ class ForPartners extends Component {
 
         <div className = "wrapper4 wrapper">
         <div className="flexbox4 flexbox">
-            <div className="wrapperTwo-flexbox1-left">Why Partner with us?</div>
+            <div className="wrapperTwo-flexbox1-left">Why partner with us?</div>
               {/* <div style={{width:20+'px'}}></div> */}
             <div className="wrapperTwo-flexbox1-right">
             </div>
@@ -102,8 +103,8 @@ class ForPartners extends Component {
           <div className="flexbox4 flexbox-reason">
             <div className="wrapperTwo-flexbox1-left-reasons">RECRUITING</div>
             <div className="wrapperTwo-flexbox1-right">
-            Last year, our partners have had the chance to interact with excceptional tech talents for recruitment. 
-            Hackathons are a great place to get first-hand experience on the team-work, project management and technical skills of the participants. 
+            Last year, our partners have had the chance to interact with exceptional tech talents for recruitment. 
+            Hackathons are a great place to get first-hand experience on the teamwork, project management and technical skills of the participants. 
             We support this exchange by offering a recruiting platform for being in touch with our hackers.
             </div>
           </div>
@@ -125,7 +126,7 @@ class ForPartners extends Component {
 
         <div className = "wrapper3 wrapper">
         <div className="flexbox4 flexbox">
-            <div className="wrapperTwo-flexbox1-left">Some of our Previous Partners</div>
+            <div className="wrapperTwo-flexbox1-left">Some of our previous partners</div>
               {/* <div style={{width:20+'px'}}></div> */}
             <div className="wrapperTwo-flexbox1-right">
                 <img src={RakutenImg} id="partner-imgs"/>
@@ -144,11 +145,13 @@ class ForPartners extends Component {
             <div className="wrapperTwo-flexbox1-left">Let's discuss how we can make it happen</div>
               {/* <div style={{width:20+'px'}}></div> */}
             <div className="wrapperTwo-flexbox1-right-partnership">
+                <span>We are happy to discuss your company's needs and how this hackathon can generate value for you. </span>
+                <br/>
                 <span>Feel free to contact our partnership team </span>
                 <a href="mailto:daryll.wong@hackjunction.com?Subject=CollaborationForJunctionXSingapore" target="_top">daryll.wong@hackjunction.com</a>
                 {/* <span> or </span> */}<br/>
                 <a href="mailto:adam.proft@hackjunction.com?Subject=CollaborationForJunctionXSingapore" target="_top">adam.proft@hackjunction.com</a>
-                <br/><span> and let's see how this hackathon can be of benefit to your company and generate value for you</span>
+                <br/>
             </div>
         </div>
 

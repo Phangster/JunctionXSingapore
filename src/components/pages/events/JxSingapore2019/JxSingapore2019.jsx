@@ -89,7 +89,7 @@ class JxSingapore2019 extends Component {
             {/* <p className = "headerLogo">JUNCTIONX ASIA</p> */}
             <img src={JunctionXSGLogo} className="headerLogoImg" ></img>
             <p style={{fontSize: 30 +"px"}}>HACK THE FUTURE</p>
-            <div style={{fontSize: 25 +"px"}} className="textTwo color">4. - 7.06.2020</div>
+            <div style={{fontSize: 25 +"px"}} className="textTwo color">4.-7.6.2020</div>
           </div>
         </div>
         <div className = "wrapperTwo">
@@ -98,21 +98,21 @@ class JxSingapore2019 extends Component {
             <div>
               <div className="textOne">JunctionX Singapore 2019</div>
               <div className="textTwo subconOne">
-                <div>The first JunctionX Hackathon organised in Singapore!</div>
+                <div>The first JunctionX hackathon organised in Singapore!</div>
                 <br></br>
                 <div>
-                    JunctionX Singapore 2019 is a hackathon organised for developers, by developers. 
-                    This was the first hackathon organised by the founding JunctionX Singapore team and it was a massive success.
-                    It was a 48 hour hackathon organised on the beautiful office of Rakuten Singapore in CBD.
+                    Organised for developers by developers, junction X Singapore 2019 was 
+                    This was the first hackathon of JunctionX Singapore team and it was a massive success.
+                    The 48 hour hackathon was organised on the beautiful office of Rakuten Singapore in CBD.
                 </div>
                 <div>
-                    Participants came from a diverse range of background with more than half being international participants (from Algeria, Japan, etc.) who came to Singapore just to attend this hackathon.
+                    Participants came from a diverse range of backgrounds with more than half being international participants (from Algeria, Japan, etc.) who came to Singapore just to attend this hackathon.
                 </div>
                 <div>
                     We had a real-life problem statements from our challenge owners (Rakuten, Shopee, Kaspersky) who made this hackathon a really insightful one for all parties.
                 </div>
                 <br></br>
-                <div>Hack the Future with us! See you for our next event!</div>
+                <div>Hack the Future with us - see you at our next hackathon in 2020!</div>
               </div>
               <div className="subconTwo">
                 <img src={JunctionXSGTablePic} />

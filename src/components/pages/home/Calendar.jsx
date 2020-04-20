@@ -22,7 +22,7 @@ class Calendar extends Component {
           <div className = "coverContainer">
             <p className = "headerLogoCommunity">WHAT'S NEXT?</p>
             <div id="header2LogoCommunity">
-                We organize hackathons, speaker events, coding workshops and other tech events around the year. We have something for every skill set and interest: take on new challenges, explore, and gain new experiences in Junction events!
+                We organize hackathons, speaker events, coding workshops and other tech events around the year. We have something for every skill set and interest: take on new challenges, explore, and gain new experiences in JunctionX events!
             </div>
             {/* <div style={{fontSize: 15 +"px"}} className = "textTwo color">
             We organize hackathons, speaker events, coding workshops and other tech events around the year. We have something for every skill set and interest: take on new challenges, explore, and gain new experiences in Junction events!
