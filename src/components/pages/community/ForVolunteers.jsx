@@ -18,7 +18,7 @@ class ForVolunteers extends Component {
   render() {
 
     return (
-      <div className="container">
+      <div className="ForVolunteers">
         <div>
 
           <div className="containerIntro" id="containerIntro-volunteers">

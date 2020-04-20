@@ -26,7 +26,7 @@ class ForPartners extends Component {
 
     return (
       <div>
-        <div className = "container">
+        <div className = "ForPartners">
         <div className = "wrapper1 wrapper1-ForPartners">
             {/* <img src={ForPartnersCoverImg} className="coverPhotoTag"></img> */}
           <div className = "coverContainer">

@@ -22,31 +22,24 @@ import Daryl from '../../../images/team_img/Daryl.jpg'
 class Team extends Component {
   render() {
     return (
-      <div className="container">
-        <div>
-
-          <div className="containerIntro" id="containerIntro-team">
+      <div>
+        <div className="TeamPage">
+          <div className="container-team-intro">
             <h1>We are JunctionX Singapore</h1>
           </div>
 
-          <div className="containerTeam">
-            <div className='profile'>
-              <div>
-                <h2>Head of JunctionX Singapore</h2>
-                <img className="avatar" src={Bryan} alt="Bryan" />
-                <p>Bryan Phang</p>
-                <a className="email" href="mailto:bryan.david@hackjunction.com" title="Eloy Choo">bryan.david@hackjunction.com</a>
-              </div>
-            </div>
+          <div className="container-team-head">
+            <h2>Head of JunctionX Singapore</h2>
+            <img className="avatar" src={Bryan} alt="Bryan" />
+            <p>Bryan Phang</p>
+            <a className="email" href="mailto:bryan.david@hackjunction.com" title="Bryan David">bryan.david@hackjunction.com</a>
+          </div>
+          <hr />
 
-            <div class="img1"></div>
-            <div className="Divider"></div>
-
-
+          <div className="container-team-partnership">
             <h2>Partnership Team</h2>
-            <div className='profile'>
-
-            <div>
+            <div class="head">
+              <div>
                 <img className="avatar" src={Adam} alt="Adam" />
                 <p>Adam Proft</p>
                 <p className="position">Head of Partnership</p>
@@ -61,24 +54,19 @@ class Team extends Component {
               </div>
             </div>
 
-            <div className='profile'>
+            <div class="team-members">
               <div>
                 <img className="avatar" src={Eloy} alt="Eloy" />
                 <p>Eloy Choo Hui</p>
                 <p className="position">Team Member</p>
               </div>
-
-              {/* <div>
-                <img className="avatar" src={Adam} alt="Adam" />
-                <p>Adam Proft</p>
-                <p className="position">Team Member</p>
-              </div> */}
             </div>
+          </div>
+          <hr />
 
-            <div className="Divider"></div>
-
+          <div className="container-team-marketing">
             <h2>Marketing Team</h2>
-            <div className='profile'>
+            <div class="head">
               <div>
                 <img className="avatar" src={JunYuan} alt="JunYuan" />
                 <p>Teng Jun Yuan</p>
@@ -87,7 +75,7 @@ class Team extends Component {
               </div>
             </div>
 
-            <div className='profile'>
+            <div class="team-members">
               <div>
                 <img className="avatar" src={Mel} alt="Melody" />
                 <p>Melody Leong</p>
@@ -106,11 +94,13 @@ class Team extends Component {
                 <p className="position">Content Editor</p>
               </div>
             </div>
+          </div>
 
-            <div className="Divider"></div>
+          <hr />
 
+          <div className="container-team-web">
             <h2>Web Development Team</h2>
-            <div className='profile'>
+            <div class="head">
               <div>
                 <img className="avatar" src={Haziq} alt="Haziq" />
                 <p>Muhammad Haziq Mofe</p>
@@ -119,7 +109,7 @@ class Team extends Component {
               </div>
             </div>
 
-            <div className='profile'>
+            <div class="team-members">
               <div>
                 <img className="avatar" src={Daryl} alt="Daryl" />
                 <p>Daryll Wong</p>
@@ -127,9 +117,11 @@ class Team extends Component {
               </div>
             </div>
           </div>
+
+          <Footer />
         </div>
-        <Footer />
-      </div >
+      </div>
+
     );
   }
 }

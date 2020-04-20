@@ -81,7 +81,7 @@ class JxSingapore2019 extends Component {
               Maybe aircrafts fly very high because they don't want to be seen in plane sight?
           </Modal>
         </div> */}
-        <div className = "container">
+        <div className = "jxsg2019">
         <div className = "wrapperOne">
           <img src={CoverPhoto} className="coverPhotoTag"></img>
           <div className = "containerOne">
