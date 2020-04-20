@@ -84,7 +84,6 @@ class ForPartners extends Component {
         <div className = "wrapper4 wrapper">
         <div className="flexbox4 flexbox">
             <div className="wrapperTwo-flexbox1-left">Why partner with us?</div>
-            
               {/* <div style={{width:20+'px'}}></div> */}
             <div className="wrapperTwo-flexbox1-right">
             </div>
