@@ -38,7 +38,7 @@ class OurPartners extends Component {
         <div className="container">
           <div>
             <div className="containerIntro" id="containerIntro-ourpartners">
-              <div className="wrapper1">
+              <div className="wrapper1-ourpartners">
                 <p className="headerLogoCommunity">Our Partners</p>
                 <div id="header2LogoCommunity">
                   JunctionX Singapore is a non-profit volunteer led hackathon,
