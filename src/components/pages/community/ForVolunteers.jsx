@@ -22,7 +22,7 @@ class ForVolunteers extends Component {
         <div>
 
           <div className="containerIntro" id="containerIntro-volunteers">
-            <h1>Join the JunctionX Singapore Family</h1>
+            <h1>Join the JunctionX Singapore family</h1>
             <h3>We are JunctionX Singapore, part of JunctionX – a volunteer-lead community effort around the world. Our headquarters is located at Startup Sauna in Finland but the Junction team as a whole spreads out all around the globe. The thing that connects us all? A passion for empowering people to create with technology. Join us!</h3>
               
             </div>
