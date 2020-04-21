@@ -35,7 +35,7 @@ class OurPartners extends Component {
       <div>
 
 
-        <div className="container">
+        <div className="OurPartners">
           <div>
             <div className="containerIntro" id="containerIntro-ourpartners">
               <div className="wrapper1-ourpartners">

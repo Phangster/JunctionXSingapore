@@ -18,7 +18,7 @@ class ForParticipants extends Component {
 
     return (
       <div>
-        <div className = "container">
+        <div className = "Participants">
         <div className = "wrapper1">
             <img src={ForParticipantsCoverImg} className="coverPhotoTag"></img>
           <div className = "coverContainer">
