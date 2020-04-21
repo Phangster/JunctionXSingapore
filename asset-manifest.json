@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2873a0c0.chunk.css",
-    "main.js": "/static/js/main.4def9afc.chunk.js",
-    "main.js.map": "/static/js/main.4def9afc.chunk.js.map",
+    "main.css": "/static/css/main.c6b5de4d.chunk.css",
+    "main.js": "/static/js/main.22cd3bb9.chunk.js",
+    "main.js.map": "/static/js/main.22cd3bb9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7bfe56a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.7bfe56a6.js.map",
-    "static/js/2.2b20bbc1.chunk.js": "/static/js/2.2b20bbc1.chunk.js",
-    "static/js/2.2b20bbc1.chunk.js.map": "/static/js/2.2b20bbc1.chunk.js.map",
+    "static/js/2.3ead6d4c.chunk.js": "/static/js/2.3ead6d4c.chunk.js",
+    "static/js/2.3ead6d4c.chunk.js.map": "/static/js/2.3ead6d4c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.260a1eff7a16942efeecfd3d53f60162.js": "/precache-manifest.260a1eff7a16942efeecfd3d53f60162.js",
+    "precache-manifest.332b2791b098288eed7fdb9f48aeac7e.js": "/precache-manifest.332b2791b098288eed7fdb9f48aeac7e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2873a0c0.chunk.css.map": "/static/css/main.2873a0c0.chunk.css.map",
-    "static/js/2.2b20bbc1.chunk.js.LICENSE.txt": "/static/js/2.2b20bbc1.chunk.js.LICENSE.txt",
+    "static/css/main.c6b5de4d.chunk.css.map": "/static/css/main.c6b5de4d.chunk.css.map",
+    "static/js/2.3ead6d4c.chunk.js.LICENSE.txt": "/static/js/2.3ead6d4c.chunk.js.LICENSE.txt",
     "static/media/Adam.jpg": "/static/media/Adam.3a24182b.jpg",
     "static/media/Bryan.jpg": "/static/media/Bryan.b28178bf.jpg",
     "static/media/Eloy.jpg": "/static/media/Eloy.56ef2bd3.jpg",
@@ -67,13 +67,13 @@
     "static/media/security.jpg": "/static/media/security.460678f3.jpg",
     "static/media/smartcommerce.jpg": "/static/media/smartcommerce.eb36b176.jpg",
     "static/media/startupx1.jpeg": "/static/media/startupx1.4f8c8679.jpeg",
-    "static/media/team.jpg": "/static/media/team.af735b96.jpg",
+    "static/media/ContactUs.css": "/static/media/team.af735b96.jpg",
     "static/media/yash_datta.jpeg": "/static/media/yash_datta.89236235.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.7bfe56a6.js",
-    "static/js/2.2b20bbc1.chunk.js",
-    "static/css/main.2873a0c0.chunk.css",
-    "static/js/main.4def9afc.chunk.js"
+    "static/js/2.3ead6d4c.chunk.js",
+    "static/css/main.c6b5de4d.chunk.css",
+    "static/js/main.22cd3bb9.chunk.js"
   ]
 }
