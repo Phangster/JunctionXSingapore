@@ -44,7 +44,6 @@ import ForVolunteers from "./components/pages/community/ForVolunteers.jsx"
 import Blog from "./components/pages/others/Blog.jsx"
 import ContactUs from "./components/pages/others/ContactUs.jsx"
 import Page404 from "./components/pages/others/Page404.jsx"
-import RigAssociate from "./components/pages/others/RigAssociate.jsx"
 import JxSingapore2019Stats from "./components/pages/events/JxSingapore2019/JxSingapore2019Stats";
 
 
@@ -93,7 +92,6 @@ class App extends Component {
             {/* OTHERS */}
               <Route exact path="/blog" component={Blog} />
               <Route exact path="/contactus" component={ContactUs} />
-              <Route exact path="/rig-associate" component={RigAssociate} />
               
               <Route path="*" component={Page404} />
           </Switch>
