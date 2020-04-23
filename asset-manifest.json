@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6b5de4d.chunk.css",
-    "main.js": "/static/js/main.33e8d3a9.chunk.js",
-    "main.js.map": "/static/js/main.33e8d3a9.chunk.js.map",
+    "main.css": "/static/css/main.09ba2c4c.chunk.css",
+    "main.js": "/static/js/main.41072c49.chunk.js",
+    "main.js.map": "/static/js/main.41072c49.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7bfe56a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.7bfe56a6.js.map",
-    "static/js/2.3ead6d4c.chunk.js": "/static/js/2.3ead6d4c.chunk.js",
-    "static/js/2.3ead6d4c.chunk.js.map": "/static/js/2.3ead6d4c.chunk.js.map",
+    "static/js/2.03de843a.chunk.js": "/static/js/2.03de843a.chunk.js",
+    "static/js/2.03de843a.chunk.js.map": "/static/js/2.03de843a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6f56bced19a82d93d35c52e409b522b6.js": "/precache-manifest.6f56bced19a82d93d35c52e409b522b6.js",
+    "precache-manifest.c320da1680285ed7300ef4c5b02c2138.js": "/precache-manifest.c320da1680285ed7300ef4c5b02c2138.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c6b5de4d.chunk.css.map": "/static/css/main.c6b5de4d.chunk.css.map",
-    "static/js/2.3ead6d4c.chunk.js.LICENSE.txt": "/static/js/2.3ead6d4c.chunk.js.LICENSE.txt",
+    "static/css/main.09ba2c4c.chunk.css.map": "/static/css/main.09ba2c4c.chunk.css.map",
+    "static/js/2.03de843a.chunk.js.LICENSE.txt": "/static/js/2.03de843a.chunk.js.LICENSE.txt",
     "static/media/Adam.jpg": "/static/media/Adam.3a24182b.jpg",
     "static/media/Bryan.jpg": "/static/media/Bryan.b28178bf.jpg",
     "static/media/Eloy.jpg": "/static/media/Eloy.56ef2bd3.jpg",
@@ -29,7 +29,7 @@
     "static/media/JunctionX_logos-wordmark-white.svg": "/static/media/JunctionX_logos-wordmark-white.2aad815e.svg",
     "static/media/JunctionX_logos_white.png": "/static/media/JunctionX_logos_white.154b43c3.png",
     "static/media/JunctionX_nav.png": "/static/media/JunctionX_nav.7ae57dd0.png",
-    "static/media/JxAsiaCalendarImg.png": "/static/media/JxAsiaCalendarImg.9855acc7.png",
+    "static/media/JxAsia2020.css": "/static/media/JxAsiaCalendarImg.9855acc7.png",
     "static/media/JxAsiaCoverImg.png": "/static/media/JxAsiaCoverImg.d3854b5c.png",
     "static/media/Liang_Jingxi.jpg": "/static/media/Liang_Jingxi.dcd47e40.jpg",
     "static/media/OurPartners.css": "/static/media/OurPartnersCoverImg.fa57152a.jpg",
@@ -72,8 +72,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7bfe56a6.js",
-    "static/js/2.3ead6d4c.chunk.js",
-    "static/css/main.c6b5de4d.chunk.css",
-    "static/js/main.33e8d3a9.chunk.js"
+    "static/js/2.03de843a.chunk.js",
+    "static/css/main.09ba2c4c.chunk.css",
+    "static/js/main.41072c49.chunk.js"
   ]
 }
