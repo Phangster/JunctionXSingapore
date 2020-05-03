@@ -57,6 +57,8 @@ const BottomSmallLetter = styled.div`
   text-align: center;
 `
 
+
+
 const infoComponent = styled.div`
   
 `
@@ -91,19 +93,16 @@ class JxSingapore2019Stats extends Component {
             <div style={{'padding': 50+'px'}}></div>
 
 
-            <div className="flexbox">
+            {/* <div className="flexbox">
             <div className="flexbox-left">
                 Diverse group of participants
             </div>
-              {/* <div style={{width:20+'px'}}></div> */}
-
-              {/* <div className="flexbox-right">
-                <ParticipantsPieChart/>
-              </div> */}
+            
               
               <ParticipantsPieChart/>
-              
-            </div>
+            
+      
+            </div> */}
 
         </div>
     );
