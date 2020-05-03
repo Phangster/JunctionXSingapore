@@ -49,7 +49,7 @@ class Home extends Component {
     console.log(this.state.showModal)
     return (
       <div>
-        <div className = "container">
+        <div className = "homepage">
         <div className = "wrapperOne">
           <video className='videoTag' autoPlay loop muted>
             <source src={sample} type='video/mp4' />
