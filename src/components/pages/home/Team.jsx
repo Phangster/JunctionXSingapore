@@ -20,6 +20,24 @@ import Haziq from '../../../images/team_img/Haziq.jpg'
 import Daryl from '../../../images/team_img/Daryl.jpg'
 
 class Team extends Component {
+
+  constructor(...args) {
+    super(...args);
+    this.state = { showModal: false };
+
+    this.close = () => {
+      this.setState({ showModal: false });
+    };
+
+    this.open = () => {
+      this.setState({ showModal: true });
+    };
+
+  }
+
+  componentWillMount() {
+    this.open();
+  }
   render() {
     return (
       <div>

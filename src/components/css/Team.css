@@ -13,6 +13,7 @@
     text-align: center;
 }
 
+
 /* Container Team Head of JunctionX Section CSS */
 
 .container-team-head {
@@ -20,31 +21,33 @@
     text-align: center;
 }
 
+
 /* Partnership Section CSS */
 
 .container-team-partnership {
     padding: 5rem;
     text-align: center;
-
 }
+
 
 /* Marketing Section CSS */
 
 .container-team-marketing {
     padding: 5rem;
     text-align: center;
-
 }
+
 
 /* Web Development Section CSS */
 
 .container-team-web {
     padding: 5rem;
     text-align: center;
-
 }
 
+
 /* Head of Department CSS*/
+
 .head {
     display: flex;
     justify-content: space-around;
@@ -52,14 +55,18 @@
     flex-wrap: wrap;
 }
 
+
 /* Team Members of Department CSS */
-.team-members{
+
+.team-members {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
+
 /* Display Picture for Members CSS */
+
 .avatar {
     object-fit: cover;
     object-position: 100% 0;
@@ -69,7 +76,9 @@
     opacity: 1;
 }
 
+
 /* Title CSS */
+
 .position {
     font-family: 'Lato';
     font-weight: bold;
@@ -77,11 +86,15 @@
 
 
 /* Email CSS */
+
 .email {
     font-size: 15px;
 }
 
 @media(max-width: 768px) {
+    .container-team-intro {
+        width: 100%;
+    }
     .containerTeam {
         padding: 0rem;
         margin-top: 6rem;
@@ -95,8 +108,5 @@
         display: inline-block;
         opacity: 1;
         margin-top: 40px;
-    }
-    .containerIntro {
-        padding: 1rem;
     }
 }
