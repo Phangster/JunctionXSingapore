@@ -37,8 +37,6 @@
     display: grid;
 }
 
-.wrapper {}
-
 .wrapper2 {
     background: #ffffff;
     color: black;
@@ -86,9 +84,8 @@
 }
 
 #partner-imgs {
-    padding: 50px;
-    height: auto;
-    width: 250px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 #title {

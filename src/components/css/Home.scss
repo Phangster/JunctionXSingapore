@@ -522,9 +522,8 @@ iframe {
 }
 
 #partner-imgs {
-    padding: 50px;
-    height: auto;
-    width: 160px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 #title {
