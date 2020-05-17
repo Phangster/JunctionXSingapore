@@ -97,21 +97,21 @@ class JxSingapore2019 extends Component {
               <div>
                 <div className="textOne">JunctionX Singapore 2019</div>
                 <div className="textTwo subconOne">
-                  <div>The first JunctionX hackathon organised in Singapore!</div>
+                  <div>
+                    The first JunctionX hackathon organised in Singapore!
+                  </div>
                   <br></br>
                   <div>
                     Organised for developers by developers, junction X Singapore 2019 was
                     This was the first hackathon of JunctionX Singapore team and it was a massive success.
                     The 48 hour hackathon was organised on the beautiful office of Rakuten Singapore in CBD.
-                </div>
+                  </div>
                   <div>
                     Participants came from a diverse range of backgrounds with more than half being international participants (from Algeria, Japan, etc.) who came to Singapore just to attend this hackathon.
-                </div>
-                  <div>
-                    We had a real-life problem statements from our challenge owners (Rakuten, Shopee, Kaspersky) who made this hackathon a really insightful one for all parties.
-                </div>
-                  <br></br>
-                  <div>Hack the Future with us - see you at our next hackathon in 2020!</div>
+                  </div>
+                    <div>
+                      Hack the Future with us - see you at our next hackathon in 2020!
+                   </div>
                 </div>
                 <div className="subconTwo">
                   <img src={JunctionXSGTablePic} />

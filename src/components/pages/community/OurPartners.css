@@ -12,7 +12,7 @@
 }
 
 .containerIntro {
-    padding: 15rem;
+    padding: 5rem;
     text-align: center;
 }
 
@@ -25,6 +25,19 @@
     background-image: url("../../../images/junction_img/OurPartnersCoverImg.jpg");
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#containerIntro-ourstory {
+    background-image: url("../../../images/junction_img/individual.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#containerIntro-team {
+    background-image: url("../../../images/junction_img/team.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
 }
 
 .coverPhotoTag {

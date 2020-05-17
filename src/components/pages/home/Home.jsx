@@ -4,6 +4,8 @@ import '../../css/Home.scss';
 import '../../css/Home.sass';
 import Footer from "../../global/Footer";
 import sample from '../../../videos/intro.mp4';
+import '../../css/Partners.css';
+
 
 // import Modal from "../global/Modal";
 import JunctionLogo from '../../../images/junction_img/JunctionX_logos_white.png'
@@ -106,18 +108,35 @@ class Home extends Component {
           </div>
 
           <div className="wrapper4 wrapper">
-            <div className="flexbox4 flexbox">
-              <div className="wrapperTwo-flexbox1-left">Some of our Previous Partners</div>
-              {/* <div style={{width:20+'px'}}></div> */}
-              <div className="wrapperTwo-flexbox1-right">
-                <img src={RakutenImg} id="partner-imgs" />
-                <img src={ShopeeImg} id="partner-imgs" />
-                <img src={KasperskyImg} id="partner-imgs" />
-                <img src={RakutenRapidApiImg} id="partner-imgs" />
-                <img src={RedBullImg} id="partner-imgs" />
-                <img src={StartupX} id="partner-imgs" />
-              </div>
+            <div className="containment">
+            <h1>OUR PREVIOUS PARTNERS</h1>
 
+                <div className="Gold">
+                    <div className="container-box">
+                        <img className="image home" src={RakutenImg} alt="Rakuten" />
+                        <img className="image home" src={ShopeeImg} alt="Rakuten" />
+                    </div>
+                </div>
+                <div className="Sliver">
+                    <div className="container-box">
+                        <img className="image home" style={{width:"23rem"}} src={KasperskyImg} alt="Kaspersky" />
+                    </div>
+                </div>
+                <div className="Bronze">
+                    <div className="container-box">
+                        <img className="image home" src={RakutenRapidApiImg} alt="Rakuten Rapid API" />
+                        <img className="image home" src={RedBullImg} alt="Allswell" />
+                    </div>
+                </div>
+                <div className="ComPartner">
+                    <h2>COMMUNITY PARTNER</h2>
+                    <div className="container-box">
+                        <div className="boxing">
+                            <img className="image" src={StartupX} alt="StartUpX" />
+                        </div>
+
+                    </div>
+                </div>
             </div>
           </div>
 

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Footer from '../../global/Footer';
 import '../../css/Team.css';
+import '../../css/Partners.css';
+
 
 //Import Team Pictures
 import Bryan from '../../../images/team_img/Bryan.jpg'
@@ -18,6 +20,9 @@ import Adam from '../../../images/team_img/Adam.jpg'
 //Web Developer
 import Haziq from '../../../images/team_img/Haziq.jpg'
 import Daryl from '../../../images/team_img/Daryl.jpg'
+
+import CoverPhoto from '../../../images/junction_img/team.jpg'
+
 
 class Team extends Component {
 
@@ -40,11 +45,16 @@ class Team extends Component {
   }
   render() {
     return (
-      <div>
         <div className="TeamPage">
-          <div className="container-team-intro">
-            <h1>We are JunctionX Singapore</h1>
+
+        <div className="containerIntro" id="containerIntro-team">
+          <div className="wrapper1-ourpartners">
+            <p className="headerLogoCommunity">We Are JunctionX Singapore</p>
+            <div id="header2LogoCommunity">
+            </div>
           </div>
+        </div>
+
 
           <div className="container-team-head">
             <h2>Head of JunctionX Singapore</h2>
@@ -138,7 +148,6 @@ class Team extends Component {
 
           <Footer />
         </div>
-      </div>
 
     );
   }
