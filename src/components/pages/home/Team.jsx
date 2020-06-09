@@ -9,12 +9,10 @@ import Bryan from '../../../images/team_img/Bryan.jpg'
 
 //Marketing Team
 import JunYuan from '../../../images/team_img/JunYuan.jpg'
-import Mel from '../../../images/team_img/Mel.jpg'
 import Sean from '../../../images/team_img/Sean.jpg'
 import Saana from '../../../images/team_img/Saana.jpg'
 
 //Partnership Team
-import Eloy from '../../../images/team_img/Eloy.jpg'
 import Adam from '../../../images/team_img/Adam.jpg'
 
 //Web Developer
@@ -58,9 +56,13 @@ class Team extends Component {
 
           <div className="container-team-head">
             <h2>Head of JunctionX Singapore</h2>
-            <img className="avatar" src={Bryan} alt="Bryan" />
-            <p>Bryan Phang</p>
-            <a className="email" href="mailto:bryan.david@hackjunction.com" title="Bryan David">bryan.david@hackjunction.com</a>
+            <div class="head">
+              <div>
+                <img className="avatar" src={Bryan} alt="Bryan" />
+                <p>Bryan Phang</p>
+                <a className="email" href="mailto:bryan.david@hackjunction.com" title="Bryan David">bryan.david@hackjunction.com</a>
+              </div>
+              </div>
           </div>
           <hr />
 
@@ -81,14 +83,6 @@ class Team extends Component {
                 <a className="email" href="mailto:daryll.wong@hackjunction.com" title="Daryll Wong">daryll.wong@hackjunction.com</a>
               </div>
             </div>
-
-            <div class="team-members">
-              <div>
-                <img className="avatar" src={Eloy} alt="Eloy" />
-                <p>Eloy Choo Hui</p>
-                <p className="position">Team Member</p>
-              </div>
-            </div>
           </div>
           <hr />
 
@@ -104,12 +98,6 @@ class Team extends Component {
             </div>
 
             <div class="team-members">
-              <div>
-                <img className="avatar" src={Mel} alt="Melody" />
-                <p>Melody Leong</p>
-                <p className="position">Marketing Designer</p>
-              </div>
-
               <div>
                 <img className="avatar" src={Sean} alt="Sean" />
                 <p>Sean Lew Teng Siong</p>
@@ -141,6 +129,11 @@ class Team extends Component {
               <div>
                 <img className="avatar" src={Daryl} alt="Daryl" />
                 <p>Daryll Wong</p>
+                <p className="position">Web Developer</p>
+              </div>
+              <div>
+                <img className="avatar" src={Saana} alt="Saana" />
+                <p>Saana Kuusela</p>
                 <p className="position">Web Developer</p>
               </div>
             </div>
