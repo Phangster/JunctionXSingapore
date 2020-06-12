@@ -48,8 +48,7 @@ class Team extends Component {
         <div className="containerIntro" id="containerIntro-team">
           <div className="wrapper1-ourpartners">
             <p className="headerLogoCommunity">We Are JunctionX Singapore</p>
-            <div id="header2LogoCommunity">
-            </div>
+            <div id="header2LogoCommunity"></div>
           </div>
         </div>
 
@@ -64,11 +63,12 @@ class Team extends Component {
               </div>
               </div>
           </div>
+
           <hr />
 
           <div className="container-team-partnership">
             <h2>Partnership Team</h2>
-            <div class="head">
+            <div className="head">
               <div>
                 <img className="avatar" src={Adam} alt="Adam" />
                 <p>Adam Proft</p>
@@ -84,11 +84,12 @@ class Team extends Component {
               </div>
             </div>
           </div>
-          <hr />
+
+          <hr/>
 
           <div className="container-team-marketing">
             <h2>Marketing Team</h2>
-            <div class="head">
+            <div className="head">
               <div>
                 <img className="avatar" src={JunYuan} alt="JunYuan" />
                 <p>Teng Jun Yuan</p>
@@ -97,14 +98,14 @@ class Team extends Component {
               </div>
             </div>
 
-            <div class="team-members">
-              <div>
+            <div className="team-members">
+              <div className="member">
                 <img className="avatar" src={Sean} alt="Sean" />
                 <p>Sean Lew Teng Siong</p>
                 <p className="position">Marketing Designer</p>
               </div>
 
-              <div>
+              <div className="member">
                 <img className="avatar" src={Saana} alt="Saana" />
                 <p>Saana Kuusela</p>
                 <p className="position">Content Editor</p>
@@ -112,11 +113,11 @@ class Team extends Component {
             </div>
           </div>
 
-          <hr />
+          <hr/>
 
           <div className="container-team-web">
             <h2>Web Development Team</h2>
-            <div class="head">
+            <div className="head">
               <div>
                 <img className="avatar" src={Haziq} alt="Haziq" />
                 <p>Muhammad Haziq Mofe</p>
@@ -125,15 +126,15 @@ class Team extends Component {
               </div>
             </div>
 
-            <div class="team-members">
-              <div>
+            <div className="team-members">
+              <div className="member">
                 <img className="avatar" src={Daryl} alt="Daryl" />
                 <p>Daryll Wong</p>
                 <p className="position">Web Developer</p>
               </div>
-              <div>
+              <div className="member">
                 <img className="avatar" src={Saana} alt="Saana" />
-                <p>Saana Kuusela</p>
+                <p>Saana Kuusela </p>
                 <p className="position">Web Developer</p>
               </div>
             </div>
