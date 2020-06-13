@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Footer from '../../global/Footer';
 import '../../css/Team.css';
-import '../../css/Partners.css';
-
 
 //Import Team Pictures
 import Bryan from '../../../images/team_img/Bryan.jpg'
@@ -27,31 +25,29 @@ class Team extends Component {
   constructor(...args) {
     super(...args);
     this.state = { showModal: false };
-
     this.close = () => {
       this.setState({ showModal: false });
     };
-
     this.open = () => {
       this.setState({ showModal: true });
     };
-
   }
-
   componentWillMount() {
     this.open();
   }
+
   render() {
+
     return (
         <div className="TeamPage">
 
-        <div className="containerIntro" id="containerIntro-team">
-          <div className="wrapper1-ourpartners">
-            <p className="headerLogoCommunity">We Are JunctionX Singapore</p>
-            <div id="header2LogoCommunity"></div>
+        <div className="containerIntro containerIntro-team">
+            <div className="wrapperIntro">
+              <p className="header1intro">We are JunctionX Singapore</p>
+              <p className="header2intro"></p>
           </div>
         </div>
-
+        
 
           <div className="container-team-head">
             <h2>Head of JunctionX Singapore</h2>
@@ -63,7 +59,6 @@ class Team extends Component {
               </div>
               </div>
           </div>
-
           <hr />
 
           <div className="container-team-partnership">
@@ -84,8 +79,7 @@ class Team extends Component {
               </div>
             </div>
           </div>
-
-          <hr/>
+          <hr />
 
           <div className="container-team-marketing">
             <h2>Marketing Team</h2>
@@ -113,7 +107,7 @@ class Team extends Component {
             </div>
           </div>
 
-          <hr/>
+          <hr />
 
           <div className="container-team-web">
             <h2>Web Development Team</h2>
