@@ -1,46 +1,69 @@
-@font-face {
-    font-family: Montserrat;
+@font-face { /*global font*/
+    font-family: Montserrat, sans-serif;
     src: url('https://fonts.googleapis.com/css?family=Montserrat:900');
 }
 
-.flexbox-upcomingevents {
+.containerMain-upcomingEvents {
     display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+
+.flexContainer-upcomingEvents {
+    display: flex; 
     flex-wrap: wrap;
-    box-sizing: border-box;
+    flex-direction: row;
     justify-content: space-between;
-    margin: 0 auto;
+    padding-left: 11rem;
+    padding-right: 9rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
-.flexbox-left-upcomingevents {
-    display: block;
-    margin-bottom: 16px;
-    max-width: 350px;
-    font-size: 35px;
-    font-weight: 700;
+.flexItem-left-upcomingEvents {
+    max-width: 20rem;
     text-align: left;
+    padding: 1rem;
     font-family: Montserrat, sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
 }
 
-.flexbox-right-upcomingevents {
-    display: block;
-    max-width: 50%;
-    margin-bottom: 16px;
-    font-size: 20px;
-    text-align: left;
-    line-height: 30px;
-    font-family: Montserrat, sans-serif;
+.flexItem-right-upcomingEvents {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.containerHiring-upcomingevents {
-    max-width: 100%;
-    display: block;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 1rem;
 }
 
 @media(max-width: 800px) {
-    .flexbox-upcomingevents {
-        justify-content: space-evenly;
+
+    .containerMain-upcomingEvents {
+        align-items: center;
+        align-content: center;
+    }
+
+    .flexContainer-upcomingEvents {
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .flexItem-left-upcomingEvents {
+        text-align: center;
+        max-width: 15rem;
+        padding-right: 3rem;
+    }
+
+    .flexItem-right-upcomingEvents {
+        overflow: hidden;
+        padding-left: 20rem;
+        padding-right: 0rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        max-width: 60rem;
     }
 }

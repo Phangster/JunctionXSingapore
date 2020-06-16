@@ -10,7 +10,8 @@
     background-color: black;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 700px;
+    background-size: cover;
+    height: 500px;
 }
 
 .containerIntro-ourStory {
@@ -47,81 +48,70 @@
     padding: 1rem;
 }
 
-/*content*/
 
-.wrapperTwo-grid-left{
-    max-width: 25rem;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: left;
-}
-
-.wrapperTwo-grid-right{
-    max-width: 60rem;
-    font-size: 19px;
-    text-align: left;
-    line-height: 25px;
-    margin-top: 2.2rem;
-}
+/*content:*/
 
 .containerMain-ourStory {
-    display: grid;
-    height: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    column-gap: 5%;
-    row-gap: 1%;
-    align-content: center;
-    grid-template-areas:
-        ". first second ."
-        ". third fourth ."
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
-.container1-ourStory {
-    grid-area: first;
-    align-content: center;
+.flexContainer-ourStory {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
-.container2-ourStory {
-    grid-area: second;
-    align-content: center;
+.flexItem-left-ourStory {
+    font-size: 30px;
+    font-weight: 700;
+    max-width: 20rem;
+    text-align: left;
+    padding: 1rem;
 }
 
-.container3-ourStory {
-    grid-area: third;
-    align-content: center;
+.flexItem-right-ourStory {
+    font-size: 19px;
+    line-height: 25px;
+    max-width: 30rem;
+    text-align: left;
+    padding: 1rem;
 }
-
-.container4-ourStory {
-    grid-area: fourth;
-    align-content: center;
-}
-
 
 @media(max-width: 800px) {
-    .containerMain-ourStory {
-        display: grid;
-        height: auto;
-        margin-top: 10%;
-        margin-bottom: 20%;
-        margin-left: 15%;
-        margin-right: 15%;
-        column-gap: 5%;
-        row-gap: 1%;
-        align-content: center;
-        grid-template-areas:
-            "first"
-            "second"
-            "third"
-            "fourth"
-    }
 
     .header2intro {  /*global media styling*/
         margin: 2rem;
         text-align: left;
         justify-content: center;
         max-width: 300px;  
+    }
+
+    .containerMain-ourStory {
+        align-items: center;
+        align-content: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;   
+    }
+
+    .flexContainer-ourStory{
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .flexItem-left-ourStory {
+        text-align: center;
+    }
+
+    .containerIntro {
+        height: 700px;
     }
 }
