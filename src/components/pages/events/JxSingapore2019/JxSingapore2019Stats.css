@@ -3,54 +3,45 @@
     src: url('https://fonts.googleapis.com/css?family=Montserrat:900');
 }
 
-.flexbox {
+
+.flexContainer-stats {
     display: flex;
     flex-wrap: wrap;
-    box-sizing: border-box;
     justify-content: space-between;
-    margin: 0 auto;
+    padding: 1rem;
 }
 
-.flexbox-left {
+.flexItem-left-stats {
     display: block;
-    margin-bottom: 16px;
-    max-width: 350px;
-    font-size: 35px;
+    text-align: left;
+    font-size: 30px;
     font-weight: 700;
-    text-align: left;
-    font-family: Montserrat, sans-serif;
+    max-width: 20rem;
+    padding: 1rem;
 }
 
-.flexbox-right {
-    display: block;
-    max-width: 50%;
-    margin-bottom: 16px;
-    font-size: 20px;
-    text-align: left;
-    line-height: 30px;
+.flexItem-right-stats {
     font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 1rem;
 }
 
-.containerHiring {
-    max-width: 100%;
-    display: block;
-}
-
-.piechartwrapper {
-    display: block;
-}
 
 @media(max-width: 800px) {
-    .flexbox {
-        justify-content: space-between;
+    .flexContainer-stats {
+        justify-content: center;
     }
-    .piechart-padding {
-        padding-bottom: 4rem;
+
+    .flexItem-right-stats {
+        justify-content: center;
     }
-    .wrapper {
-        max-height: fit-content;
+
+    .flexItem-left-stats {
+        text-align: center;
     }
 }

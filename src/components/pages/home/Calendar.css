@@ -6,14 +6,6 @@
 
 /*intro*/
 
-.containerIntro { /*global*/
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 500px;
-}
-
 .containerIntro-calendar {
     background: linear-gradient(
                      rgba(0, 0, 0, .6), 
@@ -22,51 +14,13 @@
     background-position: center center;
 }
 
-.wrapperIntro { /*global*/
-    display: grid;
-    max-height: 700;
-}
-
-.header1intro { /*global*/
-    font-weight: 700;
-    font-size: 50px;
-    max-width: 35vw;
-    text-align: left;
-    text-align: left;
-    margin-top: 15vh;
-    padding: 1rem;
-
-}
-
-.header2intro { /*global*/
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 25px;
-    max-width: 45vw;
-    text-align: left;
-    margin-left: 5rem;
-    padding: 1rem;
-}
 
 @media(max-width: 800px) {
 
-    .header2intro {  /*global media styling*/
+    .header2intro { 
         margin: 2rem;
         text-align: left;
         justify-content: center;
         max-width: 300px;  
-    }
-
-    .containerMain-ourStory {
-        align-items: center;
-        align-content: center;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        margin-left: 5%;
-        margin-right: 5%;   
-    }
-
-    .containerIntro {
-        height: 700px;
     }
 }

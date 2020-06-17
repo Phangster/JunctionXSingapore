@@ -14,84 +14,81 @@
 
 /*content*/
 
-.containerMain-ourPartners {
+.container3 { 
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
-    margin-bottom: 7rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    padding: 1rem;
 }
 
-.partnership-ourPartners {
+.container3-row { 
+    align-items: center;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-left: 11rem;
+}
+
+.container3-title { 
     font-size: 30px;
     font-weight: 700;
     color:  #35e2df;
     max-width: 20rem;
     text-align: left;
     padding: 1rem;
-    padding-top: 8rem; 
-    padding-bottom: 3rem;
 }
 
-.partner-ourPartners {
-    display: flex; 
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem;
-    margin-left: 10rem;
-}
-
-.partnerLogo-ourPartners {
-    max-height: 160px;
-    max-width: 260px;
-    padding: 1rem;
-}
-
-.flexItem-right-ourPartners { 
+.container3-textContent { 
     font-size: 19px;
     line-height: 25px;
     max-width: 30rem;
     text-align: left;
-    padding: 1rem;    
+    padding: 1rem;
+    
+}
+
+.container3-divider {
+    padding-bottom: 7rem;
+}
+
+.partnerLogo { 
+    width: 260px;
+    height: 160px;
+    padding: 1rem;
 }
 
 
 @media(max-width: 800px) {
 
-    .containerMain-ourPartners { 
-        align-content: center;
-        align-items: center;
-        margin-top: 10%;
-        margin-bottom: 15%;
-        margin-left: 5%;
-        margin-right: 5%;
+    .container3 { 
+        justify-content: center;
     }
 
-    .partner-ourPartners { 
-        align-items: center;
-        flex-direction: column;
-        margin-left: 0rem;
-    }
-
-    .partnership-ourPartners {
-        text-align: center;
-    }
-
-    .partnerLogo-ourPartners { 
-        align-self: center;
+    .container3-title { 
         text-align: center;
         justify-content: center;
     }
 
-    .flexItem-right-ourPartners { 
-        max-width: 15rem;
-        padding-top: 2rem;
-        text-align: center;
+    .container3-row { 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 1rem;
     }
 
-    .containerIntro {
-        height: 700px;
+    .partnerLogo { 
+        max-height: 100px;
+        min-width: 100px;
+        justify-content: center;
+    }
+
+    .container3-textContent { 
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container3-divider {
+        padding-bottom: 5rem;
     }
 }

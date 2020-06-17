@@ -13,12 +13,10 @@ const data = [
 const COLORS = ['#333333', '#4F4F4F', '#828282', '#BDBDBD'];
 const RADIAN = Math.PI / 180;    
 
+
 const ParticipantsPieChart = ()=>{
     return (
-        <div style={{padding: 5+ 'px'}}>
-
-        <PieChart width={800} height={400}  align="center">
-
+      <PieChart width={800} height={400}  align="center">
         <Pie
           data={data} 
           cx={400} 
@@ -29,21 +27,20 @@ const ParticipantsPieChart = ()=>{
           paddingAngle={5}
           label          
         >
-        	{
-          	data.map((entry, index) => <Cell fill={COLORS[index % COLORS.length]}/>)
-          }
+        {data.map((entry, index) => <Cell fill={COLORS[index % COLORS.length]}/>)}
         </Pie>
-
         <Legend align="center"/>
-        <Tooltip/>
-      </PieChart>
-      </div>
-    )
+      <Tooltip/>
+    </PieChart>
+  )
 }
 
 
+/*InfoComponent*/
+const NumbersFrame = styled.div`
+  padding: 20px;
+`
 
-// INFO COMPONENT - comprises of a large top element and a smaller bottom element
 const TopBigLetter = styled.div`
   font-size: 100px;
   fontwight: 900;
@@ -58,17 +55,13 @@ const BottomSmallLetter = styled.div`
 `
 
 
-
-const infoComponent = styled.div`
-  
-`
 const InfoComponent = ({topWord, bottomWord})=>{
-    return (
-    <infoComponent style={{padding: 20+ 'px'}}>
-        <TopBigLetter>{topWord}</TopBigLetter>
-        <BottomSmallLetter>{bottomWord}</BottomSmallLetter>
-    </infoComponent>
-    )
+  return (
+    <NumbersFrame>
+      <TopBigLetter>{topWord}</TopBigLetter>
+      <BottomSmallLetter>{bottomWord}</BottomSmallLetter>
+    </NumbersFrame>
+  )
 }
 
 
@@ -76,35 +69,29 @@ const InfoComponent = ({topWord, bottomWord})=>{
 class JxSingapore2019Stats extends Component {
   render() {
     return (
-        <div class = "containerHiring"> 
-
-            <div className="flexbox">
-            <div className="flexbox-left">JunctionX Singapore 2019 stats</div>
-              {/* <div style={{width:20+'px'}}></div> */}
-              <div className="flexbox-right">
-                <InfoComponent topWord="10+" bottomWord="partners"/>
-                <InfoComponent topWord="40+" bottomWord="projects"/>
-                <InfoComponent topWord="120+" bottomWord="participants"/>
-                <InfoComponent topWord="20+" bottomWord="countries"/>
-              </div>
+      <div> 
+        <div className="flexContainer-stats">
+          <div className="flexItem-left-stats">
+            JunctionX Singapore 2019 stats
+          </div>
+          <div className="flexItem-right-stats">
+            <div>
+            <InfoComponent topWord="10+" bottomWord="partners"/>
+            <InfoComponent topWord="40+" bottomWord="projects"/>
             </div>
-
-
-            <div style={{'padding': 50+'px'}}></div>
-
-
-            {/* <div className="flexbox">
-            <div className="flexbox-left">
-                Diverse group of participants
+            <div>
+            <InfoComponent topWord="120+" bottomWord="participants"/>
+            <InfoComponent topWord="20+" bottomWord="countries"/>
             </div>
-            
-              
-              <ParticipantsPieChart/>
-            
-      
-            </div> */}
-
+          </div>
         </div>
+        {/* <div className="flexbox">
+        <div className="flexbox-left">
+            Diverse group of participants
+        </div>
+          <ParticipantsPieChart/>
+        </div> */}
+      </div>
     );
   }
 }

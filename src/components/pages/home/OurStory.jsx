@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Footer from '../../global/Footer';
-import CoverPhoto from '../../../images/junction_img/individual.jpg'
 import JunctionXSGLogo from "../../../images/JxSingapore2019/JunctionX Singapore logo_white_twoline.png"
 
 import '../../css/OurStory.css'
@@ -26,12 +25,12 @@ class OurStory extends Component {
           </div>
         </div>
 
-        <div className="containerMain-ourStory">
-          <div className="flexContainer-ourStory">
-            <div className="flexItem-left-ourStory">
+        <div className="containerMain">
+          <div className="flexContainer">
+            <div className="flexItem-left">
               An extraordinary group of individuals brought together by their tech interest.
             </div>
-            <div className="flexItem-right-ourStory">
+            <div className="flexItem-right">
               Started out from 2018 as part of a bigger global movement,
               Junction in Helsinki, JunctionX Hanoi has brought a new color
               to hackathon in Vietnam, with the record of biggest number of participants,
@@ -41,11 +40,11 @@ class OurStory extends Component {
               The message came across was that coding is FUN, and technology is for EVERYONE.
             </div>
           </div>
-          <div className ="flexContainer-ourStory">
-            <div className="flexItem-left-ourStory">
+          <div className ="flexContainer">
+            <div className="flexItem-left">
               How did we start?
             </div>
-            <div className="flexItem-right-ourStory">
+            <div className="flexItem-right">
               Our first local hackathon in Singapore took place in 2019.
               Through JunctionX Singapore, participants were able to challenge themselves
               in order to solve the problems.
