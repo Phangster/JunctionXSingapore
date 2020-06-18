@@ -1,62 +1,24 @@
-/* Container Intro Section CSS */
 
-.container-team-intro {
-    padding: 15rem;
-    text-align: center;
-    background-image: url("../../images/junction_img/team.jpg");
-    background-repeat: no-repeat;
+/* Container Intro Section CSS */
+.containerIntro-contactUs{
+    background: linear-gradient(
+                     rgba(0, 0, 0, .5), 
+                     rgba(0, 0, 0, .5)),
+                     url("../../images/junction_img/team.jpg");
     background-position: center;
 }
 
-.container-team-intro h1 {
-    font-size: 50px;
-    text-align: center;
+.containerMain-contactUs {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 /* Container Team Head of JunctionX Section CSS */
-
-.container-team-head {
-    padding: 5rem;
+.container-team-head-contactUs {
+    padding: 2rem;
     text-align: center;
-}
-
-/* Partnership Section CSS */
-
-.container-team-partnership {
-    padding: 5rem;
-    text-align: center;
-
-}
-
-/* Marketing Section CSS */
-
-.container-team-marketing {
-    padding: 5rem;
-    text-align: center;
-
-}
-
-/* Web Development Section CSS */
-
-.container-team-web {
-    padding: 5rem;
-    text-align: center;
-
-}
-
-/* Head of Department CSS*/
-.head {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px;
-    flex-wrap: wrap;
-}
-
-/* Team Members of Department CSS */
-.team-members{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 /* Display Picture for Members CSS */
@@ -75,20 +37,13 @@
     font-weight: bold;
 }
 
-.sub {
-    padding: 5rem;
-}
-
 /* Email CSS */
 .email {
     font-size: 15px;
 }
 
+
 @media(max-width: 768px) {
-    .containerTeam {
-        padding: 0rem;
-        margin-top: 6rem;
-    }
     .avatar {
         object-fit: cover;
         object-position: 100% 0;
@@ -98,8 +53,5 @@
         display: inline-block;
         opacity: 1;
         margin-top: 40px;
-    }
-    .containerIntro {
-        padding: 1rem;
     }
 }

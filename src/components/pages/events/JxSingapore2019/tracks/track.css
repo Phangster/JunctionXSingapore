@@ -1,31 +1,40 @@
-.containerTrackOne{
-    padding-top: 2rem;
-    padding-bottom: 10rem;
+.containerMain-track {
+    overflow: hidden;
 }
 
-h2{
-    font-family: 'Lato' , sans-serif
+.h2 { /*global*/
+    font-family: 'Montserrat', sans-serif;
 }
 
-.track-css {
-    padding: 0 25rem 0 25rem;
+.grid-track {
+    width: fit-content;
+    justify-items: center;
+    text-align: center;
 }
 
-.partner_block{
-    display: flex;
-    justify-content: center;
+.trackImageContainer {
+    height: 300px;
+    width: fit-content;
+    overflow: hidden;
+    row-gap: 1rem;
 }
 
-.partner_img{
-    width: 400px
+.image1-track {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
 }
 
-.textsmaller{
-    font-family: Lato
+.textsmaller {
+    font-family: "Montserrat", sans-serif;
+}
+
+.sponsor {
+    padding: 2rem;
+    width: 200px;
+    height: 100px;;
 }
 
 @media(max-width: 768px){
-    .track-css {
-        padding: 0 2rem;
-    }
+
 }

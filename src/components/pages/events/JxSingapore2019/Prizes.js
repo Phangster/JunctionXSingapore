@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import './tracks/track.css';
-import '../../../css/Track.css';
+import "./prizes.css";
+
 import Footer from '../../../global/Footer'
 import Smartcommerce from '../../../../images/JxSingapore2019/track_img/smartcommerce.jpg'
 import Security from '../../../../images/JxSingapore2019/track_img/security.jpg'
@@ -14,39 +14,24 @@ import Kaspersky from '../../../../images/JxSingapore2019/partners_img/kaspersky
 class Prizes extends Component {
     render() {
       return (
-          <div className = "container"> 
+          <div className = "container-prizes"> 
               <div className = "">
                   <div className = "">
-                      {/* <div className = "grid-container">
-                          <div>
-                              <img className= "sponsor" src={Rakuten} alt="Rakuten"/>
-                              <div className = "grid"><NavLink to='/rakuten' onClick={this.props.menuToggle}><img className="image1" src={ARVR} alt="AR/VR " /></NavLink></div>
-                              <p>Augmented Reality and Virtual Reality</p>
-                          </div>
-                          <div>
-                              <img className= "sponsor" src={Shopee} alt="Shopee"/>
-                              <div className = "grid"><NavLink to='/shopee' onClick={this.props.menuToggle}><img className="image1" src={Smartcommerce} alt="Smartcommerce" /></NavLink></div>
-                              <p>The future of smart Ecommerce</p>
-                          </div>
-                          <div>
-                              <img className= "sponsor" src={Kaspersky} alt="Kaspersky" />
-                              <div className = "grid"><NavLink to='/kaspersky' onClick={this.props.menuToggle}><img className="image1 anomynous" src={Security} alt="Security" /></NavLink></div>
-                              <p>Security in Finance and Mobility</p>
-                          </div>
-                      </div> */}
                   </div>
-                  <div className = "wrappertrack prizesBackground">
+                  <div className = "wrappertrack">
                   <div className = "containerPrize">
                       <h1>PRIZES</h1>
                           <div className = "grid-prize">
                               <div className = "grid-subPrice">
-                                  <h1>JunctionX Prizes</h1>
-                                  <div>
-                                      <h3 className="textColor">1st</h3>
-                                      <p>All team members gets a the *GOLDEN TICKET</p>
-                                      <p>$500 worth of Rakuten RapidAPI credits</p>
-                                      <p className="smallWords">* An opportunity of the life time to fly to Helsinki to Hackjunction to participate in </p>
-                                      <p className="smallWords">Europe's largest hackathon with 200 Euros reimbursement and free accomodation over the period of the event</p>
+                                <h1>JunctionX Prizes</h1>
+                                <h3 className="textColor">1st</h3>
+                                <div className = "mainPrize">
+                                    <p>All team members get a *GOLDEN TICKET</p>
+                                    <p>$500 worth of Rakuten RapidAPI credits</p>
+                                    <p className="smallContent">
+                                        *An opportunity of the life time to fly to Helsinki to Hackjunction to participate in 
+                                        Europe's largest hackathon with 200 € reimbursement and free accomodation over the period of the event
+                                    </p>
                                   </div>
                               </div>
                               <div></div>

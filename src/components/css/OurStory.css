@@ -116,5 +116,6 @@
 
     .containerIntro { 
         height: 700px;
+        padding: 1rem;
     }
 }
