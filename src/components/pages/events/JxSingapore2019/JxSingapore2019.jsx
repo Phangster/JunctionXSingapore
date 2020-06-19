@@ -101,18 +101,20 @@ class JxSingapore2019 extends Component {
           </div>
         </div>
 
-        <Track/>
+        <div className = "containerMain black">
+          <Track/>
+        </div>
         <Prizes/>
 
           <div className="containerMain">
             <div className = "titleCenteredContainer">
-              <div className="titleCentered">
+              <div className="titleCentered mintColor">
                 <div>
                   LOCATION
                 </div>
-                <div>
-                  Rakuten Asia
-                </div>
+              </div>
+              <div className = "centered">
+                RAKUTEN ASIA
               </div>
               <br/>
               <div>
@@ -122,22 +124,20 @@ class JxSingapore2019 extends Component {
             </div>
             </div>
           </div>
-
-{/*toimii*/ }
-        <div className = "containerMain">
-          <div className="wrapperThree-jx2019">
+        
+          <div className = "containerMain">
+            <div className = "mentorshipType-jx2019">
               <div className= "titleCentered mintColor">
                 MENTORS
               </div>
-              <p style={{ fontSize: "30px" }}>
+              <div className = "centered">
                 TRACK MENTORS
-              </p>
+              </div>
 
               <div className="listOfMentors-jx2019">
-                <img className="avatarMentor-jx2019" style={{ objectPosition: "100% 0" }} src={Yash} alt="Datta, Yash" />
-                <div className="context-box-des-jx2019"> 
+                <img className="avatarMentor-jx2019" src={Yash} alt="Datta, Yash" />
                   <div className="mentor-jx2019">
-                    <div>
+                    <div className = "mentorTitle">
                       <div>Datta, Yash</div>
                       <div>Senior Software Engineer,</div>
                       <div>Data Management Group</div>
@@ -146,21 +146,22 @@ class JxSingapore2019 extends Component {
                     <p className="context-box-des-jx2019">
                       Yash is a builder and a maker at heart. He is passionate about solving real world problems 
                       through the use of technology. A scala fan-boy, Yash is also an avid open source enthusiast 
-                      and has contributed code to several open source projects. Yash has been architecting and 
+                      and has contributed code to several open source projects. 
+                     </p>
+                    <p className="context-box-des-jx2019">
+                      Yash has been architecting and 
                       developing complex, robust, distributed systems in his various roles at Internet scale 
-                      companies like Agoda and Rakuten. His interests include but are not limited to : Data 
+                      companies like Agoda and Rakuten. His interests include but are not limited to: Data 
                       Analytics, Database systems, Big data systems, Theoretical Physics, Chaos Theory, Number 
                       Theory etc. In his free time he loves to play table tennis and chess.
                     </p>
                   </div>
                 </div>
-              </div>
 
               <div className="listOfMentors-jx2019">
-                <img className="avatarMentor-jx2019" style={{ objectPosition: "100% 0" }} src={Ahmed} alt="Amer, Ahmed" />
-                <div className="context-box-des-jx2019"> 
+                <img className="avatarMentor-jx2019" src={Ahmed} alt="Amer, Ahmed" />
                   <div className="mentor-jx2019">
-                    <div>
+                    <div className = "mentorTitle">
                       <div>Amer, Ahmed</div>
                       <div>Senior Product Manager</div>
                       <div>Data Management Group</div>
@@ -174,15 +175,13 @@ class JxSingapore2019 extends Component {
                       Eastern Vegetarian restaurant and self publishes books to raise awareness & funds for less 
                       privileged communities.
                     </p>
-                  </div>
                 </div>
               </div>
 
               <div className="listOfMentors-jx2019">
-                <img className="avatarMentor-jx2019" style={{ objectPosition: "100% 0" }} src={Satoshi} alt="Goto, Satoshi" />
-                <div className="context-box-des-jx2019"> 
+                <img className="avatarMentor-jx2019" src={Satoshi} alt="Goto, Satoshi" />
                   <div className="mentor-jx2019">
-                    <div>
+                    <div className = "mentorTitle">
                       <div>Goto, Satoshi</div>
                       <div>Senior Software Engineer,</div>
                       <div>Rakuten Web Search Group</div>
@@ -194,15 +193,13 @@ class JxSingapore2019 extends Component {
                       with swift/java/objective c/python/c++ and browser extension with react/JS. Made many 
                       individual contribution for my own apps and start-up in Singapore.
                     </p>
-                  </div>
                 </div>
               </div>
 
               <div className="listOfMentors-jx2019">
-              <img className="avatarMentor-jx2019" style={{ objectPosition: "100% 0" }} src={Jeff} alt="Jeff Guo Qing" />
-                <div className="context-box-des-jx2019"> 
+              <img className="avatarMentor-jx2019" src={Jeff} alt="Jeff Guo Qing" />
                   <div className="mentor-jx2019">
-                    <div>
+                    <div className = "mentorTitle"> 
                       <div>Jeff Guo Qing</div>
                       <div>Software Engineer in Shopee</div>
                       <div style={{ color: "red" }}>Shopee</div>
@@ -210,22 +207,23 @@ class JxSingapore2019 extends Component {
                     <p className="context-box-des-jx2019">
                       Jeff Guo is a software engineer in Shopee. He is currently developing recommender systems for
                       Shopee platform to promote the user experience. He obtained Ph.D from Nanyang Technological 
-                      University in Singapore. Jeff’s research interests are recommender systems and AI 
+                      University in Singapore. 
+                    </p>
+                    <p className="context-box-des-jx2019">
+                      Jeff’s research interests are recommender systems and AI 
                       technologies. His vision of future technology is that it will constantly enable the 
                       connectivity between all different kinds of entities in this world. In the future, more 
                       advanced intelligent systems will be developed to drive connectivity and make our planet a 
                       better place to live in.
                     </p>
                   </div>
-                </div>
               </div>
 
               <div className="listOfMentors-jx2019">
-              <img className="avatarMentor-jx2019" style={{ objectPosition: "100% 0" }} src={Phan} alt="Phan Huy Nguyen" />
-                <div className="context-box-des-jx2019"> 
+              <img className="avatarMentor-jx2019"  src={Phan} alt="Phan Huy Nguyen" />
                   <div className="mentor-jx2019">
-                    <div>
-                      <div> Phan Huy Nguyen</div>
+                    <div className = "mentorTitle">
+                      <div>Phan Huy Nguyen</div>
                       <div>Software Engineer (Data) in Shopee</div>
                       <div style={{ color: "red" }}>Shopee</div>
                     </div>
@@ -238,17 +236,15 @@ class JxSingapore2019 extends Component {
                       students from the JunctionX Singapore Hackathon, supporting their bold and creative ideas.
                     </p>
                   </div>
-                </div>
               </div>
 
               <div className="listOfMentors-jx2019">
-              <img className="avatarMentor-jx2019" style={{ objectPosition: "100% 0" }} src={Liang} alt="Liang Jingxi" />
-                <div className="context-box-des-jx2019"> 
+              <img className="avatarMentor-jx2019"  src={Liang} alt="Liang Jingxi" />
                   <div className="mentor-jx2019">
-                    <div>
+                    <div className ="mentorTitle">
                       <div>Liang Jingxi</div>
                       <div>Software Engineer in Shopee</div>
-                      <div style={{ color: "red" }}>Shopee</div>
+                      <div style={{color: "red"}}>Shopee</div>
                     </div>
                     <p className="context-box-des-jx2019">
                       Liang Jingxi is a technology enthusiast who believes in the power of artificial intelligence.
@@ -257,84 +253,93 @@ class JxSingapore2019 extends Component {
                       end-user experience. Jingxi also writes and maintains high-availability, scalable services 
                       to support Shopee’s rapidly-increasing traffic.
                     </p>
-                  </div>
                 </div>
               </div>
 
               <div className="listOfMentors-jx2019">
-              <img className="avatarMentor-jx2019" style={{ objectPosition: "100% 0" }} src={Weihan} alt="Goh Wei Han" />
-                <div className="context-box-des-jx2019"> 
+                <img className="avatarMentor-jx2019" src={Weihan} alt="Goh Wei Han" />
                   <div className="mentor-jx2019">
-                    <div>Goh Wei Han</div>
-                    <div>Kaspersky-certified Malware Reverse Engineering and Analysis Trainer</div>
-                    <div style={{ color: "red" }}>Kaspersky</div>
+                    <div className = "mentorTitle">
+                      <div>Goh Wei Han</div>
+                      <div>Kaspersky-certified Malware Reverse Engineering and Analysis Trainer</div>
+                      <div style={{ color: "red" }}>Kaspersky</div>
+                    </div>
                     <p className="context-box-des-jx2019">
                       Goh Weihan is a Kaspersky-certified Malware Reverse Engineering and Analysis trainer, and an Assistant
                       Professor at the Singapore Institute of Technology (SIT), teaching in the Information Security and Software
                       Engineering degree programmes.  His current research interests include blockchain, web and network protocol
                       security, digital anti-forensics, and applied cryptography. 
                     </p>
-                  </div>
                 </div>
               </div>
-           
-              <div style={{ fontSize: "30px" }}>
+            </div>
+
+            <div className = "mentorshipType-jx2019">
+              <div className = "centered" style={{ fontSize: "30px" }}>
                 GUEST MENTORS
               </div>
-
+             
               <div className="listOfMentors-jx2019">
-              <img className="avatarMentor-jx2019" src={Mark} alt="Mark Lven Tupa Palejaro" />
-                <div className="context-box-des-jx2019"> 
+                <img className="avatarMentor-jx2019" src={Mark} alt="Mark Lven Tupa Palejaro" />
                   <div className="mentor-jx2019">
-                    <div>Mark Lven Tupa Palejaro</div>
-                    <div>Co-founder of Pocket Hologram</div>
-                    <div style={{ color: "red" }}></div>
+                    <div className = "mentorTitle">
+                      <div>Mark Lven Tupa Palejaro</div>
+                      <div>Co-founder of Pocket Hologram</div>
+                      <div style={{ color: "red" }}></div>
+                    </div>
                     <p className="context-box-des-jx2019">
                       Co-founder of Pocket Hologram as well as an active volunteer in One Maker Group, Sustainable Living Lab, and in 
                       various National Geographic Channel events. These groups use their talents in the field of Mechatronics, Internet 
                       of Things, Artificial Intelligence, virtual and augmented reality, challenge their knowledge and create innovations 
-                      that science has to offer. Don't miss the opportunity to learn from a MAKER, ENGINEER, and a sharer of knowledge. 
+                      that science has to offer. 
+                    </p>
+                    <p className="context-box-des-jx2019">
+                      Don't miss the opportunity to learn from a maker, engineer, and a sharer of knowledge. 
                       Come and let's learn together! See you!
                     </p>
-                  </div>
                 </div>
               </div>
 
               <div className="listOfMentors-jx2019">
-              <img className="avatarMentor-jx2019" style={{ objectPosition: "100% 0" }} src={Jackie} alt="Jackie Tan" />
-                <div className="context-box-des-jx2019"> 
+                <img className="avatarMentor-jx2019"  src={Jackie} alt="Jackie Tan" />
                   <div className="mentor-jx2019">
-                    <div>Jackie Tan</div>
-                    <div>Co-founder of UpLevel</div>
-                    <div style={{ color: "red" }}></div>
+                    <div className = "mentorTitle">
+                      <div>Jackie Tan</div>
+                      <div>Co-founder of UpLevel</div>
+                      <div style={{ color: "red" }}></div>
+                    </div>
                     <p className="context-box-des-jx2019">
                       Jackie Tan is currently the co-founder of UpLevel, an edutech company that bridges the gap between coding education 
                       and technical employment through mentorship and projects. Previously, he ran fundMyLife, a Q&A platform for financial
                       planning questions which he exited in early 2019. He is also a Forbes 30 Under 30 honoree for his work on 
                       transforming how young adults approach finance. He was the Chief Academic Officer of UpCode Academy, a coding 
-                      school that provides industry-ready skills to professionals and students.Passionate about giving back ,Jackie is a 
+                      school that provides industry-ready skills to professionals and students. 
+                    </p>
+                    <p className="context-box-des-jx2019">
+                      Passionate about giving back, Jackie is a 
                       mentor for the NEXT50 Mentorship movement and for the Sustainable Developmental Goal startup generator YSI SEA. He 
                       is also involved in hackathons as judge and mentor. When he is not working, he admins the largest Telegram meme 
                       group in Singapore, Memes n Dreams.
                     </p>
-                  </div>
                 </div>
               </div>
+            </div>
 
-              <p style={{ fontSize: "30px" }}>
+            <div className = "mentorshipType-jx2019">
+              <div className = "centered">
                 WORKSHOP
-              </p>
+              </div>
 
               <div className="listOfMentors-jx2019">
                 <div className="mentor-jx2019 workshopMentor">
-                  <img className="avatarMentor-jx2019" style={{objectPosition: "100% 0" }} src={Marie} alt="Marie Wong" />
+                  <img className="avatarMentor-jx2019" src={Marie} alt="Marie Wong" />
                   <div>Marie Wong</div>
                   <div>Co-Founder & UX Designer</div>
                   <div>REASSEMBLE</div>
                 </div>
 
                 <div className="mentor-jx2019 workshopMentor">
-                  <img className="avatarMentor-jx2019" style={{ objectPosition: "100% 0" }} src={Eric} alt="Eric Chang" />
+                  <img className="avatarMentor-jx2019"  src={Eric} alt="Eric Chang" />
                   <div>Eric Chang</div>
                   <div>Lead Solutions Architect,</div>
                   <div>Trusted Data Division, NDI</div>

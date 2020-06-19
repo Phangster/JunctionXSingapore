@@ -55,10 +55,10 @@ class Home extends Component {
         <div className="homepage">
           
           <div className="wrapperOne">
-            <video className='videoTag' autoPlay loop muted>
+            <video className="videoTag-home" autoPlay loop muted>
               <source src={sample} type='video/mp4' />
             </video>
-            <div className="containerOne">
+            <div className="containerOne-home">
               <img className="logoSize" src={JunctionLogo} alt="JunctionLogo" />
               <p className="headerLogo1">JUNCTIONX SINGAPORE</p>
               {/* <img src={JunctionAsiaLogo1} className="headerLogoImg" ></img> */}
@@ -67,59 +67,51 @@ class Home extends Component {
             </div>
           </div>
 
-
-          <div className="wrapper2 wrapper">
-
-            <div className="flexbox1 flexbox">
-              <div className="wrapperTwo-flexbox1-left">Empowering people to create with technology</div>
-              {/* <div style={{width:20+'px'}}></div> */}
-              <div className="wrapperTwo-flexbox1-right">
+          <div className="containerMain">
+            <div className="flexContainer">
+              <div className="flexItem-left">
+                Empowering people to create with technology
+              </div>
+              <div className="flexItem-right">
                 We are a community of tech enthusiasts who work with the industry to craft out a one of a kind hackathons for people in Singapore, as well as the region.
                 We bring together developers, designers and other tech-minded people to create new projects and solve intriguing challenges.
               </div>
-
             </div>
-
-            <div style={{ 'margin-bottom': 60 + 'px' }}></div>
-
-            <div className="flexbox2 flexbox">
-              <div className="wrapperTwo-flexbox1-left">Collaboration with Industry Partners</div>
-              {/* <div style={{width:20+'px'}}></div> */}
-              <div className="wrapperTwo-flexbox1-right">
+            <div className ="flexContainer">
+              <div className="flexItem-left">
+                Collaboration with Industry Partners
+              </div>
+              <div className="flexItem-right">
                 In order to offer our participants the most stimulating problems and latest technology, we partner with industry partners to create real-life problem statements that their industry is facing.
                 Our partcipants get an once-in-a-life opportunity to hack for solutions within a short time frame.
+              </div>
             </div>
-
-            </div>
-
           </div>
 
-          <div className="wrapperasia wrapper">
-            <p>Click below to head to the JunctionX Asia 2020 Website!</p>
+
+          <div className="componentContainer">
+            <p style={{ fontSize: "1.5rem" }} >HAPPENING NOW:</p>
             <a href="https://asia.hackjunction.com/">
-              <img src={JunctionAsia} className="imagelink" />
+              <img src={JunctionAsia} className="imagelink-home" />
             </a>
           </div>
 
-          <div className="wrapper3 wrapper">
-            <div className="containerThree">
-              <JxSingapore2019Stats />
-            </div>
+          <div className="containerMain">
+            <JxSingapore2019Stats />
           </div>
 
           <div className="wrapper4 wrapper">
             <div className="containment">
             <h1>OUR PREVIOUS PARTNERS</h1>
-
                 <div className="Gold">
                     <div className="container-box">
                         <img className="image home" src={RakutenImg} alt="Rakuten" />
                         <img className="image home" src={ShopeeImg} alt="Rakuten" />
                     </div>
                 </div>
-                <div className="Sliver">
+                <div className="Silver">
                     <div className="container-box">
-                        <img className="image home" style={{width:"23rem"}} src={KasperskyImg} alt="Kaspersky" />
+                        <img className="image home"  src={KasperskyImg} alt="Kaspersky" />
                     </div>
                 </div>
                 <div className="Bronze">
@@ -129,30 +121,23 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className="ComPartner">
-                    <h2>COMMUNITY PARTNER</h2>
                     <div className="container-box">
                         <div className="boxing">
                             <img className="image" src={StartupX} alt="StartUpX" />
                         </div>
-
                     </div>
                 </div>
             </div>
           </div>
 
-
-          <div className="wrapper3 wrapper" >
+          <div className="containerMain" >
             <div id="title">Join us!</div>
             <div className="flexbox">
               <Link to="/forparticipants"><div id="participantButton">Participants</div></Link>
               <Link to="/forpartners"><div id="partnerButton">Partners</div></Link>
               <Link to="/forvolunteers"><div id="volunteerButton">Volunteers</div></Link>
-
             </div>
           </div>
-
-
-
           <Footer />
         </div>
     );

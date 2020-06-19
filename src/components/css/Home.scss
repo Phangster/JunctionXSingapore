@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900');
-.container {
+
+.container-home {
     margin-top: -4rem;
     width: 100%;
     height: 100%;
@@ -24,6 +25,13 @@ s .color {
     width: 50%;
 }
 
+.imagelink2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
 .logoSize {
     width: 20%;
     border: 0;
@@ -45,6 +53,7 @@ s .color {
     position: relative;
     justify-content: center;
     display: grid;
+    overflow: hidden;
 }
 
 .wrapperTwo {
@@ -84,6 +93,20 @@ s .color {
     z-index: 1;
     position: absolute;
     margin-top: 4rem
+}
+
+.containerOne-home {
+    text-align: center;
+    color: white;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+@media(max-width: 800px) {
+    .containerOne-home {
+        margin-top: 2rem;  
+    }
 }
 
 .containerTwo {
@@ -144,6 +167,19 @@ iframe {
     z-index: 0;
     margin-top: auto;
     height: 100vh
+}
+
+.videoTag-home {
+    position: cover;
+    z-index: 0;
+    height: 650px;
+    overflow: hidden;
+}
+
+@media(max-width: 800px) {
+    .videoTag-home {
+        margin: -2rem;
+    }
 }
 
 .coverPhotoTag {
@@ -458,14 +494,6 @@ iframe {
     font-weight: 600;
 }
 
-.videoTag {
-    position: relative;
-    max-width: 100%;
-    z-index: 0;
-    margin-top: auto;
-    height: 100vh
-}
-
 .wrapper1 {
     background: black;
     position: relative;
@@ -560,6 +588,7 @@ iframe {
         background: #ffffff;
     }
     .wrapper {
+        overflow: hidden;
         padding: 2rem;
         height: 75rem;
     }
