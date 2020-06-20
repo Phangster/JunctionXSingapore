@@ -1,0 +1,119 @@
+.jxsg2019 {
+    font-family: Montserrat, sans-serif;
+    overflow: hidden;
+}
+
+.containerIntro-jx2019{
+    background: linear-gradient(
+                     rgba(0, 0, 0, .6), 
+                     rgba(0, 0, 0, .6)),
+                     url("../../../../images/JxSingapore2019/main_coverphoto.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.context-box-des-jx2019 { /*ok*/
+    text-align: left;
+    font-weight: 200;
+    width: auto;
+}
+
+.listOfMentors-jx2019 { /*ok*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.mentor-jx2019 {
+    text-align: left;
+    width: 30rem;
+    display: inline-block;
+}
+
+.mentorshipType-jx2019 {
+    padding-top: 5rem;
+}
+
+.workshopMentor {
+    text-align: center;
+    padding: 1rem;
+}
+
+.titleCentered {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.centered {
+    text-align: center;
+    padding: 2rem;
+    font-size: 30px;
+}
+
+.mintColor {
+    color: #35e2df;
+}
+
+.avatarMentor-jx2019 {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    opacity: 1;
+    padding: 2rem;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 1rem;
+}
+
+
+@media(max-width: 800px) {
+    
+    .containerMainWhite {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .listOfMentors-jx2019 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: fit-content;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .mentor-jx2019 {
+        width: fit-content;
+        align-items: center;
+    }
+    
+    .mentorTitle {
+        text-align: center;
+    }
+        
+    .avatarMentor-jx2019 {
+        display: block;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        opacity: 1;
+        padding: 2rem;
+    }
+
+    .mentorshipType-jx2019 {
+        align-items: center;
+        justify-content: center;
+    }
+}
