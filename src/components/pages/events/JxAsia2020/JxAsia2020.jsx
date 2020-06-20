@@ -5,6 +5,8 @@ import Footer from "../../../global/Footer";
 import hacktherecovery from "../../../../images/JxAsia2020/hacktherecovery.jpg";
 import Kaspersky from "../../../../images/JxAsia2020/partners_img/kasperskyNew.png";
 import Microsoft from "../../../../images/JxAsia2020/partners_img/microsoft.png";
+import Nokia from "../../../../images/JxAsia2020/partners_img/nokialogo.png";
+import NClogo from "../../../../images/JxAsia2020/partners_img/logonc.png";
 import JunctionAsiaCollab from '../../../../images/JxAsia2020/JunctionX_2020_intro.jpg'
 import AsiaLogo from '../../../../images/JxAsia2020/junctionx_asia_white_twoline.png'
 
@@ -60,14 +62,16 @@ class JxSingapore2019 extends Component {
         
         <div className = "containment-asia2020">
           <h1>OUR PARTNERS</h1>
-          <br/>
-            <h1 className="metal">GOLD</h1>
-            <div className="container-box">
-              <img className="image home" src={Kaspersky} alt="Kaspersky" />
-            </div>
+          <br/><br/>
             <h1 className="metal">PLATINUM</h1>
             <div className="container-box">
               <img className="image home" src={Microsoft} alt="Microsoft" />
+            </div><br/><br/>
+            <h1 className="metal">GOLD</h1>
+            <div className="container-box-asia2020">
+              <img className="image home" src={Kaspersky} alt="Kaspersky" />
+              <img className="image home" src={Nokia} alt="Nokia" />
+              <img className="image home" src={NClogo} alt="NC" />
             </div>
           </div>
         </div>

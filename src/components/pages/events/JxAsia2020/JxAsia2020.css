@@ -52,6 +52,12 @@
 
 .metal{
     color: #35e2df;
+
+}
+.container-box-asia2020 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
