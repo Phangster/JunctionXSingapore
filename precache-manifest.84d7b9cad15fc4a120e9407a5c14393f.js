@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de0848fc63496fab7908a4406e7f9467",
+    "revision": "9074f7bff456ee01e1b64679f8af7a48",
     "url": "/index.html"
   },
   {
-    "revision": "fd72e36d4deb573e9296",
-    "url": "/static/css/main.98b04dac.chunk.css"
+    "revision": "264a58cec2065cc1641b",
+    "url": "/static/css/main.2eb294df.chunk.css"
   },
   {
-    "revision": "d0f1258ea10c704fec1b",
-    "url": "/static/js/2.04c26ebd.chunk.js"
+    "revision": "7e11b6fa7db9a5c847e1",
+    "url": "/static/js/2.3cb045cd.chunk.js"
   },
   {
     "revision": "ca3cfcda77dc9f4f71fda9fdfcf14fb0",
-    "url": "/static/js/2.04c26ebd.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3cb045cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd72e36d4deb573e9296",
-    "url": "/static/js/main.294798df.chunk.js"
+    "revision": "264a58cec2065cc1641b",
+    "url": "/static/js/main.7a458b87.chunk.js"
   },
   {
     "revision": "0fc17203e3dcd2cf965b",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "59a8961bd28346750a98a5e8032e2509",
     "url": "/static/media/ChangHsi.59a8961b.jpg"
-  },
-  {
-    "revision": "56ef2bd3cc5f7a212989602e3ae08ec2",
-    "url": "/static/media/Eloy.56ef2bd3.jpg"
   },
   {
     "revision": "fa8c900cbebfdae31bf01bb08f9f7b7c",
@@ -74,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "830444bb265d77f3d904510b21ef589a",
     "url": "/static/media/JunctionX Singapore logo_white_twoline.830444bb.png"
-  },
-  {
-    "revision": "960c8190530043869bf9ae4ac104aeb6",
-    "url": "/static/media/JunctionXAsia_Poster.960c8190.jpg"
   },
   {
     "revision": "7e11d547ddce293bf1d47cc1da730db6",
@@ -136,6 +128,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Rakuten.94c02e24.png"
   },
   {
+    "revision": "4b1e92d3f87702164d29d6cfd55d0773",
+    "url": "/static/media/RakutenRapidAPI.4b1e92d3.png"
+  },
+  {
     "revision": "905e3a0832ea593d66b6e0037185aada",
     "url": "/static/media/Reassemble.905e3a08.jpeg"
   },
@@ -164,6 +160,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ambidextr.e931c991.png"
   },
   {
+    "revision": "aea51d329195ae0e5610b497fb98bcfa",
+    "url": "/static/media/ambidextrNew.aea51d32.png"
+  },
+  {
     "revision": "a0d6d6b8d5605947e87ace74e0b25878",
     "url": "/static/media/arvr.a0d6d6b8.jpg"
   },
@@ -174,6 +174,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "08b1ada5f0af9ed797e445070542b102",
     "url": "/static/media/circles_life.08b1ada5.png"
+  },
+  {
+    "revision": "99ce8ee24f87c346fe513b7ab885531b",
+    "url": "/static/media/circleslifeNew.99ce8ee2.png"
   },
   {
     "revision": "5c8f2bcfc9e884531d4ef64953ce4f10",
@@ -228,8 +232,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/junctionx_globe_white.f9bcbe82.png"
   },
   {
-    "revision": "217bee0020278926ee103ebaf94a9687",
-    "url": "/static/media/kaspersky.217bee00.png"
+    "revision": "916067a670e5a9fd2f74454f17f9d539",
+    "url": "/static/media/kaspersky.916067a6.png"
   },
   {
     "revision": "8eb2f95a29698662a97ce26304b6a728",
@@ -248,8 +252,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mark_lven_palejaro.07093e8b.JPG"
   },
   {
-    "revision": "0b33793f4a18c2a4384680e67cffdc7f",
-    "url": "/static/media/microsoft.0b33793f.jpg"
+    "revision": "0c706e1eb553e732479b8f108acf13ed",
+    "url": "/static/media/microsoft.0c706e1e.png"
   },
   {
     "revision": "c134f5b092724ca69ed5282f1d1562b0",
@@ -268,8 +272,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/smartcommerce.eb36b176.jpg"
   },
   {
-    "revision": "4f8c86791eb14fb0638a10e5d31168e8",
-    "url": "/static/media/startupx1.4f8c8679.jpeg"
+    "revision": "6dbd5b29b5b2c04e7d78d887c79df6c8",
+    "url": "/static/media/startupx1.6dbd5b29.jpeg"
+  },
+  {
+    "revision": "dddb3ba017e39b1a281bbdcbc7a144f1",
+    "url": "/static/media/startupxNew.dddb3ba0.png"
   },
   {
     "revision": "af735b9691a01161e8dcb2aaddfef819",
