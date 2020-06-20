@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import React, { Component } from "react";
 import '../../css/Home.scss';
 import '../../css/Home.sass';
@@ -51,7 +50,9 @@ class Home extends Component {
   render() {
 
     console.log(this.state.showModal)
+
     return (
+
         <div className="homepage">
           
           <div className="wrapperOne">
@@ -132,7 +133,7 @@ class Home extends Component {
 
           <div className="containerMain" >
             <div id="title">Join us!</div>
-            <div className="flexbox">
+            <div className="flexbox-home">
               <Link to="/forparticipants"><div id="participantButton">Participants</div></Link>
               <Link to="/forpartners"><div id="partnerButton">Partners</div></Link>
               <Link to="/forvolunteers"><div id="volunteerButton">Volunteers</div></Link>

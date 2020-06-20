@@ -85,9 +85,9 @@ class JxSingapore2019 extends Component {
             </div>
               <div className="flexItem-right">
               <div>
-                Organised for developers by developers, junction X Singapore 2019 was
-                This was the first hackathon of JunctionX Singapore team and it was a massive success.
-                The 48 hour hackathon was organised on the beautiful office of Rakuten Singapore in CBD.
+                Organised for developers by developers, Junction X Singapore 2019 was 
+                the first hackathon of JunctionX Singapore team and it was a massive success.
+                The 48 hour hackathon was organised at the beautiful office of Rakuten Singapore in CBD.
               </div>
               <br/>
               <div>
