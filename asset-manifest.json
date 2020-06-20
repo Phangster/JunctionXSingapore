@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.47cbdef3.chunk.css",
-    "main.js": "/static/js/main.f2dbd817.chunk.js",
-    "main.js.map": "/static/js/main.f2dbd817.chunk.js.map",
+    "main.css": "/static/css/main.71ea3c5c.chunk.css",
+    "main.js": "/static/js/main.169cbcc4.chunk.js",
+    "main.js.map": "/static/js/main.169cbcc4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7bfe56a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.7bfe56a6.js.map",
-    "static/js/2.3cb045cd.chunk.js": "/static/js/2.3cb045cd.chunk.js",
-    "static/js/2.3cb045cd.chunk.js.map": "/static/js/2.3cb045cd.chunk.js.map",
+    "static/js/2.8567ccd2.chunk.js": "/static/js/2.8567ccd2.chunk.js",
+    "static/js/2.8567ccd2.chunk.js.map": "/static/js/2.8567ccd2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.26a63d1cd1ee7abe8038813f8b9f5490.js": "/precache-manifest.26a63d1cd1ee7abe8038813f8b9f5490.js",
+    "precache-manifest.52719d037e2fab7892849fb2c55b5d50.js": "/precache-manifest.52719d037e2fab7892849fb2c55b5d50.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.47cbdef3.chunk.css.map": "/static/css/main.47cbdef3.chunk.css.map",
-    "static/js/2.3cb045cd.chunk.js.LICENSE.txt": "/static/js/2.3cb045cd.chunk.js.LICENSE.txt",
+    "static/css/main.71ea3c5c.chunk.css.map": "/static/css/main.71ea3c5c.chunk.css.map",
+    "static/js/2.8567ccd2.chunk.js.LICENSE.txt": "/static/js/2.8567ccd2.chunk.js.LICENSE.txt",
     "static/media/Adam.jpg": "/static/media/Adam.3a24182b.jpg",
     "static/media/Bryan.jpg": "/static/media/Bryan.b28178bf.jpg",
     "static/media/ChangHsi.jpg": "/static/media/ChangHsi.59a8961b.jpg",
@@ -66,10 +66,12 @@
     "static/media/junctionx_globe_white.png": "/static/media/junctionx_globe_white.f9bcbe82.png",
     "static/media/kaspersky.png": "/static/media/kaspersky.916067a6.png",
     "static/media/kaspersky_track.png": "/static/media/kaspersky_track.8eb2f95a.png",
+    "static/media/logonc.png": "/static/media/logonc.4c32e09f.png",
     "static/media/JxSingapore2019.css": "/static/media/main_coverphoto.a512bebf.jpg",
     "static/media/marie_wong.jpeg": "/static/media/marie_wong.9e9c21a8.jpeg",
     "static/media/mark_lven_palejaro.JPG": "/static/media/mark_lven_palejaro.07093e8b.JPG",
     "static/media/microsoft.png": "/static/media/microsoft.0c706e1e.png",
+    "static/media/nokialogo.png": "/static/media/nokialogo.9616bbdb.png",
     "static/media/onlineWebinarImg.jpg": "/static/media/onlineWebinarImg.c134f5b0.jpg",
     "static/media/satoshi.jpg": "/static/media/satoshi.376699cb.jpg",
     "static/media/security.jpg": "/static/media/security.460678f3.jpg",
@@ -81,8 +83,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7bfe56a6.js",
-    "static/js/2.3cb045cd.chunk.js",
-    "static/css/main.47cbdef3.chunk.css",
-    "static/js/main.f2dbd817.chunk.js"
+    "static/js/2.8567ccd2.chunk.js",
+    "static/css/main.71ea3c5c.chunk.css",
+    "static/js/main.169cbcc4.chunk.js"
   ]
 }
