@@ -18,7 +18,6 @@ nav
   background: black
   z-index: 2
 
-
 a
   text-decoration: none
   color: #232323
@@ -37,7 +36,6 @@ a:hover
   margin-bottom: 1rem
   margin-top: 1rem
 
-
 .textTwo
   font-size: 20px
   font-weight: 500
@@ -45,7 +43,6 @@ a:hover
   margin-bottom: 1rem
   margin-top: 1rem
   padding: 0rem
-
 
 .textThree
   font-size: 16px
@@ -70,7 +67,6 @@ a:hover
 .imageHeading
   width: 300px
   opacity: 1
-  border: 0
   margin-bottom: -15px
   margin-top: -8px
   display: inline
@@ -79,6 +75,7 @@ a:hover
 // Menu Bar
 //--------------------------
 .menubar
+  padding: 5px
   background-color: black
   box-shadow: 2px 5px 5px 0 rgba(0,0,0,.12)
   justify-content: space-evenly
@@ -96,9 +93,7 @@ a:hover
   opacity: 0.8
   color: grey
   font-size: 20px
-
-.bottom-margin
-  margin-bottom: 4rem
+  text-align: left
 
 //--------------------------
 // Hamburger Menu
@@ -166,25 +161,26 @@ a:hover
   z-index: 1
   height: 100vh
 
-  & ul
-    padding: 0px
-    color: black
-    list-style-type: none
-    text-align: left
+#menuLinkItems
+  padding: 0 2% 30% 15%
+  text-align: left
+
+#menuLinkItem
+  color: black
+  list-style-type: none
+  text-align: left
+  padding: 0 2% 0 10%
+
   & li
-    padding: 0 0 10px 20px
     font-size: 1em
-    margin-left: 2rem
+    line-height: 1.5
+
 .fa
   color: black
   padding-right: 8px
-li 
-  text-decoration: none
-  color: #35e2df
 
 #menu.isopen
   transform: none
-  overflow-x: hidden
   overflow-x: scroll
 
 @media screen and (max-width: 768px)
@@ -200,13 +196,27 @@ li
     width: 55%
     margin-left: 1.8rem
     height: 5rem
+
   #menu li
-    padding: 5px 0 0 30px
+    padding: 2%
     font-size: 0em
-    margin-left: 0rem
+
   #menu
     width: 13rem
+
   li a 
-    font-size: 18px
+    font-size: 17px
+    line-height: 1
+
   img
     display: inline-block
+
+  .header-css
+    font-size: 17px
+
+  #menuLinkItems
+    padding: 0 2% 50% 13%
+
+  #menuLinkItem 
+    padding: 0% 2% 0% 5%
+
