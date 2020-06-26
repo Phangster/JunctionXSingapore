@@ -91,7 +91,6 @@ class Home extends Component {
 
 
           <div className="componentContainer">
-            <p style={{ fontSize: "1.5rem" }} >HAPPENING NOW:</p>
             <a href="https://asia.hackjunction.com/">
               <img src={JunctionAsia} className="imagelink-home" />
             </a>

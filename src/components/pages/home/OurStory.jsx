@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Footer from '../../global/Footer';
-import JunctionXSGLogo from "../../../images/JxSingapore2019/JunctionX Singapore logo_white_twoline.png"
-
 import '../../css/OurStory.css'
 
 class OurStory extends Component {

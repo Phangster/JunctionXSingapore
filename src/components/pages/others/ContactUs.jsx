@@ -30,12 +30,12 @@ class ContactUs extends Component {
             <div className="header1intro">
               Contact Us
             </div>
-              <div className="header2intro">
-              </div>
+            <div className="header2intro">
             </div>
-          </div> 
+          </div>
+        </div> 
 
-        <div className ="containerMain-contactUs">
+        <div className ="containerMain">
           <div className="container-team-head-contactUs">
             <h2>Head of JunctionX Singapore</h2>
             <div class="head">

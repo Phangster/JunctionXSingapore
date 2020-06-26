@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import Footer from "../../global/Footer";
 import './ForVolunteers.css';
-
-//import social media photo
-import SocialMediaLogo from '../../../images/junction_img/junctionx_globe_white.png'
-
 import { Link } from 'react-router-dom'
 
 class ForVolunteers extends Component {
@@ -26,13 +22,12 @@ class ForVolunteers extends Component {
           </div>
         </div>
 
-
-        <div className="containerMain-forVolunteers">
-          <div className="flexContainer-forVolunteers">
-            <div className="flexItem-left-forVolunteers">
+        <div className="containerMain">
+          <div className="flexContainer">
+            <div className="flexItem-left">
               A diverse team
             </div>
-            <div className="flexItem-right-forVolunteers">
+            <div className="flexItem-right">
               <div>
                 Our headquarters is located at Startup Sauna in Finland but the Junction team as a whole spreads 
                 out all around the globe. The thing that connects us all? A passion for empowering people to 
@@ -56,20 +51,20 @@ class ForVolunteers extends Component {
             </div>
           </div>
 
-          <div className ="flexContainer-forVolunteers">
-            <div className="flexItem-left-forVolunteers">
+          <div className ="flexContainer">
+            <div className="flexItem-left">
               Hear what our past volunteers say
             </div>
-            <div className="flexItem-right-forVolunteers">
-              <div className="quote-referal-forVolunteers">
+            <div className="flexItem-right">
+              <div className="quote-referal">
                 <div>
                   "It will be a rewarding and fulfilling journey"
                   <div>- Santiana</div>
                 </div> 
                 <br/>
                 <div>
-                  "Never got to join hackathons but it is a eye-opening to me. 
-                  Glad that I became a volunteer to see what its like"
+                  "Never got to join hackathons. It was eye-opening to me. 
+                  Glad that I became a volunteer to see what it's like"
                   <div>- Joordin</div> 
                 </div>
                 <br/>
@@ -83,21 +78,21 @@ class ForVolunteers extends Component {
           </div>
         </div>
 
-        <div className="whiteContainer">
-          <div className="flexContainer-forVolunteers">
-            <div className="flexItem-left-forVolunteers">
+        <div className="containerMain blackBackground">
+          <div className="flexContainer">
+            <div className="flexItem-left">
               Interested? 
-              <br/>
-              Let's have a chat!
             </div>
-            <div className="flexItem-right-forVolunteers">
+            <div className="flexItem-right">
+              Let's have a chat! 
+              <br/>
               Feel free to contact Bryan, Head of JunctionX Singapore:
               <br/>
               <a href="mailto:bryan.david@hackjunction.com?Subject=CollaborationForJunctionXSingapore" target="_top">bryan.david@hackjunction.com</a>
             </div>
           </div>
         </div>
-      <Footer/>
+        <Footer/>
       </div>
     );
   }

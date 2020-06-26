@@ -14,7 +14,7 @@ import Kaspersky from '../../../../images/JxSingapore2019/partners_img/kaspersky
 class Track extends Component {
   render() {
     return (
-            <div className = "containerMain">
+            <div className = "containerMain blackBackground">
                 <h1>TRACKS</h1>
                 <div className = "grid-track">
                     <div className = "gridItem-track">
