@@ -26,7 +26,6 @@ import { Link } from 'react-router-dom'
 
 class Home extends Component {
 
-
   constructor(...args) {
     super(...args);
     this.state = { showModal: false };
@@ -38,9 +37,7 @@ class Home extends Component {
     this.open = () => {
       this.setState({ showModal: true });
     };
-
   }
-
   componentWillMount() {
     this.open();
   }
@@ -62,7 +59,6 @@ class Home extends Component {
             <div className="containerOne-home">
               <img className="logoSize" src={JunctionLogo} alt="JunctionLogo" />
               <p className="headerLogo1">JUNCTIONX SINGAPORE</p>
-              {/* <img src={JunctionAsiaLogo1} className="headerLogoImg" ></img> */}
               <p className="header2Logo">HACK THE FUTURE</p>
               <div style={{ fontSize: 15 + "px" }} className="textTwo color">Empowering the Future with Tech </div>
             </div>
@@ -80,17 +76,22 @@ class Home extends Component {
             </div>
             <div className ="flexContainer">
               <div className="flexItem-left">
-                Collaboration with Industry Partners
+                Collaboration with industry partners
               </div>
               <div className="flexItem-right">
                 In order to offer our participants the most stimulating problems and latest technology, we partner with industry partners to create real-life problem statements that their industry is facing.
-                Our partcipants get an once-in-a-life opportunity to hack for solutions within a short time frame.
+                Our partcipants get an once-in-a-lifetime opportunity to hack for solutions within a short time frame.
               </div>
             </div>
           </div>
 
 
-          <div className="componentContainer">
+          <div className="containerMain blackBackground">
+            <p style={{ fontSize: "1.3rem"}} >
+              This was us in 2020
+              <br/>
+              Click below to see more!
+            </p>
             <a href="https://asia.hackjunction.com/">
               <img src={JunctionAsia} className="imagelink-home" />
             </a>
@@ -138,8 +139,8 @@ class Home extends Component {
               <Link to="/forvolunteers"><div id="volunteerButton">Volunteers</div></Link>
             </div>
           </div>
-          <Footer />
-        </div>
+        <Footer />
+      </div>
     );
   }
 }

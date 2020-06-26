@@ -29,13 +29,18 @@ class OurStory extends Component {
               An extraordinary group of individuals brought together by their tech interest.
             </div>
             <div className="flexItem-right">
-              Started out from 2018 as part of a bigger global movement,
-              Junction in Helsinki, JunctionX Hanoi has brought a new color
-              to hackathon in Vietnam, with the record of biggest number of participants,
-              coming from all fields and having English as the main language at the event.
-              JunctionX Hanoi has enriched the life of hundreds of people through the 48 hours Hackathon and
-              have made a statement and challenge the conventional way of looking at technology.
-              The message came across was that coding is FUN, and technology is for EVERYONE.
+              <div>
+                Started out from 2018 as part of a bigger global movement,
+                Junction in Helsinki, JunctionX Hanoi has brought a new color
+                to hackathon in Vietnam, with the record of biggest number of participants,
+                coming from all fields and having English as the main language at the event.
+              </div>
+              <br/>
+              <div>
+                After JunctionX Hanoi, JunctionX Singapore has enriched the life of hundreds of people through 
+                the hackathons in Singapore. JunctionX Singapore has made a statement and challenged the conventional 
+                way of looking at technology. 
+              </div>
             </div>
           </div>
           <div className ="flexContainer">
@@ -45,7 +50,7 @@ class OurStory extends Component {
             <div className="flexItem-right">
               Our first local hackathon in Singapore took place in 2019.
               Through JunctionX Singapore, participants were able to challenge themselves
-              in order to solve the problems.
+              in order to solve the intriguing problem statements and come up with creative innovations.
             </div>
           </div>
         </div>

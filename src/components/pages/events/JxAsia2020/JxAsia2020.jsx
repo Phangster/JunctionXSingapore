@@ -44,10 +44,13 @@ class JxSingapore2019 extends Component {
             </div>
             <div className="flexItem-right">
               <div>
-                JunctionX Asia is an online hackathon targeted at solving problems we are facing during this ongoing pandemic. Bringing together developers, designers and other tech-minded individuals to create projects and solve intriguing challenges.
+                JunctionX Asia is an online hackathon targeted at solving problems we are facing during the ongoing COVID-19 pandemic. 
+                JunctionX Asia brings together developers, designers and other tech-minded individuals from all over the Asia 
+                to create projects and solve intriguing challenges.
               </div> <br/>
               <div>
-                We will be collaborating with industry partners to come up with real-life problem statements for the participants. Come join us! Registration will open in May and more details will be released soon - stay tuned!
+                We are collaborating with industry partners to come up with real-life problem statements for the participants.
+                Click below to head to JunctionX Asia page!
               </div>
             </div>
           </div>

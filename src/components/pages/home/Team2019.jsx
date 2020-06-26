@@ -17,7 +17,7 @@ class Team2019 extends Component {
         <div className="containerIntro containerIntro-team">
           <div className="wrapperIntro">
             <p className="header1intro">
-              We are JunctionX Singapore
+              Team 2019
             </p>
             <p className="header2intro"></p>
           </div>

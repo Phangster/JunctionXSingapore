@@ -1,14 +1,8 @@
 import React, { Component } from "react";
 
 import Footer from "../../../global/Footer";
-import CoverPhoto from "../../../../images/JxSingapore2019/main_coverphoto.jpg"
 import JunctionXSGLogo from "../../../../images/JxSingapore2019/JunctionX Singapore logo_white_twoline.png"
 import JunctionXSGTablePic from "../../../../images/JxSingapore2019/JunctionXSGtable.jpg"
-
-import JunctionLogo from '../../../../images/junction_img/JunctionX_logos_white.png'
-import JunctionL from '../../../../images/junction_img/junctionx_globe_black.svg'
-import JunctionR from '../../../../images/junction_img/junctionx_globe_white.svg'
-import JunctionCollab from '../../../../images/junction_img/junctionx_2020_collab.jpg'
 
 //Mentor imports
 import Mark from '../../../../images/JxSingapore2019/mentor_img/mark_lven_palejaro.JPG'
@@ -31,7 +25,6 @@ import { useHistory } from 'react-router-dom';
 //Import other components for JxSingapore 2019
 import Track from "./Track"
 import Prizes from "./Prizes"
-import Partners from "./Partners"
 
 import './JxSingapore2019.css'
 
@@ -69,7 +62,7 @@ class JxSingapore2019 extends Component {
           <div className="header1introCentered">
             <img src={JunctionXSGLogo} className="junctionXlogo" ></img>
             <p>
-            HACK THE FUTURE
+              HACK THE FUTURE
             </p>
           </div>
           <div className="header2introCentered">
@@ -91,12 +84,9 @@ class JxSingapore2019 extends Component {
               </div>
               <br/>
               <div>
-                Participants came from a diverse range of backgrounds with more than half being international participants (from Algeria, Japan, etc.) who came to Singapore just to attend this hackathon.
-              </div>
-              <br/>
-              <div>
-                Hack the Future with us - see you at our next hackathon in 2020!
-              </div>    
+                Participants came from a diverse range of backgrounds with more than half being international participants 
+                (from Algeria, Japan, etc.) who came to Singapore just to attend this hackathon.
+              </div>  
             </div>
           </div>
         </div>

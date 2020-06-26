@@ -26,7 +26,7 @@ class ForParticipants extends Component {
                 Take on the challenge.
               </div>
               <div className="header2intro">
-                JunctionX organises hackathons and other tech events around the year around the world, as well as online. 
+                JunctionX organizes hackathons and other tech events around the year around the world, as well as online. 
                 We have something for every skill set and interest!
               </div>
             </div>            
@@ -46,7 +46,7 @@ class ForParticipants extends Component {
                 </div>
                 <br/>
                 <div>
-                  Junction events are organised throughout the year, including JunctionX hackathons around the world. 
+                  Junction events are organized throughout the year, including JunctionX hackathons around the world. 
                   The winning team for JunctionX Singapore will get the opportunity to go to the annual main event in 
                   Finland: next up, Junction 2020!
                   If you’re into tech at all, it is the place to be – a full weekend of hacking with around other tech 

@@ -42,11 +42,8 @@ class ForVolunteers extends Component {
               </div>
               <br/>
               <div>
-                Junction events are organized throughout the year, including JunctionX hackathons around the world. 
-                The winning team for JunctionX Singapore will get the opportunity to go to the annual main event in 
-                Finland: next up, Junction 2020! If you’re into tech at all, it is the place to be – a full weekend of 
-                hacking with around other tech heads & hustlers in an awesome venue and atmosphere like no other. 
-                An experience you do not want to miss out on. Stay tuned for more information!
+                Junction events are organized throughout the year, including JunctionX hackathons around the world.
+                Join us! 
               </div>
             </div>
           </div>
