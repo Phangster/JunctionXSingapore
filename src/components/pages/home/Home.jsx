@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import '../../css/Home.scss';
-import '../../css/Home.sass';
+import '../../css/Home.css';
 import Footer from "../../global/Footer";
 import sample from '../../../videos/intro.mp4';
-import '../../css/Partners.css';
-
 
 // import Modal from "../global/Modal";
 import JunctionLogo from '../../../images/junction_img/JunctionX_logos_white.png'
@@ -42,42 +39,40 @@ class Home extends Component {
     this.open();
   }
 
-
-
   render() {
 
     console.log(this.state.showModal)
 
-    return (
+      return (
 
         <div className="homepage">
           
-          <div className="wrapperOne">
+          <div className="wrapperIntro-home">
             <video className="videoTag-home" autoPlay loop muted>
-              <source src={sample} type='video/mp4' />
+              <source src={sample} type='video/mp4'/>
             </video>
             <div className="containerOne-home">
               <img className="logoSize" src={JunctionLogo} alt="JunctionLogo" />
-              <p className="headerLogo1">JUNCTIONX SINGAPORE</p>
-              <p className="header2Logo">HACK THE FUTURE</p>
-              <div style={{ fontSize: 15 + "px" }} className="textTwo color">Empowering the Future with Tech </div>
+              <h2>JUNCTIONX SINGAPORE</h2>
+              <h3>HACK THE FUTURE</h3>
+              <div>Empowering the future with tech</div>
             </div>
           </div>
 
           <div className="containerMain">
             <div className="flexContainer">
-              <div className="flexItem-left">
+              <h2 className="flexItem-left">
                 Empowering people to create with technology
-              </div>
+              </h2>
               <div className="flexItem-right">
                 We are a community of tech enthusiasts who work with the industry to craft out a one of a kind hackathons for people in Singapore, as well as the region.
                 We bring together developers, designers and other tech-minded people to create new projects and solve intriguing challenges.
               </div>
             </div>
             <div className ="flexContainer">
-              <div className="flexItem-left">
+              <h2 className="flexItem-left">
                 Collaboration with industry partners
-              </div>
+              </h2>
               <div className="flexItem-right">
                 In order to offer our participants the most stimulating problems and latest technology, we partner with industry partners to create real-life problem statements that their industry is facing.
                 Our partcipants get an once-in-a-lifetime opportunity to hack for solutions within a short time frame.
@@ -87,11 +82,11 @@ class Home extends Component {
 
 
           <div className="containerMain blackBackground">
-            <p style={{ fontSize: "1.3rem"}} >
+            <h3 className = "centeredTextBox">
               This was us in 2020
               <br/>
               Click below to see more!
-            </p>
+            </h3>
             <a href="https://asia.hackjunction.com/">
               <img src={JunctionAsia} className="imagelink-home" />
             </a>
@@ -101,38 +96,30 @@ class Home extends Component {
             <JxSingapore2019Stats />
           </div>
 
-          <div className="wrapper4 wrapper">
-            <div className="containment">
-            <h1>OUR PREVIOUS PARTNERS</h1>
-                <div className="Gold">
-                    <div className="container-box">
-                        <img className="image home" src={RakutenImg} alt="Rakuten" />
-                        <img className="image home" src={ShopeeImg} alt="Rakuten" />
-                    </div>
-                </div>
-                <div className="Silver">
-                    <div className="container-box">
-                        <img className="image home"  src={KasperskyImg} alt="Kaspersky" />
-                    </div>
-                </div>
-                <div className="Bronze">
-                    <div className="container-box">
-                        <img className="image home" src={RakutenRapidApiImg} alt="Rakuten Rapid API" />
-                        <img className="image home" src={RedBullImg} alt="Allswell" />
-                    </div>
-                </div>
-                <div className="ComPartner">
-                    <div className="container-box">
-                        <div className="boxing">
-                            <img className="image" src={StartupX} alt="StartUpX" />
-                        </div>
-                    </div>
-                </div>
+          <div className = "containerMain whiteBackground">
+            <h2 className = "centered">
+              Partner highlights
+            </h2>
+            <div className="partnerHighlightsContainer">
+              <div className="partnerHighlightsContainer-logoContainer">
+                <img className="partnerLogo" src={RakutenImg}/>
+                <img className="partnerLogo" src={ShopeeImg}/>
+              </div>
+              <div className="partnerHighlightsContainer-logoContainer">
+                <img className="partnerLogo" src={KasperskyImg}/>
+              </div>
+              <div className="partnerHighlightsContainer-logoContainer">
+                <img className="partnerLogo" src={RakutenRapidApiImg}/>
+                <img className="partnerLogo" src={RedBullImg}/>
+              </div>
+              <div className="partnerHighlightsContainer-logoContainer">
+                <img className="partnerLogo" src={StartupX}/>
+              </div>
             </div>
           </div>
 
           <div className="containerMain" >
-            <div id="title">Join us!</div>
+            <h2 className = "centered">Join us!</h2>
             <div className="flexbox-home">
               <Link to="/forparticipants"><div id="participantButton">Participants</div></Link>
               <Link to="/forpartners"><div id="partnerButton">Partners</div></Link>

@@ -12,9 +12,9 @@ class OurStory extends Component {
 
         <div className="containerIntro containerIntro-ourStory">
           <div className="wrapperIntro">
-            <div className="header1intro">
+            <h1 className="header1intro">
               This is JunctionX Singapore
-            </div>
+            </h1>
             <div className="header2intro">
               A non-profit multi-disciplinary tech-community that is managed and run by Singapore tech-enthusiasts.
               We come together in order to bring tech-enthusiasts an opportunity to showcase their talents
@@ -25,9 +25,9 @@ class OurStory extends Component {
 
         <div className="containerMain">
           <div className="flexContainer">
-            <div className="flexItem-left">
+            <h2 className="flexItem-left">
               An extraordinary group of individuals brought together by their tech interest.
-            </div>
+            </h2>
             <div className="flexItem-right">
               <div>
                 Started out from 2018 as part of a bigger global movement,
@@ -44,9 +44,9 @@ class OurStory extends Component {
             </div>
           </div>
           <div className ="flexContainer">
-            <div className="flexItem-left">
+            <h2 className="flexItem-left">
               How did we start?
-            </div>
+            </h2>
             <div className="flexItem-right">
               Our first local hackathon in Singapore took place in 2019.
               Through JunctionX Singapore, participants were able to challenge themselves

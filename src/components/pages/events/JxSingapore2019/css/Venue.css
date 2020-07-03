@@ -1,0 +1,19 @@
+.containerVenue {
+    padding: 10rem;
+}
+
+.header {
+    padding-bottom: 2rem
+}
+
+@media(max-width: 768px){
+    .containerVenue {
+        padding:2rem;
+        padding-top: 6rem;
+        text-align: center
+    }
+    iframe {
+        width: 100%;
+        height: 50vh
+    }
+}

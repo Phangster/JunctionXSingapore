@@ -1,0 +1,61 @@
+
+.containerMain-upcomingEvents {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+
+.flexContainer-upcomingEvents {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 11rem;
+    padding-right: 9rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.flexItem-left-upcomingEvents {
+    max-width: 20rem;
+    text-align: left;
+    padding: 1rem;
+    color: black;
+}
+
+.flexItem-right-upcomingEvents {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 1rem;
+}
+
+@media(max-width: 800px) {
+
+    .containerMain-upcomingEvents {
+        align-items: center;
+        align-content: center;
+    }
+
+    .flexContainer-upcomingEvents {
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .flexItem-left-upcomingEvents {
+        text-align: center;
+        max-width: 15rem;
+        padding-right: 3rem;
+    }
+
+    .flexItem-right-upcomingEvents {
+        overflow: hidden;
+        padding-left: 20rem;
+        padding-right: 0rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        max-width: 60rem;
+    }
+}

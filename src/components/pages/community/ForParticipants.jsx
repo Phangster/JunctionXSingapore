@@ -3,13 +3,13 @@ import React, { Component } from "react";
 import Footer from "../../global/Footer";
 
 // Imported JSX Components
-import UpcomingEventsComponent from '../home/components/UpcomingEventsComponent';
+import UpcomingEventsComponent from '../components/UpcomingEventsComponent';
 
 //import social media photo
 import SocialMediaLogo from '../../../images/junction_img/junctionx_globe_white.png';
 
 import {Link} from 'react-router-dom';
-import './ForParticipants.css';
+import './../../css/ForParticipants.css';
 
 class ForParticipants extends Component {
 
@@ -22,9 +22,9 @@ class ForParticipants extends Component {
         
           <div className="containerIntro containerIntro-forParticipants">
             <div className="wrapperIntro">
-              <div className="header1intro">
+              <h1 className="header1intro">
                 Take on the challenge.
-              </div>
+              </h1>
               <div className="header2intro">
                 JunctionX organizes hackathons and other tech events around the year around the world, as well as online. 
                 We have something for every skill set and interest!
@@ -32,13 +32,12 @@ class ForParticipants extends Component {
             </div>            
           </div>
 
-              
-          <div className="containerMain-forParticipants">
-            <div className="container1-forParticipants">
-              <div className="wrapperTwo-grid-left-forParticipants">
+          <div className="containerMain">
+            <div className="flexContainer">
+              <h2 className="flexItem-left">
                 Everyone has the X factor
-              </div>
-              <div className= "wrapperTwo-grid-right-forParticipants">
+              </h2>
+              <div className= "flexItem-right">
                 <div>
                   We organize events for a wide variety of skill levels and backgrounds - check out our 
                   event calendar and specs for each event! Whether you are interested in getting started with 
@@ -56,12 +55,12 @@ class ForParticipants extends Component {
               </div>
             </div>
 
-            <div className = "container1-forParticipants">
-              <div className="wrapperTwo-grid-left-forParticipants">
+            <div className = "flexContainer">
+              <h2 className="flexItem-left">
                 Hear what others say
-              </div>
-              <div className="wrapperTwo-grid-right-forParticipants">
-                <div className="quote-referal-forParticipants">
+              </h2>
+              <div className="flexItem-right">
+                <div className="quote-referal">
                   <div>
                     "I have been to a few hackathons in the past, and this hackathon 
                     is really a different experience. Love the variety of problem statements 
@@ -93,12 +92,12 @@ class ForParticipants extends Component {
 
           <UpcomingEventsComponent/>
 
-          <div className="containerMain-forParticipants">
-            <div className = "container1-forParticipants">
-              <div className="wrapperTwo-grid-left-forParticipants">
+          <div className="containerMain blackBackground">
+            <div className = "flexContainer">
+              <h2 className="flexItem-left">
                 Check out our social media!
-              </div>
-              <div className="wrapperTwo-grid-right-forParticipants">
+              </h2>
+              <div className="flexItem-right">
                 <a href="https://www.instagram.com/junctionx_singapore/">
                   <img src={SocialMediaLogo}/>
                 </a>

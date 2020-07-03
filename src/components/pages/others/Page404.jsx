@@ -20,7 +20,7 @@ class Page404 extends Component {
     return (
         <div> 
             <ErrorComponent>Page does not exist</ErrorComponent>
-            <ButtonBack><Link to="/" >Go back to Main Page</Link></ButtonBack>
+            <ButtonBack><Link to="/">Go back to Main Page</Link></ButtonBack>
         </div>
     );
   }

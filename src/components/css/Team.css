@@ -1,11 +1,10 @@
 
 /* Container Intro Section CSS */
 .containerIntro-team{
-    background: linear-gradient(
+    background-image: linear-gradient(
                      rgba(0, 0, 0, .5), 
                      rgba(0, 0, 0, .5)),
                      url("../../images/junction_img/team.jpg");
-    background-position: center;
 }
 
 /* Container Team Head of JunctionX Section CSS */
@@ -33,7 +32,8 @@
 }
 
 /* Head of Department CSS*/
-.head {
+.teamHead {
+    font-size: 15px;
     display: flex;
     justify-content: space-around;
     padding: 40px;
@@ -44,6 +44,7 @@
 
 /* Team Members of Department CSS */
 .team-members {
+    font-size: 15px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -60,22 +61,17 @@
     width: 200px;
     height: 200px;
     opacity: 1;
-}
-
-/* Member container*/
-.member{
-    padding: 1rem;
+    padding: 20px;
 }
 
 /* Title CSS */
 .position {
-    font-family: 'Lato';
-    font-weight: bold;
+    font-weight: 600;
 }
 
 /* Email CSS */
 .email {
-    font-size: 15px;
+    font-size: inherit;
 }
 
 @media(max-width: 768px) {
@@ -83,10 +79,14 @@
         object-fit: cover;
         object-position: 100% 0;
         border-radius: 50%;
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
         display: inline-block;
         opacity: 1;
         margin-top: 40px;
+    }
+
+    .teamHead {
+        padding: 0;
     }
 }

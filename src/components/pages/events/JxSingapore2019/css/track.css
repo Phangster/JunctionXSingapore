@@ -1,0 +1,33 @@
+
+.trackImageContainer {
+    height: 300px;
+    width: fit-content;
+    overflow: hidden;
+    row-gap: 1rem;
+}
+
+img {
+    border: none;
+    opacity: 1;
+}
+
+.sponsor {
+    padding: 2rem;
+    width: 200px;
+    height: 5rem;
+}
+
+.image1-track {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+@media(max-width: 768px) {
+    
+    img {
+        border: none;
+    } 
+}

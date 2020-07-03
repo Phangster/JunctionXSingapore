@@ -1,8 +1,9 @@
-/*Intro*/
 
-.containerIntro-ourStory {
+/*intro*/
+
+.containerIntro-calendar {
     background-image: linear-gradient(
                      rgba(0, 0, 0, .6), 
                      rgba(0, 0, 0, .6)),
-                     url("../../images/junction_img/individual.jpg");
+                     url("../../images/junction_img/calendarBackgroundPhoto.jpg");
 }

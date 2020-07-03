@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import '../../../css/Schedule.css';
+import './css/Schedule.css';
 import Footer from '../../../global/Footer'
 
 class Schedule extends Component {

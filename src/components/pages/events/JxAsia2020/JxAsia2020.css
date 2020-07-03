@@ -1,24 +1,11 @@
 
-/* Container Intro Section CSS */
-
-.containerIntro-asia2020 { 
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    text-align: center;
-    height: 500px;
-}
+/* centered Intro */
 
 .containerIntro-asia2020{
-    background: linear-gradient(
+    background-image: linear-gradient(
                      rgba(0, 0, 0, .0), 
                      rgba(0, 0, 0, .0)),
                      url("../../../../images/JxAsia2020/JxAsiaCoverImg.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
 }
 
 .header1introCentered {
@@ -29,32 +16,23 @@
 }
 
 .header2introCentered { 
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    font-size: 25px;
     text-align: center;
-}
-
-.containment-asia2020 {
-    justify-content: center;
-    padding: 4rem;
-}
-
-.junctionXlogo {
-    text-align: center;
-    justify-content: center;
-    width: 700px;
 }
 
 .jxasia2020 {
     background-color: black;
 }
 
-.metal{
-    color: #35e2df;
-
+.junctionXAsialogo {
+    text-align: center;
+    justify-content: center;
+    width: 700px;
 }
-.container-box-asia2020 {
+
+
+/*content*/
+
+.partnerList {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,6 +42,6 @@
 @media(max-width: 800px) {
 
     .containerIntro-asia2020 { 
-        padding-top: 7rem;
+        padding-top: 40%;
     }
 }

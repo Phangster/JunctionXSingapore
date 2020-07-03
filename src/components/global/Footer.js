@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from '../../images/junction_img/JunctionX_Singapore_logo_black_twoline.png'
-import '../css/Footer.css';
+import './css/Footer.css';
 
 class Footer extends Component {
     render() {
@@ -13,9 +13,9 @@ class Footer extends Component {
                         <div>
                             <img src={logo} alt="Junction Logo"></img>
 
-                            <h2>Contact Us!</h2>
+                            <h3>Contact Us!</h3>
                             <p>General Inquiries:</p>
-                            <h2>singapore@hackjunction.com</h2>
+                            <h3>singapore@hackjunction.com</h3>
                             <p>&copy; 2020 JunctionX Singapore</p>
                         </div>
 

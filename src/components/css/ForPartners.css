@@ -1,0 +1,40 @@
+
+/*intro*/
+
+.containerIntro-forPartners {
+    background-image: linear-gradient(
+                     rgba(0, 0, 0, .6), 
+                     rgba(0, 0, 0, .6)),
+                     url("../../images/junction_img/ForPartnersCoverImg.jpg");
+}
+
+/*content:*/
+
+.container3-reasons { 
+    color: #35e2df;
+    display: block;
+    max-width: 350px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.partnerHighlightsContainer { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+
+@media(max-width: 800px) {
+
+    .partnerHighlightsContainer {
+        justify-content: center;
+    }
+    .partnerHighlightsContainer-logoContainer{
+        display: flex;
+    }
+}

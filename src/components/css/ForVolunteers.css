@@ -1,0 +1,17 @@
+/*intro*/
+
+.containerIntro-forVolunteers {
+    background-image: linear-gradient(
+                     rgba(0, 0, 0, .5), 
+                     rgba(0, 0, 0, .5)),
+                     url("../../images/junction_img/ForVolunteersCoverImg.jpg");
+}
+
+
+/*content:*/
+
+.quote-referal {
+    font-style: italic;
+    text-align: center;
+    max-width: 30rem;
+}

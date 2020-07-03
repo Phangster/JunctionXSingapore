@@ -1,57 +1,8 @@
 
 /* Container Intro Section CSS */
 .containerIntro-contactUs{
-    background: linear-gradient(
+    background-image: linear-gradient(
                      rgba(0, 0, 0, .5), 
                      rgba(0, 0, 0, .5)),
                      url("../../images/junction_img/team.jpg");
-    background-position: center;
-}
-
-.containerMain-contactUs {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-/* Container Team Head of JunctionX Section CSS */
-.container-team-head-contactUs {
-    padding: 2rem;
-    text-align: center;
-}
-
-/* Display Picture for Members CSS */
-.avatar {
-    object-fit: cover;
-    object-position: 100% 0;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    opacity: 1;
-}
-
-/* Title CSS */
-.position {
-    font-family: 'Lato';
-    font-weight: bold;
-}
-
-/* Email CSS */
-.email {
-    font-size: 15px;
-}
-
-
-@media(max-width: 768px) {
-    .avatar {
-        object-fit: cover;
-        object-position: 100% 0;
-        border-radius: 50%;
-        width: 120px;
-        height: 120px;
-        display: inline-block;
-        opacity: 1;
-        margin-top: 40px;
-    }
 }

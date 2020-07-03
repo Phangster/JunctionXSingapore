@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import '../css/Nav.sass';
+import './css/Nav.css';
 import JunctionLogo from '../../images/junction_img/JunctionX_logos_white.png'
 import Junction from '../../images/junction_img/JunctionX_logos-wordmark-white.svg'
 import MenuLinks from '../global/MenuLinks'
-//import {Route} from 'react-router-dom'
 import {Link} from 'react-router-dom'
 
 class Nav extends Component {
@@ -60,9 +59,10 @@ class Nav extends Component {
         <nav className={this.state.scroll > this.state.top ? "fixed-nav" : "fixed-nav"}>
         <div className="menubar">
           <div className="hambclicker" onClick={ this._menuToggle }></div>
-          <div id="hambmenu" className={ menuStatus }><span></span><span></span><span></span><span></span></div>
-          <div className="title">
-            <span>{ this.props.title }</span>
+          <div id="hambmenu" className={ menuStatus }>
+            <span></span><span></span><span></span><span></span></div>
+            <div className="title">
+              <span>{ this.props.title }</span>
           </div>
           {/* <a exact href="https://singapore.hackjunction.com"><img className="imageHeading" src={Junction} alt="Junction" /></a> */}
           <div onClick = {(e) => this._menuToggle(e)}>

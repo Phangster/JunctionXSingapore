@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { Component } from "react";
-import '../../../css/Venue.css';
+import './css/Venue.css';
 import Footer from '../../../global/Footer'
 
 class Venue extends Component {

@@ -1,0 +1,404 @@
+
+/* defining fonts used: */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap'); /*font-sizes to use: 400, 600, 900*/
+
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    src: url('https://fonts.googleapis./css?family=Montserrat:900');
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+h1 {
+    line-height: 1.2em;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+h2 {
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 1rem;
+    margin: 0;
+}
+
+p { 
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+    color: #35e2df;
+}
+
+a:hover {
+    color: black;
+}
+
+iframe {
+    width: 100%;
+    height: 40vh;
+}
+
+.miniFont {
+    line-height: 1.5em;
+    display: inline-block;
+    font-size: 12px;
+    max-width: 18rem;
+    text-align: left;
+    text-justify: left;
+}
+
+.mintColor {
+    color: #35e2df;
+}
+
+.centered {
+    text-align: center;
+    padding: 2rem;
+    font-size: 30px;
+}
+
+.fontWeight {
+    font-weight: 600;
+}
+
+
+/*intro*/
+
+.containerIntro { 
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 15rem;
+    text-align: center;
+    height: 500px;
+}
+
+.wrapperIntro { 
+    max-height: 700;
+}
+
+.header1intro { 
+    max-width: 35vw;
+    text-align: left;
+    text-align: left;
+    margin-top: 15vh;
+    padding: 1rem;
+}
+
+.header2intro { 
+    max-width: 45vw;
+    text-align: left;
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+
+/* main content:*/
+
+.containerMain { 
+    background-color: #1a1a1a; /*previous: #232323*/
+    justify-content: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.blackBackground {
+    background-color: black;
+    color: white;
+}
+
+.whiteBackground {
+    background-color: white;
+    color: black;
+}
+
+.flexContainer { 
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.flexItem-left { 
+    max-width: 20rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+.flexItem-right { 
+    max-width: 30rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+
+@media(max-width: 800px) {
+
+    .header2intro {  
+        margin: 2rem;
+        text-align: left;
+        justify-content: center;
+        max-width: 300px;  
+    }
+
+    .containerMain { 
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        padding-left: 5%;
+        padding-right: 5%;   
+    }
+
+    .flexContainer { 
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .flexItem-left { 
+        text-align: center;
+    }
+
+    .containerIntro { 
+        height: 700px;
+        padding: 1rem;
+    }
+}
+
+/*Home content*/
+
+.centeredTextBox {
+    margin: auto; 
+    text-align: center;
+    max-width: 30rem;
+    padding: 1rem;
+}
+
+.imagelink-home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem; 
+    width: 85%;
+}
+
+.flexbox-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.wrapperIntro-home {
+    background: black;
+    position: relative;
+    justify-content: center;
+    display: grid;
+    overflow: hidden;
+}
+
+.containerOne-home {
+    text-align: center;
+    color: white;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+@media(max-width: 800px) {
+    .containerOne-home {
+        margin-top: 20%;  
+    }
+}
+
+
+/* video */
+.videoTag-home {
+    position: cover;
+    z-index: 0;
+    height: 650px;
+    overflow: hidden;
+}
+
+@media(max-width: 800px) {
+    .videoTag-home {
+        margin: -2rem;
+    }
+}
+
+
+/*Modal*/
+
+.modal-position {
+    display: flex;
+    align-items: center
+}
+
+
+/*Button*/
+
+@mixin color($color) {
+    background-color: $color;
+    border: 2px solid $color;
+    &:hover {
+        background-color: white;
+        color: $color;
+    }
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: .08rem;
+    margin: 1.8rem .8rem;
+    padding: 1rem 2rem;
+    transition: all .4s;
+    text-transform: uppercase;
+    &--orange {
+        @include color(#F79E02);
+    }
+    &--cyan {
+        @include color(#5CDB95);
+    }
+    &--blue {
+        @include color(#97CAEF);
+    }
+    &--pink {
+        @include color(#F64C72);
+    }
+    &--black {
+        @include color(#112D32);
+    }
+    &--red {
+        @include color(#C60021);
+    }
+    &--gray {
+        @include color(#CDCDCD);
+    }
+}
+
+#participantButton,
+#partnerButton,
+#volunteerButton {
+    color: black;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    margin: 40px;
+    border-radius: 25px;
+    background-color: aqua;
+    text-align: center;
+}
+
+
+/*Accordion*/
+
+.accordion {
+    margin: 0 auto;
+}
+
+.accordion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.accordion li {
+    margin: 0;
+    padding: 25px;
+}
+
+.accordion [type=radio],
+.accordion [type=checkbox] {
+    display: none;
+}
+
+.accordion label {
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: #a9a9a9;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.accordion ul li label:hover,
+.accordion [type=radio]:checked~label,
+.accordion [type=checkbox]:checked~label {
+    color: white;
+}
+
+.accordion .content {
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.accordion .text {
+    padding: 15px 10px;
+}
+
+.accordion p:hover {
+    color: red;
+    cursor: pointer;
+    background-color: #35e2df;
+}
+
+.accordion h3 {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.vertical ul li {
+    overflow: hidden;
+    margin: 0 0 1px;
+}
+
+.vertical ul li label {
+    padding: 10px;
+}
+
+.vertical [type=radio]:checked~label,
+.vertical [type=checkbox]:checked~label {
+    border-bottom: 0;
+}
+
+.vertical ul li label:hover {
+    background-color: #d9d9d9;
+}
+
+.vertical ul li .content {
+    height: 0px;
+    border-top: 0;
+    transition: all .5s ease-out;
+}
+
+.vertical [type=checkbox]:checked~label~.content {
+    height: 100%;
+}
+
+@media(max-width: 800px) {
+    
+    .accordion li {
+        padding: 5px;
+    }
+}

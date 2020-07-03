@@ -26,11 +26,11 @@ class JxSingapore2019 extends Component {
         <div className="containerIntro containerIntro-asia2020">
           <div className="header1introCentered">
             <a href="https://asia.hackjunction.com/">
-              <img src={AsiaLogo} className="junctionXlogo" ></img>
+              <img src={AsiaLogo} className="junctionXAsialogo" ></img>
             </a>
-            <p>
+            <h2>
               Hack the reCOVery
-            </p>
+            </h2>
           </div>
           <div className="header2introCentered">
             18 June - 23 June 2020
@@ -39,21 +39,23 @@ class JxSingapore2019 extends Component {
 
         <div className = "containerMain blackBackground">
           <div className="flexContainer">
-            <div className="flexItem-left">
+            <h2 className="flexItem-left">
               Never before
-            </div>
+            </h2>
             <div className="flexItem-right">
               <div>
                 JunctionX Asia is an online hackathon targeted at solving problems we are facing during the ongoing COVID-19 pandemic. 
                 JunctionX Asia brings together developers, designers and other tech-minded individuals from all over the Asia 
                 to create projects and solve intriguing challenges.
-              </div> <br/>
+              </div> 
+              <br/>
               <div>
                 We are collaborating with industry partners to come up with real-life problem statements for the participants.
                 Click below to head to JunctionX Asia page!
               </div>
             </div>
           </div>
+
           <br/><br/><br/>
 
           <div>
@@ -61,19 +63,23 @@ class JxSingapore2019 extends Component {
               <img src={hacktherecovery} />
             </a>
           </div>
+
+          <br/><br/><br/>
         
-          <div className = "containment-asia2020">
-            <h1>OUR PARTNERS</h1>
-            <br/><br/>
-              <h1 className="metal">PLATINUM</h1>
-              <div className="container-box">
-                <img className="image home" src={Microsoft} alt="Microsoft" />
-              </div><br/><br/>
-              <h1 className="metal">GOLD</h1>
-              <div className="container-box-asia2020">
-                <img className="image home" src={Kaspersky} alt="Kaspersky" />
-                <img className="image home" src={Nokia} alt="Nokia" />
-                <img className="image home" src={NClogo} alt="NC" />
+          <div className = "containerMain blackBackground">
+            <h2 className = "centered"> OUR PARTNERS</h2>
+            <br/>
+            <br/>
+              <h2 className="centered mintColor">PLATINUM</h2>
+              <div className="partnerList">
+                <img className="partnerLogo home" src={Microsoft} alt="Microsoft" />
+              </div>
+              <br/><br/>
+              <h2 className="centered mintColor">GOLD</h2>
+              <div className="partnerList">
+                <img className="partnerLogo" src={Kaspersky} alt="Kaspersky" />
+                <img className="partnerLogo" src={Nokia} alt="Nokia" />
+                <img className="partnerLogo" src={NClogo} alt="NC" />
               </div>
             </div>
           </div>

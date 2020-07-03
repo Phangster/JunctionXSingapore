@@ -27,59 +27,59 @@ class ContactUs extends Component {
 
         <div className="containerIntro containerIntro-contactUs">
           <div className="wrapperIntro">
-            <div className="header1intro">
+            <h1 className="header1intro">
               Contact Us
-            </div>
+            </h1>
             <div className="header2intro">
             </div>
           </div>
         </div> 
 
         <div className ="containerMain">
-          <div className="container-team-head-contactUs">
-            <h2>Head of JunctionX Singapore</h2>
-            <div class="head">
+          <div className="container-team-head">
+            <h3>Head of JunctionX Singapore</h3>
+            <div className="teamHead">
               <div>
                 <img className="avatar" src={Bryan} alt="Bryan" />
-                <p>Bryan Phang</p>
+                <div>Bryan Phang</div>
                 <a className="email" href="mailto:bryan.david@hackjunction.com" title="Bryan David">bryan.david@hackjunction.com</a>
               </div>
             </div>
           </div>
 
-          <div className="container-team-head-contactUs">
-            <h2>Partnership Team</h2>
-            <div class="head">
+          <div className="container-team-head">
+            <h3>Partnership Team</h3>
+            <div class="teamHead">
               <div>
                 <img className="avatar" src={Daryl} alt="Daryl" />
-                <p>Daryll Wong</p>
+                <div>Daryll Wong</div>
                 <a className="email" href="mailto:daryll.wong@hackjunction.com" title="Daryll Wong">daryll.wong@hackjunction.com</a>
               </div>
               <div>
                 <img className="avatar" src={Adam} alt="Adam" />
-                <p>Adam Proft</p>
+                <div>Adam Proft</div>
                 <a className="email" href="mailto:adam.proft@hackjunction.com" title="Adam Proft">adam.proft@hackjunction.com</a>
               </div>
             </div>
           </div>
 
-          <div className="container-team-head-contactUs">
-            <h2>Marketing Team</h2>
-            <div class="head">
+          <div className="container-team-head">
+            <h3>Marketing Team</h3>
+            <div class="teamHead">
               <div>
                 <img className="avatar" src={JunYuan} alt="JunYuan" />
-                <p>Teng Jun Yuan</p>
+                <div>Teng Jun Yuan</div>
                 <a className="email" href="mailto:teng.jun.yuan@hackjunction.com" title="Jun Yuan">teng.jun.yuan@hackjunction.com</a>
               </div>
             </div>
           </div>
 
-          <div className="container-team-head-contactUs">
-            <h2>Web Development Team</h2>
-            <div class="head">
+          <div className="container-team-head">
+            <h3>Web Development Team</h3>
+            <div class="teamHead">
               <div>
                 <img className="avatar" src={Haziq} alt="Haziq" />
-                <p>Muhammad Haziq Mofe</p>
+                <div>Muhammad Haziq Mofe</div>
                 <a className="email" href="mailto:muhammad.haziq@hackjunction.com" title="Haziq Mofe">muhammad.haziq@hackjunction.com</a>
               </div>
             </div>

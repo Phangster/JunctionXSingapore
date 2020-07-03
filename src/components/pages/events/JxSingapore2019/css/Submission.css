@@ -1,0 +1,14 @@
+.containerSubmission{
+    padding: 10rem;
+    padding-top: 5rem
+}
+
+.content-submission {
+    margin-top: 3rem 
+}
+
+@media(max-width: 768px){
+    .containerSubmission{
+        padding: 2rem;
+    }
+}

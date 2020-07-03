@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Modal.css';
+import './css/Modal.css';
 import RakutenRapidApi from '../../images/partners_img/RakutenRapidAPI.png';
 import JunctionX from '../../images/junction_img/JunctionX_nav.png';
 

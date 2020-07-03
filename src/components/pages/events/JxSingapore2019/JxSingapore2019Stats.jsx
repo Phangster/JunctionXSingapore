@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './JxSingapore2019Stats.css'
+import './css/JxSingapore2019Stats.css'
 import styled from 'styled-components';
 import { PieChart, Pie, Sector, Cell, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 
@@ -43,7 +43,7 @@ const NumbersFrame = styled.div`
 
 const TopBigLetter = styled.div`
   font-size: 100px;
-  fontwight: 900;
+  font-weight: 400;
   text-align: center;
   line-height: 100px;
 `
@@ -71,9 +71,9 @@ class JxSingapore2019Stats extends Component {
     return (
       <div> 
         <div className="flexContainer-stats">
-          <div className="flexItem-left-stats">
+          <h2 className="flexItem-left-stats">
             JunctionX Singapore 2019 stats
-          </div>
+          </h2>
           <div className="flexItem-right-stats">
             <div>
             <InfoComponent topWord="10+" bottomWord="partners"/>

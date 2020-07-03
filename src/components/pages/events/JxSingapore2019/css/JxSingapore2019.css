@@ -1,0 +1,111 @@
+/* intro */
+
+.containerIntro-jx2019{
+    background-image: linear-gradient(
+                     rgba(0, 0, 0, .6), 
+                     rgba(0, 0, 0, .6)),
+                     url("../../../../../images/JxSingapore2019/main_coverphoto.jpg");
+}
+
+
+/* content */
+
+.mentorshipType-jx2019 {
+    padding-top: 5rem;
+}
+
+.mentorContainer-jx2019 { 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.avatarMentor-jx2019 {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    opacity: 1;
+    padding: 2rem;
+}
+
+.writeup {
+    text-align: left;
+    width: 40rem;
+}
+
+.mentor-jx2019 {
+    text-align: center;
+    width: 20rem;
+    display: inline-block;
+}
+
+.workshopMentorContainer-jx2019 { 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.workshopMentor {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+@media(max-width: 800px) {
+
+    .containerIntro-jx2019 { 
+        padding-top: 40%;
+    }
+
+    .mentorshipType-jx2019 {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mentorContainer-jx2019 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: fit-content;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .avatarMentor-jx2019 {
+        display: block;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        opacity: 1;
+        padding: 2rem;
+    }
+
+    .mentorInfo {
+        text-align: center;
+    }
+
+    .writeup {
+        width: auto;
+    }
+
+    .mentor-jx2019 {
+        width: fit-content;
+        align-items: center;
+    }
+
+    .workshopMentorContainer-jx2019 {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+}

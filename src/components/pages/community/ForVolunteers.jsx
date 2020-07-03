@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Footer from "../../global/Footer";
-import './ForVolunteers.css';
+import './../../css/ForVolunteers.css';
 import { Link } from 'react-router-dom'
 
 class ForVolunteers extends Component {
@@ -13,9 +13,9 @@ class ForVolunteers extends Component {
 
         <div className="containerIntro containerIntro-forVolunteers">
           <div className="wrapperIntro">
-            <div className="header1intro">
+            <h1 className="header1intro">
               Join the JunctionX Singapore family
-            </div>
+            </h1>
             <div className="header2intro">
               We are JunctionX Singapore, part of JunctionX – a volunteer-lead community effort around the world. 
             </div>
@@ -24,9 +24,9 @@ class ForVolunteers extends Component {
 
         <div className="containerMain">
           <div className="flexContainer">
-            <div className="flexItem-left">
+            <h2 className="flexItem-left">
               A diverse team
-            </div>
+            </h2>
             <div className="flexItem-right">
               <div>
                 Our headquarters is located at Startup Sauna in Finland but the Junction team as a whole spreads 
@@ -49,9 +49,9 @@ class ForVolunteers extends Component {
           </div>
 
           <div className ="flexContainer">
-            <div className="flexItem-left">
+            <h2 className="flexItem-left">
               Hear what our past volunteers say
-            </div>
+            </h2>
             <div className="flexItem-right">
               <div className="quote-referal">
                 <div>
@@ -69,7 +69,6 @@ class ForVolunteers extends Component {
                   "Quite a good atmosphere! Love it"
                   <div>- Ben</div>
                 </div> 
-                <br/>
               </div>
             </div>
           </div>
@@ -77,9 +76,9 @@ class ForVolunteers extends Component {
 
         <div className="containerMain blackBackground">
           <div className="flexContainer">
-            <div className="flexItem-left">
+            <h2 className="flexItem-left">
               Interested? 
-            </div>
+            </h2>
             <div className="flexItem-right">
               Let's have a chat! 
               <br/>

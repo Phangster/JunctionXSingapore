@@ -8,14 +8,13 @@ import Nav from "./components/global/Nav";
 import Home from "./components/pages/home/Home.jsx";
 import OurStory from "./components/pages/home/OurStory.jsx";
 import Calendar from "./components/pages/home/Calendar.jsx";
-import Team from "./components/pages/home/Team.jsx";
-import Team2019 from "./components/pages/home/Team2019.jsx";
+import Team from "./components/pages/team/Team.jsx";
+import Team2019 from "./components/pages/team/Team2019.jsx";
 
 
 // (To be removed asap)
-import Partners from "./components/pages/events/JxSingapore2019/Partners";
 import Registration from "./components/pages//events/JxSingapore2019/Registration";
-import Track from "../src/components/pages/events/JxSingapore2019/Track";
+import Track from "./components/pages/events/JxSingapore2019/Track";
 import Schedule from "../src/components/pages/events/JxSingapore2019/Schedule";
 import Venue from "../src/components/pages/events/JxSingapore2019/Venue";
 import Prizes from "../src/components/pages/events/JxSingapore2019/Prizes";
@@ -27,12 +26,11 @@ import JxSingapore2019 from "./components/pages/events/JxSingapore2019/JxSingapo
 
 // Event Day (To be removed asap)
 import Submission from "../src/components/pages/events/JxSingapore2019/Submission";
-import Rules from "./components/pages/Rules";
-import Hiring from "./components/pages/Hiring";
+import Rules from "./components/pages/events/JxSingapore2019/Rules";
 
-import Rakuten from "./components/pages/events/JxSingapore2019/tracks/Rakuten";
-import Shopee from "./components/pages/events/JxSingapore2019/tracks/Shopee";
-import Kaspersky from "./components/pages/events/JxSingapore2019/tracks/Kaspersky";
+import Rakuten from "./components/pages/events/JxSingapore2019/Rakuten";
+import Shopee from "./components/pages/events/JxSingapore2019/Shopee";
+import Kaspersky from "./components/pages/events/JxSingapore2019/Kaspersky";
 
 //_______________________________________________________________________________
 // ========COMMUNITY========
@@ -54,115 +52,54 @@ import Gallery from "./components/pages/others/Gallery.jsx";
 
 class App extends Component {
     render() {
-        return ( <
-            div >
-            <
-            BrowserRouter >
-            <
-            div >
-            <
-            Nav / >
-            <
-            div className = "content" >
-            <
-            Switch > { /* HOME */ } <
-            Route exact path = "/"
-            component = { Home }
-            /> <
-            Route exact path = "/ourstory"
-            component = { OurStory }
-            /> <
-            Route exact path = "/calendar"
-            component = { Calendar }
-            /> <
-            Route exact path = "/team"
-            component = { Team }
-            /> <
-            Route exact path = "/team2019"
-            component = { Team2019 }
-            /> { /* to be removed soon*/ } <
-            Route exact path = "/partners"
-            component = { Partners }
-            /> <
-            Route exact path = "/register"
-            component = { Registration }
-            /> <
-            Route exact path = "/tracks"
-            component = { Track }
-            /> <
-            Route exact path = "/schedule"
-            component = { Schedule }
-            /> <
-            Route exact path = "/venue"
-            component = { Venue }
-            /> <
-            Route exact path = "/prizes"
-            component = { Prizes }
-            />
+        return ( 
+            <div>
+                <BrowserRouter>
+                    <div>
+                        <Nav/>
+                        <div className = "content" >
+                            <Switch> 
 
-            { /* EVENTS */ } <
-            Route exact path = "/junctionxasia2020"
-            component = { JxAsia2020 }
-            /> <
-            Route exact path = "/junctionxsingapore2019"
-            component = { JxSingapore2019 }
-            /> <
-            Route exact path = "/junctionxsingapore2019/stats"
-            component = { JxSingapore2019Stats }
-            /> { /* to be removed soon*/ } <
-            Route exact path = "/submission"
-            component = { Submission }
-            /> <
-            Route exact path = "/rules"
-            component = { Rules }
-            /> <
-            Route exact path = "/hiring"
-            component = { Hiring }
-            /> <
-            Route exact path = "/rakuten"
-            component = { Rakuten }
-            /> <
-            Route exact path = "/shopee"
-            component = { Shopee }
-            /> <
-            Route exact path = "/kaspersky"
-            component = { Kaspersky }
-            />
+                            { /* HOME */ } 
+                            <Route exact path = "/" component = { Home }/> 
+                            <Route exact path = "/ourstory" component = { OurStory }/> 
+                            <Route exact path = "/calendar" component = { Calendar }/> 
+                            <Route exact path = "/team" component = { Team }/> 
+                            <Route exact path = "/team2019" component = { Team2019 }/> { /* to be removed soon*/ } 
+                            <Route exact path = "/register" component = { Registration }/> 
+                            <Route exact path = "/tracks" component = { Track }/> 
+                            <Route exact path = "/schedule" component = { Schedule }/> 
+                            <Route exact path = "/venue" component = { Venue }/> 
+                            <Route exact path = "/prizes" component = { Prizes }/>
 
-            { /* COMMUNITY */ } <
-            Route exact path = "/ourpartners"
-            component = { OurPartners }
-            /> <
-            Route exact path = "/forpartners"
-            component = { ForPartners }
-            /> <
-            Route exact path = "/forparticipants"
-            component = { ForParticipants }
-            /> <
-            Route exact path = "/forvolunteers"
-            component = { ForVolunteers }
-            />
+                            { /* EVENTS */ } 
+                            <Route exact path = "/junctionxasia2020" component = { JxAsia2020 }/> 
+                            <Route exact path = "/junctionxsingapore2019" component = { JxSingapore2019 }/> 
+                            <Route exact path = "/junctionxsingapore2019/stats" component = { JxSingapore2019Stats }/> { /* to be removed soon*/ } 
+                            <Route exact path = "/submission" component = { Submission }/> 
+                            <Route exact path = "/rules" component = { Rules }/> 
+                            <Route exact path = "/rakuten" component = { Rakuten }/> 
+                            <Route exact path = "/shopee"component = { Shopee }/> 
+                            <Route exact path = "/kaspersky"component = { Kaspersky }/>
 
-            { /* OTHERS */ } <
-            Route exact path = "/blog"
-            component = { Blog }
-            /> <
-            Route exact path = "/contactus"
-            component = { ContactUs }
-            /> <
-            Route exact path = "/gallery"
-            component = { Gallery }
-            /> <
-            Route path = "*"
-            component = { Page404 }
-            /> <
-            /Switch>
+                            { /* COMMUNITY */ } 
+                            <Route exact path = "/ourpartners" component = { OurPartners }/> 
+                            <Route exact path = "/forpartners" component = { ForPartners }/> 
+                            <Route exact path = "/forparticipants" component = { ForParticipants }/> 
+                            <Route exact path = "/forvolunteers" component = { ForVolunteers }/>
 
-            <
-            /div> <
-            /div> <
-            /BrowserRouter> <
-            /div>
+                            { /* OTHERS */ } 
+                            <Route exact path = "/blog" component = { Blog }/> 
+                            <Route exact path = "/contactus" component = { ContactUs }/> 
+                            <Route exact path = "/gallery" component = { Gallery }/> 
+                            <Route path = "*" component = { Page404 }/> 
+                            </Switch>
+
+                        </div>
+
+                    </div>
+                </BrowserRouter> 
+            </div>
 
         );
     }

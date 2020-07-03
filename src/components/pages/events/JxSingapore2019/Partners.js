@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import '../../../css/Partners.css';
-import Footer from '../../../global/Footer'
+import './css/Partners.css';
 
 //Import Partner Logo
 import Rakuten from '../../../../images/JxSingapore2019/partners_img/Rakuten.png'

@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import Footer from "../../global/Footer";
 
-import './ForPartners.css'
+import './../../css/ForPartners.css'
 
 // Imported JSX Components
 import JxSingapore2019Stats from '../events/JxSingapore2019/JxSingapore2019Stats'
@@ -29,9 +29,9 @@ class ForPartners extends Component {
 
         <div className="containerIntro containerIntro-forPartners">
           <div className="wrapperIntro">
-            <div className="header1intro">
+            <h1 className="header1intro">
               Unlock the hacker world.
-            </div>
+            </h1>
             <div className="header2intro">
               JunctionX provides your company with a unique opportunity to work and interact with thousands of 
               developers, designers and business talents from around the globe.
@@ -41,9 +41,9 @@ class ForPartners extends Component {
 
         <div className="containerMain">
           <div className="flexContainer">
-            <div className="flexItem-left">
+            <h2 className="flexItem-left">
               This is JunctionX Singapore
-            </div>
+            </h2>
             <div className="flexItem-right">
               <div>
                 JunctionX Singapore is part of the global Junction team which started off in Helsinki, Finland.
@@ -66,9 +66,9 @@ class ForPartners extends Component {
             </div>
           </div>
           <div className="flexContainer">
-            <div className="flexItem-left">
+            <h2 className="flexItem-left">
               Let's make it happen together
-            </div>
+            </h2>
             <div className="flexItem-right">
               <div>
                 We are happy to discuss your company's needs and how this hackathon can generate value for you. 
@@ -78,15 +78,15 @@ class ForPartners extends Component {
           </div>
         </div>
 
-        <div className="componentContainer">
+        <div className="containerMain blackBackground">
           <JxSingapore2019Stats />
         </div>
 
         <div className="containerMain">
           <div className="container3">
-            <div className="container3-title">
+            <h2 className="container3-title">
               Why partner with us?
-            </div>
+            </h2>
 
             <div className="container3-row">
               <div className="container3-reasons">
@@ -122,23 +122,25 @@ class ForPartners extends Component {
           </div>
         </div>
 
-        <div className="partnerHighlightsContainer">
-          <div className="partnerHighlightsContainer-title">
+        <div className = "containerMain whiteBackground">
+          <h2 className = "centered">
             Partner highlights
-          </div>
-          <div className="partnerHighlightsContainer-logoContainer">
-            <img className="partnerLogo" src={RakutenImg}/>
-            <img className="partnerLogo" src={ShopeeImg}/>
-          </div>
-          <div className="partnerHighlightsContainer-logoContainer">
-            <img className="partnerLogo" src={KasperskyImg}/>
-          </div>
-          <div className="partnerHighlightsContainer-logoContainer">
-            <img className="partnerLogo" src={RakutenRapidApiImg}/>
-            <img className="partnerLogo" src={RedBullImg}/>
-          </div>
-          <div className="partnerHighlightsContainer-logoContainer">
-            <img className="partnerLogo" src={StartupX}/>
+          </h2>
+          <div className="partnerHighlightsContainer">
+            <div className="partnerHighlightsContainer-logoContainer">
+              <img className="partnerLogo" src={RakutenImg}/>
+              <img className="partnerLogo" src={ShopeeImg}/>
+            </div>
+            <div className="partnerHighlightsContainer-logoContainer">
+              <img className="partnerLogo" src={KasperskyImg}/>
+            </div>
+            <div className="partnerHighlightsContainer-logoContainer">
+              <img className="partnerLogo" src={RakutenRapidApiImg}/>
+              <img className="partnerLogo" src={RedBullImg}/>
+            </div>
+            <div className="partnerHighlightsContainer-logoContainer">
+              <img className="partnerLogo" src={StartupX}/>
+            </div>
           </div>
         </div>
         <Footer />
