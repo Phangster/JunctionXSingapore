@@ -96,7 +96,7 @@ class Home extends Component {
               Click below to see more!
             </h3>
             <a href="https://asia.hackjunction.com/">
-              <img src={JunctionAsia} className="imagelink-home" />
+              <img src={JunctionAsia} className="imagelink-home" alt = "JunctionX Asia" />
             </a>
           </div>
 
@@ -110,18 +110,18 @@ class Home extends Component {
             </h2>
             <div className="partnerHighlightsContainer">
               <div className="partnerHighlightsContainer-logoContainer">
-                <img className="partnerLogo" src={RakutenImg}/>
-                <img className="partnerLogo" src={ShopeeImg}/>
+                <img className="partnerLogo" src={RakutenImg} alt = "Rakuten"/>
+                <img className="partnerLogo" src={ShopeeImg} alt = "Shopee"/>
               </div>
               <div className="partnerHighlightsContainer-logoContainer">
-                <img className="partnerLogo" src={KasperskyImg}/>
+                <img className="partnerLogo" src={KasperskyImg} alt = "Kaspersky Academy"/>
               </div>
               <div className="partnerHighlightsContainer-logoContainer">
-                <img className="partnerLogo" src={RakutenRapidApiImg}/>
-                <img className="partnerLogo" src={RedBullImg}/>
+                <img className="partnerLogo" src={RakutenRapidApiImg} alt = "RakutenRapidAPI"/>
+                <img className="partnerLogo" src={RedBullImg} alt="RedBull"/>
               </div>
               <div className="partnerHighlightsContainer-logoContainer">
-                <img className="partnerLogo" src={StartupX}/>
+                <img className="partnerLogo" src={StartupX} alt = "StartupX"/>
               </div>
             </div>
           </div>

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import './css/track.css';
-import Footer from '../../../global/Footer'
 import Smartcommerce from '../../../../images/JxSingapore2019/track_img/smartcommerce.jpg'
 import Security from '../../../../images/JxSingapore2019/track_img/security.jpg'
 import ARVR from '../../../../images/JxSingapore2019/track_img/arvr.jpg'

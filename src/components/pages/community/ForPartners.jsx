@@ -15,8 +15,6 @@ import RakutenRapidApiImg from '../../../images/JxSingapore2019/partners_img/Rak
 import RedBullImg from '../../../images/JxSingapore2019/partners_img/Redbull_logo.png'
 import StartupX from '../../../images/JxSingapore2019/partners_img/startupx1.jpeg'
 
-import { Link } from 'react-router-dom'
-
 
 class ForPartners extends Component {
 
@@ -131,18 +129,18 @@ class ForPartners extends Component {
           </h2>
           <div className="partnerHighlightsContainer">
             <div className="partnerHighlightsContainer-logoContainer">
-              <img className="partnerLogo" src={RakutenImg}/>
-              <img className="partnerLogo" src={ShopeeImg}/>
+              <img className="partnerLogo" src={RakutenImg} alt = "Rakuten"/>
+              <img className="partnerLogo" src={ShopeeImg} alt = "Shopee"/>
             </div>
             <div className="partnerHighlightsContainer-logoContainer">
-              <img className="partnerLogo" src={KasperskyImg}/>
+              <img className="partnerLogo" src={KasperskyImg} alt = "Kaspersky"/>
             </div>
             <div className="partnerHighlightsContainer-logoContainer">
-              <img className="partnerLogo" src={RakutenRapidApiImg}/>
-              <img className="partnerLogo" src={RedBullImg}/>
+              <img className="partnerLogo" src={RakutenRapidApiImg} alt = "RakutenRapidAPI"/>
+              <img className="partnerLogo" src={RedBullImg} alt = "RedBull"/>
             </div>
             <div className="partnerHighlightsContainer-logoContainer">
-              <img className="partnerLogo" src={StartupX}/>
+              <img className="partnerLogo" src={StartupX} alt = "StartupX"/>
             </div>
           </div>
         </div>

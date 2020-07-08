@@ -9,8 +9,8 @@ import Nokia from "../../../../images/JxAsia2020/partners_img/nokialogo.png";
 import NClogo from "../../../../images/JxAsia2020/partners_img/logonc.png";
 import AsiaLogo from '../../../../images/JxAsia2020/junctionx_asia_white_twoline.png'
 
-// For Router History
-import { useHistory } from 'react-router-dom';
+/*For Router History
+import { useHistory } from 'react-router-dom';*/
 
 import './JxAsia2020.css'
 
@@ -30,7 +30,7 @@ class JxSingapore2019 extends Component {
         <div className="containerIntro containerIntro-asia2020">
           <div className="header1introCentered fade-in-left">
             <a href="https://asia.hackjunction.com/">
-              <img src={AsiaLogo} className="junctionXAsialogo" ></img>
+              <img src={AsiaLogo} className="junctionXAsialogo" alt = "JunctionX Asia"></img>
             </a>
             <h2>
               Hack the reCOVery
@@ -64,7 +64,7 @@ class JxSingapore2019 extends Component {
 
           <div className = "someLogoAnimation">
             <a href="https://asia.hackjunction.com/">
-              <img src={hacktherecovery} />
+              <img src={hacktherecovery} alt = "JunctionX Asia poster"/>
             </a>
           </div>
 

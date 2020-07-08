@@ -64,7 +64,7 @@ class JxSingapore2019 extends Component {
 
         <div className="containerIntro containerIntro-jx2019">
           <div className="header1introCentered fade-in-left">
-            <img src={JunctionXSGLogo} className="junctionXlogo" ></img>
+            <img src={JunctionXSGLogo} className="junctionXlogo" alt = "JunctionX" ></img>
             <h2>
               HACK THE FUTURE
             </h2>

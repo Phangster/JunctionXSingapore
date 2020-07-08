@@ -8,7 +8,7 @@ class MenuLinks extends Component {
         return ( 
             <div className = { this.props.menuStatus } id = 'menu' >
                 <div id = "navLogo" onClick = { this.props.menuToggle }>
-                    <Link to = "/">< img className = "logoSize NavLogo" src = { JunctionBlack } /></Link>
+                    <Link to = "/">< img className = "logoSize NavLogo" src = { JunctionBlack } alt = "JunctionX"/></Link>
                 </div>
 
                 <div className = "fontWeight" id = "menuLinkItems" >

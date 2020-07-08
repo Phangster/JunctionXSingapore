@@ -8,7 +8,6 @@ import UpcomingEventsComponent from '../components/UpcomingEventsComponent';
 //import social media photo
 import SocialMediaLogo from '../../../images/junction_img/junctionx_globe_white.png';
 
-import {Link} from 'react-router-dom';
 import './../../css/ForParticipants.css';
 
 class ForParticipants extends Component {
@@ -103,7 +102,7 @@ class ForParticipants extends Component {
               </h2>
               <div className="flexItem-right">
                   <a href="https://www.instagram.com/junctionx_singapore/">
-                    <img className = "junctionXLogo-forParticipants" src={SocialMediaLogo}/>
+                    <img className = "junctionXLogo-forParticipants" src={SocialMediaLogo} alt = "JunctionX Instagram"/>
                   </a>
               </div>
             </div>
