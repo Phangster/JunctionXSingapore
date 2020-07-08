@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79249ced1f4288b511f11c8c7a896482",
+    "revision": "126fb63dd6668b1ebb3f2d235edd474c",
     "url": "/index.html"
   },
   {
-    "revision": "1dfcce3c764a5cb87382",
-    "url": "/static/css/main.c95c1ae9.chunk.css"
+    "revision": "151949951aaf5e62244e",
+    "url": "/static/css/main.01f71e43.chunk.css"
   },
   {
-    "revision": "38757452c0a0eb9c5795",
-    "url": "/static/js/2.8567ccd2.chunk.js"
+    "revision": "ddf129aa073761eb836f",
+    "url": "/static/js/2.22c1c378.chunk.js"
   },
   {
     "revision": "ca3cfcda77dc9f4f71fda9fdfcf14fb0",
-    "url": "/static/js/2.8567ccd2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.22c1c378.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1dfcce3c764a5cb87382",
-    "url": "/static/js/main.cb72b97c.chunk.js"
+    "revision": "151949951aaf5e62244e",
+    "url": "/static/js/main.99f9ea5f.chunk.js"
   },
   {
     "revision": "0fc17203e3dcd2cf965b",
@@ -74,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7e11d547ddce293bf1d47cc1da730db6",
     "url": "/static/media/JunctionXSGtable.7e11d547.jpg"
-  },
-  {
-    "revision": "fb0d34896d94c1929de6d442c990011b",
-    "url": "/static/media/JunctionX_2020_intro.fb0d3489.jpg"
   },
   {
     "revision": "7ae57dd00df696d0b8c20adc631d533a",
@@ -156,10 +152,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Shopee.12eab1d6.png"
   },
   {
-    "revision": "e931c9914b686a57172a3b103846b452",
-    "url": "/static/media/ambidextr.e931c991.png"
-  },
-  {
     "revision": "aea51d329195ae0e5610b497fb98bcfa",
     "url": "/static/media/ambidextrNew.aea51d32.png"
   },
@@ -172,16 +164,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/calendarBackgroundPhoto.de9e2f17.jpg"
   },
   {
-    "revision": "08b1ada5f0af9ed797e445070542b102",
-    "url": "/static/media/circles_life.08b1ada5.png"
-  },
-  {
     "revision": "99ce8ee24f87c346fe513b7ab885531b",
     "url": "/static/media/circleslifeNew.99ce8ee2.png"
-  },
-  {
-    "revision": "5c8f2bcfc9e884531d4ef64953ce4f10",
-    "url": "/static/media/ec_logo.5c8f2bcf.png"
   },
   {
     "revision": "054cc20027fb4a025f335f1fb5f6b8c8",
@@ -208,24 +192,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jed.39e857b1.jpeg"
   },
   {
-    "revision": "097a0eac75d45d5c0e606eb750df576e",
-    "url": "/static/media/junctionx_2020_collab.097a0eac.jpg"
-  },
-  {
     "revision": "87631293e5ae61e70075ef1c5f7dfd87",
     "url": "/static/media/junctionx_asia_white_oneline.87631293.png"
   },
   {
     "revision": "be091edb4fb6bb82cd1e21bdda9b13df",
     "url": "/static/media/junctionx_asia_white_twoline.be091edb.png"
-  },
-  {
-    "revision": "b3439e9a7db85fe2055cdfb95f6567c4",
-    "url": "/static/media/junctionx_globe_black.b3439e9a.svg"
-  },
-  {
-    "revision": "79230066bf33210a4d30388ba37250fb",
-    "url": "/static/media/junctionx_globe_white.79230066.svg"
   },
   {
     "revision": "f9bcbe8275e069f241b5c28438e14083",
@@ -280,12 +252,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/smartcommerce.eb36b176.jpg"
   },
   {
-    "revision": "6dbd5b29b5b2c04e7d78d887c79df6c8",
-    "url": "/static/media/startupx1.6dbd5b29.jpeg"
+    "revision": "5fc8fc666d4bb9d05050b4875dda8fbc",
+    "url": "/static/media/startupXNew.5fc8fc66.png"
   },
   {
-    "revision": "dddb3ba017e39b1a281bbdcbc7a144f1",
-    "url": "/static/media/startupxNew.dddb3ba0.png"
+    "revision": "6dbd5b29b5b2c04e7d78d887c79df6c8",
+    "url": "/static/media/startupx1.6dbd5b29.jpeg"
   },
   {
     "revision": "af735b9691a01161e8dcb2aaddfef819",
