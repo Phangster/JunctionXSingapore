@@ -48,6 +48,10 @@ class JxSingapore2019 extends Component {
   componentWillMount() {
     this.open();
   }
+  
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
 
 
@@ -59,13 +63,13 @@ class JxSingapore2019 extends Component {
       <div className="jxsg2019">
 
         <div className="containerIntro containerIntro-jx2019">
-          <div className="header1introCentered">
+          <div className="header1introCentered fade-in-left">
             <img src={JunctionXSGLogo} className="junctionXlogo" ></img>
             <h2>
               HACK THE FUTURE
             </h2>
           </div>
-          <div className="header2introCentered">
+          <div className="header2introCentered fade-in-left">
             2019
           </div>
         </div>

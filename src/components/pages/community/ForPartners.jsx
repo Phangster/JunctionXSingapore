@@ -20,6 +20,9 @@ import { Link } from 'react-router-dom'
 
 class ForPartners extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   render() {
 
@@ -29,10 +32,10 @@ class ForPartners extends Component {
 
         <div className="containerIntro containerIntro-forPartners">
           <div className="wrapperIntro">
-            <h1 className="header1intro">
+            <h1 className="header1intro fade-in-left">
               Unlock the hacker world.
             </h1>
-            <div className="header2intro">
+            <div className="header2intro fade-in-right">
               JunctionX provides your company with a unique opportunity to work and interact with thousands of 
               developers, designers and business talents from around the globe.
             </div>

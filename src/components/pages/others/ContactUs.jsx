@@ -19,6 +19,10 @@ import Haziq from '../../../images/team_img/Haziq.jpg'
 
 class ContactUs extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+  
   render() {
 
     return (
@@ -27,7 +31,7 @@ class ContactUs extends Component {
 
         <div className="containerIntro containerIntro-contactUs">
           <div className="wrapperIntro">
-            <h1 className="header1intro">
+            <h1 className="header1intro fade-in-left">
               Contact Us
             </h1>
             <div className="header2intro">

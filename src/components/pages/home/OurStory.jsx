@@ -3,6 +3,10 @@ import Footer from '../../global/Footer';
 import '../../css/OurStory.css'
 
 class OurStory extends Component {
+  
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   render() {
 
@@ -12,10 +16,10 @@ class OurStory extends Component {
 
         <div className="containerIntro containerIntro-ourStory">
           <div className="wrapperIntro">
-            <h1 className="header1intro">
+            <h1 className="header1intro fade-in-left">
               This is JunctionX Singapore
             </h1>
-            <div className="header2intro">
+            <div className="header2intro fade-in-right">
               A non-profit multi-disciplinary tech-community that is managed and run by Singapore tech-enthusiasts.
               We come together in order to bring tech-enthusiasts an opportunity to showcase their talents
               as well as to contribute back to the community.

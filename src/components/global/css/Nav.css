@@ -170,6 +170,10 @@ nav {
     padding: 0 2% 0 10%;
 }
 
+.menuLink:hover {
+  color: black;
+}
+
 #menu.isopen {
   transform: none;
   overflow-x: scroll;

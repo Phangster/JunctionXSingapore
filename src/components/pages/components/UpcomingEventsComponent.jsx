@@ -7,6 +7,9 @@ import './UpcomingEventsComponent.css';
 import JxAsiaCalendarImg from "../../../images/JxAsia2020/JxAsiaCalendarImg.png";
 import onlineWebinarImg from "../../../images/junction_img/onlineWebinarImg.jpg";
 
+//animation: 
+import "../../global/css/animate.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const ImageFrame = styled.div`
     width: 600px;
@@ -78,15 +81,19 @@ class UpcomingEventsComponent extends Component {
               Upcoming events
             </h2>
             <div className="flexItem-right-upcomingEvents">
-              <div className="eventComponent-upcomingEvents">
-                <Link to="/junctionxasia2020">
-                  <EventComponent image={JxAsiaCalendarImg} date="18.-23.6.2020" title="JunctionX Asia" location="Asia, Online"/>
-                </Link>
-              </div>
-              <br/>
-              <div className="eventComponent-upcomingEvents">
-                <EventComponent image={onlineWebinarImg} date="Coming soon..." title="Online Webinar" location="Singapore, Online"/>
-              </div>
+
+            <ScrollAnimation animateIn="fadeInRight">
+              <Link to="/junctionxasia2020">
+                <EventComponent image={JxAsiaCalendarImg} date="18.-23.6.2020" title="JunctionX Asia" location="Asia, Online"/>
+              </Link>
+            </ScrollAnimation>
+
+            <br/>
+
+            <ScrollAnimation animateIn="fadeInRight">
+              <EventComponent image={onlineWebinarImg} date="Coming soon..." title="Online Webinar" location="Singapore, Online"/>
+            </ScrollAnimation>
+
             </div>
           </div>
       </div>

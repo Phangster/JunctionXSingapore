@@ -20,6 +20,9 @@ import StartupX from '../../../images/JxSingapore2019/partners_img/startupx1.jpe
 
 import { Link } from 'react-router-dom'
 
+//animation
+import "../../global/css/animate.css";
+
 
 class Home extends Component {
 
@@ -35,8 +38,13 @@ class Home extends Component {
       this.setState({ showModal: true });
     };
   }
+  
   componentWillMount() {
     this.open();
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
   }
 
   render() {
@@ -51,8 +59,8 @@ class Home extends Component {
             <video className="videoTag-home" autoPlay loop muted>
               <source src={sample} type='video/mp4'/>
             </video>
-            <div className="containerOne-home">
-              <img className="logoSize" src={JunctionLogo} alt="JunctionLogo" />
+            <div className="containerOne-home fade-in-left">
+              <img className="introLogo rotate-center" src={JunctionLogo} alt="JunctionLogo" />
               <h2>JUNCTIONX SINGAPORE</h2>
               <h3>HACK THE FUTURE</h3>
               <div>Empowering the future with tech</div>

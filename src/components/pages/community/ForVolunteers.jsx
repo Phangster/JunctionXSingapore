@@ -5,6 +5,10 @@ import { Link } from 'react-router-dom'
 
 class ForVolunteers extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+  
   render() {
 
     return (
@@ -13,10 +17,10 @@ class ForVolunteers extends Component {
 
         <div className="containerIntro containerIntro-forVolunteers">
           <div className="wrapperIntro">
-            <h1 className="header1intro">
+            <h1 className="header1intro fade-in-left">
               Join the JunctionX Singapore family
             </h1>
-            <div className="header2intro">
+            <div className="header2intro fade-in-right">
               We are JunctionX Singapore, part of JunctionX – a volunteer-lead community effort around the world. 
             </div>
           </div>

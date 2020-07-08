@@ -13,6 +13,9 @@ import './../../css/ForParticipants.css';
 
 class ForParticipants extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   render() {
 
@@ -21,15 +24,16 @@ class ForParticipants extends Component {
         <div className = "ForParticipants">
         
           <div className="containerIntro containerIntro-forParticipants">
-            <div className="wrapperIntro">
-              <h1 className="header1intro">
-                Take on the challenge.
-              </h1>
-              <div className="header2intro">
-                JunctionX organizes hackathons and other tech events around the year around the world, as well as online. 
-                We have something for every skill set and interest!
-              </div>
-            </div>            
+          <div className="wrapperIntro">
+            <h1 className="header1intro fade-in-left">
+              Take on the challenge.
+            </h1>
+            <div className="header2intro fade-in-right">
+              JunctionX organizes hackathons and other tech events around the year around the world, as well as online. 
+              We have something for every skill set and interest!
+            </div>
+          </div>   
+                   
           </div>
 
           <div className="containerMain">
@@ -98,9 +102,9 @@ class ForParticipants extends Component {
                 Check out our social media!
               </h2>
               <div className="flexItem-right">
-                <a href="https://www.instagram.com/junctionx_singapore/">
-                  <img src={SocialMediaLogo}/>
-                </a>
+                  <a href="https://www.instagram.com/junctionx_singapore/">
+                    <img className = "junctionXLogo-forParticipants" src={SocialMediaLogo}/>
+                  </a>
               </div>
             </div>
           </div>

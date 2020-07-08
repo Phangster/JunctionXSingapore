@@ -22,6 +22,10 @@ import { Link } from 'react-router-dom'
 
 class OurPartners extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+  
   render() {
 
     return (
@@ -30,10 +34,10 @@ class OurPartners extends Component {
 
           <div className="containerIntro containerIntro-ourPartners">
             <div className="wrapperIntro">
-              <h1 className="header1intro">
+              <h1 className="header1intro fade-in-left">
                 Our Partners
               </h1>
-              <div className="header2intro">
+              <div className="header2intro fade-in-right">
                 JunctionX Singapore is a non-profit volunteer-led hackathon,
                 so we are glad to have companies who believe in this hackathon and collaborate with us to make this happen.
               </div>

@@ -14,3 +14,16 @@
     height: 400px;
     padding: 20px;
 }
+
+.junctionXLogo-forParticipants:hover {
+    transform: scale(1.03);
+    transition: all 300ms;
+}
+
+
+@media(max-width: 800px) {
+
+    .junctionXLogo-forParticipants {
+        height: 250px;
+    }
+}

@@ -17,6 +17,10 @@ import './JxAsia2020.css'
 
 class JxSingapore2019 extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+  
   render() {
 
     return (
@@ -24,7 +28,7 @@ class JxSingapore2019 extends Component {
       <div className="jxasia2020">
 
         <div className="containerIntro containerIntro-asia2020">
-          <div className="header1introCentered">
+          <div className="header1introCentered fade-in-left">
             <a href="https://asia.hackjunction.com/">
               <img src={AsiaLogo} className="junctionXAsialogo" ></img>
             </a>
@@ -32,7 +36,7 @@ class JxSingapore2019 extends Component {
               Hack the reCOVery
             </h2>
           </div>
-          <div className="header2introCentered">
+          <div className="header2introCentered fade-in-right">
             18 June - 23 June 2020
           </div>
         </div>
@@ -58,7 +62,7 @@ class JxSingapore2019 extends Component {
 
           <br/><br/><br/>
 
-          <div>
+          <div className = "someLogoAnimation">
             <a href="https://asia.hackjunction.com/">
               <img src={hacktherecovery} />
             </a>
